@@ -1,22 +1,22 @@
 <template>
-  <div class="px-6">
-    <header class="flex items-center h-16">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="ml-auto">
-        <g-link class="ml-4" to="/">Home</g-link>
-        <g-link class="ml-4" to="/about/">About</g-link>
-      </nav>
-    </header>
-    <slot/>
-  </div>
+    <div class="px-6">
+        <header class="flex items-center h-16">
+            <strong>
+                <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+            </strong>
+            <nav class="ml-auto">
+                <g-link class="ml-4" to="/">Home</g-link>
+                <g-link class="ml-4" to="/about/">About</g-link>
+            </nav>
+        </header>
+        <slot />
+    </div>
 </template>
 
 <static-query>
 query {
-  metadata {
-    siteName
-  }
+    metadata {
+        siteName
+    }
 }
 </static-query>

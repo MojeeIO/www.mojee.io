@@ -1,0 +1,19 @@
+{
+    "tabWidth": 4,
+    "trailingComma": "all",
+    "htmlWhitespaceSensitivity": "ignore",
+    "overrides": [
+        {
+            "files": "*.vue",
+            "options": {
+                "parser": "vue"
+            }
+        },
+        {
+            "files": "*.css",
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
+}

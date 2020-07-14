@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "kumar-harsh.graphql-for-vscode",
+        "heybourn.headwind",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss",
+        "octref.vetur"
+    ]
+}

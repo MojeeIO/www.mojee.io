@@ -1,0 +1,18 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        // "**/.vscode": true,
+        "**/*.lock": true,
+        "**/node_modules": true
+    },
+    "editor.formatOnSave": true,
+    "eslint.validate": ["javascript", "vue"],
+    "vetur.grammar.customBlocks": {
+        "page-query": "graphql",
+        "static-query": "graphql"
+    }
+}

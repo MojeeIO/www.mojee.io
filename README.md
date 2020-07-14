@@ -1,4 +1,5 @@
 # www.mojee.io
+
 The mojee.io website
 
 ### Project setup
@@ -16,6 +17,8 @@ yarn dev
 ```
 
 Run this command inside the project directory to start a local development server. The server will start at http://localhost:8080/ with hot-reloading etc.
+
+Install recommended plugins in VSCode. To enable GraphQL syntax highlighting for `<page-query>` and `<static-query>` blocks inside `.vue` files, make sure [GraphQL plugin](https://marketplace.visualstudio.com/items?itemName=kumar-harsh.graphql-for-vscode) is installed, then open Command Palette in VSCode by pressing `CTRL+Shift+P` and run `Vetur: Generate Grammar`. You'll need to reload VSCode for changes to take effect.
 
 ### Build
 
