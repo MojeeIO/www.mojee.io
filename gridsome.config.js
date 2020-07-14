@@ -3,8 +3,26 @@
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
+const purgecss = require("@fullhuman/postcss-purgecss");
+
+const postcssPlugins = [
+  require("postcss-import"),
+  require("tailwindcss"),
+  require("postcss-nested"),
+  require("autoprefixer"),
+  ...(process.env.NODE_ENV === "production"
+    ? [purgecss(require("./purgecss.config.js"))]
+    : []),
+];
 
 module.exports = {
-  siteName: 'Gridsome',
-  plugins: []
-}
+  siteName: "Mojee.io",
+  plugins: [],
+  css: {
+    loaderOptions: {
+      postcss: {
+        plugins: postcssPlugins,
+      },
+    },
+  },
+};
