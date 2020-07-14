@@ -1,5 +1,5 @@
 <template>
-    <div class="px-6">
+    <div class="px-6 text-base antialiased text-gray-700 bg-white font-body">
         <header class="flex items-center h-16">
             <strong>
                 <g-link to="/">{{ $static.metadata.siteName }}</g-link>
