@@ -25,6 +25,6 @@
 
 <script>
 export default {
-    name: "HeaderLogo",
+    name: "MHeaderLogo",
 };
 </script>

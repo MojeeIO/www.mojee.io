@@ -16,7 +16,7 @@
 
 <script>
 export default {
-    name: "HeaderNav",
+    name: "MHeaderNav",
 
     data() {
         return {
