@@ -1,14 +1,6 @@
 <template>
     <Layout>
         <div class="max-w-screen-xl mx-auto">
-            <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-            <g-image
-                class="mb-12"
-                alt="Example image"
-                src="~/favicon.png"
-                width="135"
-            />
-
             <h1 class="mb-5">Hello, world!</h1>
 
             <p class="mb-5">
