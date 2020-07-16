@@ -1,5 +1,5 @@
 <template>
-    <header class="flex items-center h-16">
+    <header class="relative z-10 flex items-center h-16">
         <g-link class="relative z-10" to="/"><m-header-logo /></g-link>
 
         <div class="items-center hidden w-full h-full md:flex">
@@ -9,7 +9,7 @@
         </div>
 
         <m-header-mobile-menu-button
-            class="absolute right-0 z-20 flex items-center justify-center flex-shrink-0 w-10 h-10 ml-auto mr-6 bg-white bg-opacity-50 rounded-full shadow-md focus:outline-none md:hidden"
+            class="absolute right-0 z-20 flex items-center justify-center flex-shrink-0 w-10 h-10 ml-auto bg-white bg-opacity-50 rounded-full shadow-md focus:outline-none md:hidden"
             :isMobileMenuOpen="isMobileMenuOpen"
             @click="toggleMenu"
         />

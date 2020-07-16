@@ -1,16 +1,18 @@
 <template>
     <button
-        class="font-bold transition-all duration-300 ease-out transform hover:-translate-y-px focus:outline-none hover:shadow-md active:shadow-none active:translate-y-0 focus:border-yellow-700"
-        :class="[variationClass, sizeClass]"
+        class="font-bold transition-all duration-300 ease-out transform hover:-translate-y-px focus:outline-none hover:shadow-md active:shadow-none active:translate-y-0"
+        :class="[variantClass, sizeClass]"
     >
         <slot />
     </button>
 </template>
 
 <script>
-const variationClasses = {
-    yellow: "border-2 border-yellow-500 bg-yellow-500 text-yellow-900",
-    blue: "border-2 border-blue-500 bg-blue-500 text-blue-900",
+const variantClasses = {
+    yellow:
+        "border-2 border-yellow-500 bg-yellow-500 text-yellow-900 focus:border-yellow-700",
+    blue:
+        "border-2 border-blue-300 bg-blue-300 text-blue-900 focus:border-blue-700",
 };
 
 const sizeClasses = {
@@ -22,7 +24,7 @@ export default {
     name: "MButton",
 
     props: {
-        variation: {
+        variant: {
             type: String,
             default: "yellow",
         },
@@ -34,8 +36,8 @@ export default {
     },
 
     computed: {
-        variationClass() {
-            return variationClasses[this.variation] || variationClass.yellow;
+        variantClass() {
+            return variantClasses[this.variant] || variantClasses.yellow;
         },
 
         sizeClass() {

@@ -1,5 +1,8 @@
 <template>
-    <nav class="absolute inset-0 flex items-center justify-center">
+    <nav
+        class="fixed flex items-center justify-center"
+        :class="{ 'inset-0': isMobileMenuOpen }"
+    >
         <div>
             <transition-group
                 tag="ul"
