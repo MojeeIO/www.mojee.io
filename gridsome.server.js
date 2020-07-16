@@ -5,9 +5,11 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
+const mojee = require("./mojee.config");
+
 module.exports = function (api) {
-    api.loadSource(({ addCollection }) => {
-        // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
+    api.loadSource(({ addMetadata }) => {
+        addMetadata("siteNav", mojee.siteNav);
     });
 
     api.createPages(({ createPage }) => {

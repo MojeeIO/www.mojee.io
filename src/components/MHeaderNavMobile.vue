@@ -8,7 +8,7 @@
                 enter-to-class="translate-y-0 opacity-100"
             >
                 <li
-                    v-for="item in navItems"
+                    v-for="item in $static.metadata.siteNav"
                     :key="item.to"
                     v-if="isMobileMenuOpen"
                 >
@@ -35,24 +35,23 @@
     </nav>
 </template>
 
+<static-query>
+query {
+    metadata {
+        siteNav {
+            to
+            label
+        }
+    }
+}
+</static-query>
+
 <script>
 export default {
     name: "MHeaderNavMobile",
 
     props: {
         isMobileMenuOpen: Boolean,
-    },
-
-    data() {
-        return {
-            navItems: [
-                { label: "Home", to: "/" },
-                { label: "Emojis", to: "/emojis" },
-                { label: "Pricing", to: "/pricing" },
-                { label: "Docs", to: "/docs" },
-                { label: "Community", to: "https://community.mojee.io" },
-            ],
-        };
     },
 };
 </script>

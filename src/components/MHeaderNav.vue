@@ -1,7 +1,7 @@
 <template>
     <nav>
         <ul class="flex items-center">
-            <li v-for="item in navItems" :key="item.to">
+            <li v-for="item in $static.metadata.siteNav" :key="item.to">
                 <g-link
                     class="inline-flex items-center h-10 px-3 transition-colors duration-150 ease-in rounded-sm hover:text-yellow-800"
                     active-class="text-yellow-800 bg-yellow-100"
@@ -14,20 +14,19 @@
     </nav>
 </template>
 
+<static-query>
+query {
+    metadata {
+        siteNav {
+            to
+            label
+        }
+    }
+}
+</static-query>
+
 <script>
 export default {
     name: "MHeaderNav",
-
-    data() {
-        return {
-            navItems: [
-                { label: "Home", to: "/" },
-                { label: "Emojis", to: "/emojis" },
-                { label: "Pricing", to: "/pricing" },
-                { label: "Docs", to: "/docs" },
-                { label: "Community", to: "https://community.mojee.io" },
-            ],
-        };
-    },
 };
 </script>
