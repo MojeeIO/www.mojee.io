@@ -1,7 +1,7 @@
 <template>
-    <div class="relative">
+    <div class="-mx-6 m-hero">
         <div
-            class="relative z-10 flex items-center max-w-screen-xl mx-auto md:pt-6 lg:pt-24"
+            class="flex items-center max-w-screen-xl px-6 pb-16 mx-auto md:pt-6 lg:pt-24 md:pb-32"
         >
             <div class="md:w-1/2">
                 <h1
@@ -28,21 +28,25 @@
                 <home-hero-artwork />
             </div>
         </div>
-
-        <hero-bg class="absolute top-0 right-0 w-full" />
     </div>
 </template>
 
 <script>
 import HomeHeroArtwork from "./HomeHeroArtwork";
-import HeroBg from "./HeroBg";
 
 export default {
     name: "HomeHero",
 
     components: {
         HomeHeroArtwork,
-        HeroBg,
     },
 };
 </script>
+
+<style scoped>
+.m-hero {
+    background-image: url("/img/hero-bg.svg");
+    background-position: bottom 0 left 43vw;
+    background-repeat: no-repeat;
+}
+</style>
