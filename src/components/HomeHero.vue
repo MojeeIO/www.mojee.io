@@ -1,7 +1,7 @@
 <template>
-    <div class="-mx-6 m-hero">
+    <div class="px-6 -mx-6 m-hero">
         <div
-            class="flex items-center max-w-screen-xl px-6 pb-16 mx-auto md:pt-6 lg:pt-24 md:pb-32"
+            class="flex items-center max-w-screen-xl pb-16 mx-auto md:pt-6 lg:pt-24 md:pb-32"
         >
             <div class="md:w-1/2">
                 <h1
