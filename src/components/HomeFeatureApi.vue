@@ -3,11 +3,11 @@
         class="flex flex-col max-w-screen-xl mx-auto md:flex-row md:items-center md:pt-16"
     >
         <div
-            class="relative flex items-center order-3 md:order-1 md:w-1/2 md:pr-4"
+            class="relative flex items-center order-3 md:order-1 md:w-1/2 md:max-w-xl"
         >
-            <div class="absolute w-full">
+            <div class="w-full md:absolute">
                 <m-tabs
-                    class="w-full bg-gray-800 rounded md:max-w-xl"
+                    class="w-full bg-gray-800 rounded"
                     nav-classes="bg-gray-700 rounded-t flex overflow-hidden text-gray-300"
                     nav-item-classes=" flex items-center h-15 text-sm px-8 hover:text-white transition-colors ease-in duration-150"
                     nav-item-active-classes="bg-gray-800 text-white"
@@ -24,7 +24,7 @@
             </div>
 
             <svg
-                class="w-full max-w-sm mx-auto text-blue-100 fill-current"
+                class="hidden w-full max-w-sm mx-auto text-blue-100 fill-current md:block"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 100 100"
                 overflow="visible"
@@ -33,11 +33,15 @@
             </svg>
         </div>
 
-        <div class="order-2 mb-8 md:w-1/2 md:pl-15 md:mb-0">
-            <h2 class="text-2xl font-extrabold text-gray-900 md:text-3xl">
+        <div
+            class="order-2 mb-8 md:w-1/2 md:max-w-xl md:pl-12 xl:pl-0 lg:ml-auto md:mb-0"
+        >
+            <h2
+                class="text-2xl font-extrabold text-gray-900 md:text-3xl lg:text-4xl"
+            >
                 Simple, semantic API
             </h2>
-            <p class="max-w-md mt-4">
+            <p class="mt-4">
                 Mojee provides a semantic API for .NET and TypeScript. These are
                 just a few examples. You can learn more reading the
                 <a href="#">docs</a>
