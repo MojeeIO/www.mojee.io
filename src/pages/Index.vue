@@ -3,6 +3,7 @@
         <home-hero />
         <home-feature-api />
         <home-feature-search />
+        <home-get-started />
     </Layout>
 </template>
 
@@ -10,6 +11,7 @@
 import HomeHero from "../components/HomeHero";
 import HomeFeatureApi from "../components/HomeFeatureApi";
 import HomeFeatureSearch from "../components/HomeFeatureSearch";
+import HomeGetStarted from "../components/HomeGetStarted";
 
 export default {
     name: "Home",
@@ -22,6 +24,7 @@ export default {
         HomeHero,
         HomeFeatureApi,
         HomeFeatureSearch,
+        HomeGetStarted,
     },
 };
 </script>

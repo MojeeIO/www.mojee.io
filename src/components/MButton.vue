@@ -1,6 +1,6 @@
 <template>
     <button
-        class="font-bold transition-all duration-300 ease-out transform hover:-translate-y-px focus:outline-none hover:shadow-lg active:shadow-none active:translate-y-0"
+        class="font-bold whitespace-no-wrap transition-all duration-300 ease-out transform select-none hover:-translate-y-px focus:outline-none hover:shadow-lg active:shadow-none active:translate-y-0"
         :class="[variantClass, sizeClass]"
     >
         <slot />

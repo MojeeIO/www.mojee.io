@@ -1,6 +1,6 @@
 <template>
     <div
-        class="grid items-center max-w-screen-xl pt-10 mx-auto mb-64 md:grid-cols-2 md:gap-8 lg:gap-24 xl:gap-32"
+        class="grid items-center max-w-screen-xl pt-10 mx-auto md:grid-cols-2 md:gap-8 lg:gap-24 xl:gap-32"
     >
         <div>
             <h2
