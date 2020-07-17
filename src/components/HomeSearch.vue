@@ -17,18 +17,24 @@
         <div class="mt-8 md:w-1/2">
             <div class="max-w-xl">
                 <div
-                    class="flex items-center w-full px-4 bg-white rounded shadow-2xl h-15"
+                    class="flex items-center justify-between w-full px-4 bg-white rounded shadow-2xl h-15"
                 >
-                    <span>holiday</span>
-                    <svg
-                        class="pl-px"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="1"
-                        height="25"
-                        overflow="visible"
-                    >
-                        <path d="M0 0h1v25H0z" />
-                    </svg>
+                    <div class="flex items-center">
+                        <span>holiday</span>
+                        <svg
+                            class="pl-px"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="1"
+                            height="25"
+                            overflow="visible"
+                        >
+                            <path d="M0 0h1v25H0z" />
+                        </svg>
+                    </div>
+
+                    <m-icon class="text-gray-300">
+                        <m-icon-search />
+                    </m-icon>
                 </div>
 
                 <div class="grid grid-cols-4 gap-5 mt-5">
