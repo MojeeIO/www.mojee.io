@@ -52,7 +52,7 @@ export default {
 
     computed: {
         mobileMenuBgClass() {
-            return this.isMobileMenuOpen ? "bg-gray-900" : "bg-wh";
+            return this.isMobileMenuOpen ? "bg-gray-900" : "bg-white";
         },
 
         mobileMenuBgStyles() {

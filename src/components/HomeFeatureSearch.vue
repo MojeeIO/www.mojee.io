@@ -57,7 +57,7 @@
 
 <script>
 export default {
-    name: "HomeSearch",
+    name: "HomeFeatureSearch",
 
     data() {
         return {

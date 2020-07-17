@@ -2,14 +2,14 @@
     <Layout>
         <home-hero />
         <home-feature-api />
-        <home-search />
+        <home-feature-search />
     </Layout>
 </template>
 
 <script>
 import HomeHero from "../components/HomeHero";
 import HomeFeatureApi from "../components/HomeFeatureApi";
-import HomeSearch from "../components/HomeSearch";
+import HomeFeatureSearch from "../components/HomeFeatureSearch";
 
 export default {
     name: "Home",
@@ -21,7 +21,7 @@ export default {
     components: {
         HomeHero,
         HomeFeatureApi,
-        HomeSearch,
+        HomeFeatureSearch,
     },
 };
 </script>
