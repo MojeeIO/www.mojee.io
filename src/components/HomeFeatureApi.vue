@@ -1,11 +1,9 @@
 <template>
     <div
-        class="flex flex-col max-w-screen-xl mx-auto md:flex-row md:items-center md:pt-16"
+        class="grid items-center max-w-screen-xl pt-10 mx-auto md:grid-cols-2 md:gap-8 lg:gap-24 xl:gap-32"
     >
-        <div
-            class="relative flex items-center order-3 md:order-1 md:w-1/2 md:max-w-xl"
-        >
-            <div class="w-full md:absolute">
+        <div class="relative flex items-center order-3 md:order-1">
+            <div class="w-full mt-8 md:absolute">
                 <m-tabs
                     class="w-full bg-gray-800 rounded"
                     nav-classes="bg-gray-700 rounded-t flex overflow-hidden text-gray-300"
@@ -33,9 +31,7 @@
             </svg>
         </div>
 
-        <div
-            class="order-2 mb-8 md:w-1/2 md:max-w-xl md:pl-12 xl:pl-0 lg:ml-auto md:mb-0"
-        >
+        <div class="order-2">
             <h2
                 class="text-2xl font-extrabold text-gray-900 md:text-3xl lg:text-4xl"
             >

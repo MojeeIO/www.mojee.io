@@ -1,8 +1,8 @@
 <template>
     <div
-        class="flex flex-col max-w-screen-xl pt-12 mx-auto mb-40 md:flex-row md:items-center md:pt-16"
+        class="grid items-center max-w-screen-xl pt-10 mx-auto mb-64 md:grid-cols-2 md:gap-8 lg:gap-24 xl:gap-32"
     >
-        <div class="md:w-1/2 md:max-w-xl">
+        <div>
             <h2
                 class="text-2xl font-extrabold text-gray-900 md:text-3xl lg:text-4xl"
             >
@@ -16,7 +16,7 @@
             </p>
         </div>
 
-        <div class="mt-8 md:w-1/2 md:max-w-xl md:pl-12 xl:pl-0 lg:ml-auto">
+        <div class="mt-8">
             <div
                 class="flex items-center justify-between w-full px-4 bg-white rounded shadow-2xl h-15"
             >
