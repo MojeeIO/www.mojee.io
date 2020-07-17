@@ -1,3 +1,5 @@
+import MIconEnvelope from "./MIconEnvelope.vue";
 import MIconSearch from "./MIconSearch.vue";
+import MIconTwitter from "./MIconTwitter.vue";
 
-export { MIconSearch };
+export { MIconEnvelope, MIconSearch, MIconTwitter };

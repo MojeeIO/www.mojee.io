@@ -1,10 +1,9 @@
 <template>
     <nav>
-        <ul class="flex items-center">
+        <ul class="flex items-center justify-center h-16">
             <li v-for="item in $static.metadata.siteNav" :key="item.to">
                 <g-link
-                    class="inline-flex items-center h-10 px-3 transition-colors duration-150 ease-in rounded-sm hover:text-yellow-600"
-                    active-class="text-yellow-700 bg-yellow-100 hover:text-yellow-700"
+                    class="inline-flex items-center px-1 text-sm transition-colors duration-150 ease-in rounded-sm sm:px-3 hover:text-yellow-600"
                     :to="item.to"
                 >
                     {{ item.label }}
@@ -27,6 +26,6 @@ query {
 
 <script>
 export default {
-    name: "MHeaderNav",
+    name: "MFooterNav",
 };
 </script>

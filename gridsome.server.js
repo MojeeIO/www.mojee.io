@@ -10,6 +10,7 @@ const mojee = require("./mojee.config");
 module.exports = function (api) {
     api.loadSource(({ addMetadata }) => {
         addMetadata("siteNav", mojee.siteNav);
+        addMetadata("social", mojee.social);
     });
 
     api.createPages(({ createPage }) => {

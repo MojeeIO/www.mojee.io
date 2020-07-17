@@ -6,4 +6,8 @@ module.exports = {
         { label: "Docs", to: "/docs" },
         { label: "Community", to: "https://community.mojee.io" },
     ],
+    social: [
+        { id: "email", value: "hello@mojee.io" },
+        { id: "twitter", value: "mojeeio" },
+    ],
 };
