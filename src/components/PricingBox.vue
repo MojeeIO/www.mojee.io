@@ -1,5 +1,8 @@
 <template>
-    <div class="flex flex-col p-8 rounded-lg md:p-10" :class="rootClasses">
+    <div
+        class="flex flex-col p-8 rounded-lg md:p-6 lg:p-10"
+        :class="rootClasses"
+    >
         <h3 class="text-3xl font-bold" :class="titleClasses">{{ title }}</h3>
 
         <div class="flex items-start mt-4" :class="priceClasses">
@@ -7,7 +10,7 @@
             <div class="ml-1 font-bold leading-none text-8xl">{{ price }}</div>
         </div>
 
-        <div class="mt-6 mb-20 text-sm">
+        <div class="mt-6 mb-16 text-sm">
             <slot />
         </div>
 

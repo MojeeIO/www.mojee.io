@@ -1,5 +1,5 @@
 <template>
-    <div class="grid gap-10 md:grid-cols-3">
+    <div class="grid gap-5 lg:gap-10 md:grid-cols-3">
         <pricing-box
             variant="blue-outline"
             title="Team"
@@ -94,7 +94,11 @@
                     </m-icon>
                     <p class="ml-3">
                         Only
-                        <code>Mojee.Replace(text)</code>
+                        <code
+                            class="px-2 py-1 text-xs text-yellow-900 bg-yellow-100 rounded-sm"
+                        >
+                            Mojee.Replace(text)
+                        </code>
                         available for 100 pre-selected emojis.
                     </p>
                 </li>
