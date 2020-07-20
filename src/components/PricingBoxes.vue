@@ -3,16 +3,15 @@
         <pricing-box
             variant="blue-outline"
             title="Team"
-            :price="99"
+            :price="teamPrice"
             btn-text="Buy"
         >
             <ul>
                 <li class="flex mt-6">
                     <m-icon
-                        class="flex-shrink-0 mt-1"
+                        class="flex-shrink-0 mt-1 text-gray-900"
                         width="24"
                         height="24"
-                        color="text-gray-900"
                     >
                         <m-icon-checkbox-checked />
                     </m-icon>
@@ -21,14 +20,24 @@
                         and Contractors of the Licensee.
                     </p>
                 </li>
-                <li class="flex mt-6">
+                <li class="flex mt-6 cursor-pointer" @click="toggleSourceCode">
                     <m-icon
-                        class="flex-shrink-0 mt-1"
+                        v-if="includeSource"
+                        class="flex-shrink-0 mt-1 text-gray-900"
                         width="24"
                         height="24"
-                        color="text-gray-900"
                     >
                         <m-icon-checkbox-checked />
+                    </m-icon>
+
+                    <m-icon
+                        v-else
+                        color="text-gray-900"
+                        class="flex-shrink-0 mt-1 text-blue-500"
+                        width="24"
+                        height="24"
+                    >
+                        <m-icon-checkbox-unchecked />
                     </m-icon>
                     <p class="ml-3">
                         Include a copy of the Mojee source code in C# or
@@ -42,10 +51,9 @@
             <ul>
                 <li class="flex mt-6">
                     <m-icon
-                        class="flex-shrink-0 mt-1"
+                        class="flex-shrink-0 mt-1 text-white"
                         width="24"
                         height="24"
-                        color="text-white"
                     >
                         <m-icon-checkbox-checked />
                     </m-icon>
@@ -55,10 +63,9 @@
                 </li>
                 <li class="flex mt-6">
                     <m-icon
-                        class="flex-shrink-0 mt-1"
+                        class="flex-shrink-0 mt-1 text-white"
                         width="24"
                         height="24"
-                        color="text-white"
                     >
                         <m-icon-checkbox-checked />
                     </m-icon>
@@ -79,10 +86,9 @@
             <ul>
                 <li class="flex mt-6">
                     <m-icon
-                        class="flex-shrink-0 mt-1"
+                        class="flex-shrink-0 mt-1 text-gray-900"
                         width="24"
                         height="24"
-                        color="text-gray-900"
                     >
                         <m-icon-checkbox-checked />
                     </m-icon>
@@ -105,6 +111,24 @@ export default {
 
     components: {
         PricingBox,
+    },
+
+    data() {
+        return {
+            includeSource: false,
+        };
+    },
+
+    computed: {
+        teamPrice() {
+            return this.includeSource ? 99 + 250 : 99;
+        },
+    },
+
+    methods: {
+        toggleSourceCode() {
+            this.includeSource = !this.includeSource;
+        },
     },
 };
 </script>
