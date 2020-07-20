@@ -5,6 +5,8 @@
 
 @import "tailwindcss/utilities";
 
+@import "prism";
+
 .link {
   @apply text-blue-500 transition-all duration-200 ease-linear;
 

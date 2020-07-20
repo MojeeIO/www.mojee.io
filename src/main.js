@@ -3,12 +3,12 @@
 
 import "~/styles/mojee.css";
 import DefaultLayout from "~/layouts/Default.vue";
-
-import MButton from "./components/MButton.vue";
-import MTabs from "./components/MTabs.vue";
-import MTab from "./components/MTab.vue";
+import { Highlight } from "./directives/highlight";
 
 export default function (Vue, { router, head, isClient }) {
+    // Register directives
+    Vue.directive("highlight", Highlight);
+
     // Set default layout as a global component
     Vue.component("Layout", DefaultLayout);
 
