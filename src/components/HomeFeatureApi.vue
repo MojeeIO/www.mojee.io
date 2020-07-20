@@ -1,7 +1,21 @@
 <template>
     <div
-        class="grid items-center max-w-screen-xl pt-10 mx-auto md:grid-cols-2 md:gap-8 lg:gap-24 xl:gap-32"
+        class="items-center max-w-screen-xl pt-10 mx-auto md:grid md:grid-cols-2 md:gap-8 lg:gap-24 xl:gap-32"
     >
+        <div class="order-2">
+            <h2
+                class="text-2xl font-extrabold text-gray-900 md:text-3xl lg:text-4xl"
+            >
+                Simple, semantic API
+            </h2>
+            <p class="mt-4">
+                Mojee provides a semantic API for .NET and TypeScript. These are
+                just a few examples. You can learn more reading the
+                <a href="#">docs</a>
+                .
+            </p>
+        </div>
+
         <div class="relative flex items-center order-3 md:order-1">
             <div class="w-full mt-8 md:absolute">
                 <m-tabs
@@ -41,20 +55,6 @@ public static Emoji Get(string shortcode) {}</code>
             >
                 <circle cx="50" cy="50" r="50" />
             </svg>
-        </div>
-
-        <div class="order-2">
-            <h2
-                class="text-2xl font-extrabold text-gray-900 md:text-3xl lg:text-4xl"
-            >
-                Simple, semantic API
-            </h2>
-            <p class="mt-4">
-                Mojee provides a semantic API for .NET and TypeScript. These are
-                just a few examples. You can learn more reading the
-                <a href="#">docs</a>
-                .
-            </p>
         </div>
     </div>
 </template>
