@@ -22,22 +22,15 @@
                 </li>
                 <li class="flex mt-6 cursor-pointer" @click="toggleSourceCode">
                     <m-icon
-                        v-if="includeSource"
-                        class="flex-shrink-0 mt-1 text-gray-900"
+                        class="flex-shrink-0 mt-1"
+                        :class="
+                            includeSource ? 'text-gray-900' : 'text-blue-500'
+                        "
                         width="24"
                         height="24"
                     >
-                        <m-icon-checkbox-checked />
-                    </m-icon>
-
-                    <m-icon
-                        v-else
-                        color="text-gray-900"
-                        class="flex-shrink-0 mt-1 text-blue-500"
-                        width="24"
-                        height="24"
-                    >
-                        <m-icon-checkbox-unchecked />
+                        <m-icon-checkbox-checked v-if="includeSource" />
+                        <m-icon-checkbox-unchecked v-else />
                     </m-icon>
                     <p class="ml-3">
                         Include a copy of the Mojee source code in C# or
