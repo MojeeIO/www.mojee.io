@@ -1,5 +1,5 @@
 <template>
-    <div class="px-6 -mx-6 m-hero">
+    <div class="px-6 -mx-6">
         <div
             class="flex items-center max-w-screen-xl pb-16 mx-auto md:pt-6 lg:pt-24 md:pb-32"
         >
@@ -42,11 +42,3 @@ export default {
     },
 };
 </script>
-
-<style scoped>
-.m-hero {
-    background-image: url("/img/hero-bg.svg");
-    background-position: bottom 0 left 43vw;
-    background-repeat: no-repeat;
-}
-</style>

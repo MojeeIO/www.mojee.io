@@ -1,5 +1,5 @@
 <template>
-    <Layout>
+    <Layout show-bg-image>
         <home-hero />
         <home-feature-api />
         <home-feature-search />

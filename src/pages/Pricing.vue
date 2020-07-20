@@ -1,5 +1,5 @@
 <template>
-    <Layout class="page-pricing">
+    <Layout show-bg-image>
         <div class="max-w-screen-xl mx-auto pt-15">
             <div class="text-center">
                 <h1
@@ -28,11 +28,3 @@ export default {
     },
 };
 </script>
-
-<style scoped>
-.page-pricing {
-    background-image: url("/img/hero-bg.svg");
-    background-position: top 64px left 43vw;
-    background-repeat: no-repeat;
-}
-</style>
