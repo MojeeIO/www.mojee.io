@@ -1,15 +1,38 @@
 <template>
-    <Layout>
-        <div class="max-w-screen-xl mx-auto">
-            <h1>Pricing page</h1>
+    <Layout class="page-pricing">
+        <div class="max-w-screen-xl mx-auto pt-15">
+            <div class="text-center">
+                <h1
+                    class="text-2xl font-extrabold text-gray-900 md:text-3xl lg:text-4xl"
+                >
+                    Choose your plan
+                </h1>
+                <p class="mt-2">Simple licensing options for everyone.</p>
+            </div>
+
+            <pricing-boxes class="mt-15" />
         </div>
     </Layout>
 </template>
 
 <script>
+import PricingBoxes from "../components/PricingBoxes";
+
 export default {
     metaInfo: {
         title: "Pricing",
     },
+
+    components: {
+        PricingBoxes,
+    },
 };
 </script>
+
+<style scoped>
+.page-pricing {
+    background-image: url("/img/hero-bg.svg");
+    background-position: top 64px left 43vw;
+    background-repeat: no-repeat;
+}
+</style>

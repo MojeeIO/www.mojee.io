@@ -74,6 +74,7 @@ module.exports = {
             "4xl": ["3rem", "1.3"],
             "5xl": ["3.5rem", "1.2"],
             "6xl": ["3.75rem", "1.2"],
+            "8xl": ["4.5rem", "1.1"],
         },
 
         fontWeight: {

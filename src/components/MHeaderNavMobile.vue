@@ -17,7 +17,7 @@
                 >
                     <g-link
                         class="flex items-center justify-center text-2xl font-extrabold text-yellow-700 h-15"
-                        active-class="text-yellow-800 bg-yellow-200 rounded-md"
+                        exact-active-class="text-yellow-800 bg-yellow-200 rounded-md"
                         :to="item.to"
                     >
                         {{ item.label }}

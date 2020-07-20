@@ -13,6 +13,7 @@ const variantClasses = {
         "border-2 border-yellow-500 bg-yellow-500 text-yellow-900 focus:border-yellow-700",
     blue:
         "border-2 border-blue-300 bg-blue-300 text-blue-900 focus:border-blue-700",
+    white: "border-2 border-white bg-white text-blue-900 focus:border-blue-100",
 };
 
 const sizeClasses = {
