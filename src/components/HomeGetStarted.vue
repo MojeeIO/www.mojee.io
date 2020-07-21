@@ -1,6 +1,6 @@
 <template>
     <div
-        class="max-w-screen-xl px-8 pt-8 mx-auto mt-16 overflow-hidden text-center bg-blue-100 rounded-lg md:mt-40 md:px-15 md:pt-15 sm:pb-0"
+        class="max-w-screen-xl px-8 pt-8 mx-auto mt-16 overflow-hidden text-center bg-blue-100 rounded-lg md:mt-32 md:px-15 md:pt-15 sm:pb-0"
     >
         <h2
             class="text-2xl font-extrabold text-gray-900 md:text-3xl lg:text-4xl"

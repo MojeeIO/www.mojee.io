@@ -1,5 +1,6 @@
 <template>
     <div class="grid gap-5 lg:gap-10 md:grid-cols-3">
+        <!-- Team Plan -->
         <pricing-box
             variant="blue-outline"
             title="Team"
@@ -7,20 +8,16 @@
             btn-text="Buy"
         >
             <ul>
-                <li class="flex mt-6">
-                    <m-icon
-                        class="flex-shrink-0 mt-1 text-gray-900"
-                        width="24"
-                        height="24"
-                    >
-                        <m-icon-checkbox-checked />
-                    </m-icon>
-                    <p class="ml-3">
+                <li>
+                    <pricing-feature>
                         All Pro features plus licensing for up to five Employees
                         and Contractors of the Licensee.
-                    </p>
+                    </pricing-feature>
                 </li>
-                <li class="flex mt-6 cursor-pointer" @click="toggleSourceCode">
+                <li
+                    class="flex mt-6 cursor-pointer"
+                    @click="includeSource = !includeSource"
+                >
                     <m-icon
                         class="flex-shrink-0 mt-1"
                         :class="
@@ -40,52 +37,38 @@
             </ul>
         </pricing-box>
 
-        <pricing-box variant="blue" title="Pro" :price="35" btn-text="Buy">
+        <!-- Pro Plan -->
+        <pricing-box
+            variant="blue"
+            title="Pro"
+            :price="price.pro"
+            btn-text="Buy"
+        >
             <ul>
-                <li class="flex mt-6">
-                    <m-icon
-                        class="flex-shrink-0 mt-1 text-white"
-                        width="24"
-                        height="24"
-                    >
-                        <m-icon-checkbox-checked />
-                    </m-icon>
-                    <p class="ml-3">
+                <li>
+                    <pricing-feature text-color="text-white">
                         Per developer, unlimited projects.
-                    </p>
+                    </pricing-feature>
                 </li>
-                <li class="flex mt-6">
-                    <m-icon
-                        class="flex-shrink-0 mt-1 text-white"
-                        width="24"
-                        height="24"
-                    >
-                        <m-icon-checkbox-checked />
-                    </m-icon>
-                    <p class="ml-3">
+                <li>
+                    <pricing-feature text-color="text-white">
                         All Mojee API and Emoji class features, including all
                         emojis, search, vendor images, categories, skin tones
-                    </p>
+                    </pricing-feature>
                 </li>
             </ul>
         </pricing-box>
 
+        <!-- Free Plan -->
         <pricing-box
             variant="yellow-outline"
             title="Free"
-            :price="0"
+            :price="price.community"
             btn-text="Download"
         >
             <ul>
-                <li class="flex mt-6">
-                    <m-icon
-                        class="flex-shrink-0 mt-1 text-gray-900"
-                        width="24"
-                        height="24"
-                    >
-                        <m-icon-checkbox-checked />
-                    </m-icon>
-                    <p class="ml-3">
+                <li>
+                    <pricing-feature>
                         Only
                         <code
                             class="px-2 py-1 text-xs text-yellow-900 bg-yellow-100 rounded-sm"
@@ -93,7 +76,7 @@
                             Mojee.Replace(text)
                         </code>
                         available for 100 pre-selected emojis.
-                    </p>
+                    </pricing-feature>
                 </li>
             </ul>
         </pricing-box>
@@ -102,29 +85,33 @@
 
 <script>
 import PricingBox from "./PricingBox";
+import PricingFeature from "./PricingFeature";
 
 export default {
     name: "PricingBoxes",
 
     components: {
         PricingBox,
+        PricingFeature,
     },
 
     data() {
         return {
+            price: {
+                community: 0,
+                pro: 35,
+                team: 99,
+                sourceCode: 250,
+            },
             includeSource: false,
         };
     },
 
     computed: {
         teamPrice() {
-            return this.includeSource ? 99 + 250 : 99;
-        },
-    },
-
-    methods: {
-        toggleSourceCode() {
-            this.includeSource = !this.includeSource;
+            return this.includeSource
+                ? this.price.team + this.price.sourceCode
+                : this.price.team;
         },
     },
 };

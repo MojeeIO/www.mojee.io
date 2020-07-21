@@ -1,6 +1,6 @@
 <template>
     <div
-        class="grid items-center max-w-screen-xl pt-10 mx-auto md:grid-cols-2 md:gap-8 lg:gap-24 xl:gap-32"
+        class="grid items-center max-w-screen-xl mx-auto mt-10 md:mt-20 md:grid-cols-2 md:gap-8 lg:gap-24 xl:gap-32"
     >
         <div>
             <h2
@@ -16,7 +16,7 @@
             </p>
         </div>
 
-        <div class="mt-8">
+        <div class="mt-8 md:mt-0">
             <div
                 class="flex items-center justify-between w-full px-4 bg-white rounded shadow-2xl h-15"
             >
