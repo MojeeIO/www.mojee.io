@@ -109,6 +109,7 @@ module.exports = {
             "48": "12rem",
             "56": "14rem",
             "64": "16rem",
+            "72": "18rem",
         },
 
         // 8, 12, 16, 32
@@ -154,6 +155,10 @@ module.exports = {
                     "Segoe UI Symbol",
                     "Noto Color Emoji",
                 ],
+            },
+
+            borderWidth: {
+                "6": "6px",
             },
         },
     },
