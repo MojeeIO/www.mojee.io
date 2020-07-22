@@ -11,12 +11,15 @@
             </div>
 
             <pricing-boxes class="mt-15" />
+
+            <pricing-faq class="mt-32" />
         </div>
     </Layout>
 </template>
 
 <script>
 import PricingBoxes from "../components/PricingBoxes";
+import PricingFaq from "../components/PricingFaq";
 
 export default {
     metaInfo: {
@@ -25,6 +28,7 @@ export default {
 
     components: {
         PricingBoxes,
+        PricingFaq,
     },
 };
 </script>
