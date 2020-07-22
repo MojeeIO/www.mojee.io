@@ -1,5 +1,7 @@
 <template>
-    <header class="relative z-10 flex items-center h-16 px-6 -mx-6 bg-white">
+    <header
+        class="sticky top-0 z-10 flex items-center h-16 px-6 -mx-6 bg-white md:relative"
+    >
         <g-link class="relative z-40" to="/"><m-header-logo /></g-link>
 
         <div class="items-center hidden w-full h-full md:flex">
