@@ -7,9 +7,7 @@
             <m-icon width="20" height="20"><m-icon-filter /></m-icon>
         </button>
 
-        <div class="text-sm">
-            All 1855 emojis.
-        </div>
+        <div class="text-sm">{{ resultText }}</div>
 
         <div>
             <button
@@ -31,6 +29,15 @@ import { store } from "../store";
 
 export default {
     name: "EmojisToolbar",
+
+    computed: {
+        resultText() {
+            const len = store.state.searchResultsLength;
+            const emojis = len === 1 ? "emoji" : "emojis";
+
+            return `Showing ${len} ${emojis}`;
+        },
+    },
 
     methods: {
         onFilterBtnClick() {
