@@ -2,10 +2,13 @@
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
 import "~/styles/mojee.css";
+import PortalVue from "portal-vue";
 import DefaultLayout from "~/layouts/Default.vue";
 import { Highlight } from "./directives/highlight";
 
 export default function (Vue, { router, head, isClient }) {
+    Vue.use(PortalVue);
+
     // Register directives
     Vue.directive("highlight", Highlight);
 

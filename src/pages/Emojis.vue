@@ -1,9 +1,7 @@
 <template>
     <Layout>
         <div class="flex max-w-screen-xl pt-5 mx-auto md:pt-10">
-            <emojis-sidebar
-                class="hidden h-full md:block w-72 md:sticky md:top-10"
-            />
+            <emojis-sidebar />
 
             <emojis-content class="xl:pl-10" />
         </div>

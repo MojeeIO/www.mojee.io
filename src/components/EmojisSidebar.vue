@@ -1,5 +1,11 @@
 <template>
-    <div>
+    <aside
+        class="fixed top-0 z-40 w-4/5 h-full pt-5 pl-6 -ml-6 transition duration-200 ease-in-out transform bg-white md:sticky md:w-72 md:translate-x-0"
+        :class="{
+            'translate-x-0': isFilterSidebarOpen,
+            '-translate-x-full': !isFilterSidebarOpen,
+        }"
+    >
         <h5 class="mb-4 text-xs text-gray-900">CATEGORY</h5>
 
         <div v-for="category in categories" :key="category.id" class="mt-1">
@@ -23,10 +29,21 @@
                 <span class="ml-2 text-sm">{{ category.name }}</span>
             </label>
         </div>
-    </div>
+
+        <portal to="overlay">
+            <m-overlay
+                class="md:hidden"
+                :is-open="isFilterSidebarOpen"
+                @swipe-left="hide"
+                @click="hide"
+            />
+        </portal>
+    </aside>
 </template>
 
 <script>
+import { store } from "../store";
+
 export default {
     name: "SearchSidebar",
 
@@ -46,6 +63,18 @@ export default {
                 { id: "8", name: "Flags " },
             ],
         };
+    },
+
+    computed: {
+        isFilterSidebarOpen() {
+            return store.state.isFilterSidebarOpen;
+        },
+    },
+
+    methods: {
+        hide() {
+            store.actions.setFilterSidebarState(false);
+        },
     },
 };
 </script>

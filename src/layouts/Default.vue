@@ -8,6 +8,8 @@
         <slot />
 
         <m-footer />
+
+        <portal-target name="overlay" />
     </div>
 </template>
 
