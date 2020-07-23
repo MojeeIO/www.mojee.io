@@ -1,6 +1,6 @@
 <template>
     <aside
-        class="fixed top-0 z-40 w-4/5 h-full pt-5 pl-6 -ml-6 transition duration-200 ease-in-out transform bg-white rounded-r-lg md:rounded-r-none md:sticky md:w-72 md:translate-x-0"
+        class="fixed top-0 z-40 w-4/5 h-full pt-5 pl-6 -ml-6 transition duration-200 ease-in-out transform bg-white rounded-r-lg md:rounded-r-none md:sticky md:w-72 md:translate-x-0 md:pt-0 md:top-6"
         :class="{
             'translate-x-0': isFilterSidebarOpen,
             '-translate-x-full': !isFilterSidebarOpen,
@@ -43,13 +43,16 @@
 
 <script>
 import { store } from "../store";
+import updateRouteQuery from "../mixins/updateRouteQuery";
 
 export default {
     name: "SearchSidebar",
 
+    mixins: [updateRouteQuery],
+
     data() {
         return {
-            selected: "all",
+            selected: this.$route.query.category || "all",
             categories: [
                 { id: "all", name: "All " },
                 { id: "0", name: "Smileys & Emotion " },
@@ -74,6 +77,16 @@ export default {
     methods: {
         hide() {
             store.actions.setFilterSidebarState(false);
+        },
+    },
+
+    watch: {
+        selected(val) {
+            this.updateRouteQuery({
+                name: "category",
+                defaultValue: "all",
+                newValue: val,
+            });
         },
     },
 };
