@@ -7,6 +7,7 @@
             <transition-group
                 tag="ul"
                 enter-active-class="transition-all duration-300 ease-in transform"
+                leave-active-class="hidden"
                 enter-class="translate-y-2 opacity-0"
                 enter-to-class="translate-y-0 opacity-100"
             >
@@ -27,6 +28,7 @@
 
             <transition
                 enter-active-class="transition-all duration-300 ease-in delay-100"
+                leave-active-class="hidden"
                 enter-class="opacity-0"
                 enter-to-class="opacity-100"
             >
