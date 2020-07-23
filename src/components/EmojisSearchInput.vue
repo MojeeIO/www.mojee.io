@@ -7,9 +7,19 @@
             v-model="query"
         />
 
-        <m-icon class="absolute right-0 mr-5 text-gray-400">
-            <m-icon-search />
-        </m-icon>
+        <div class="absolute right-0 flex items-center mr-5">
+            <button
+                v-if="query"
+                class="flex items-center justify-center w-6 h-6 text-gray-700 rounded-full hover:bg-gray-200 focus:outline-none"
+                @click="query = ''"
+            >
+                <m-icon width="14" height="14"><m-icon-close /></m-icon>
+            </button>
+
+            <m-icon class="ml-1 text-gray-400">
+                <m-icon-search />
+            </m-icon>
+        </div>
     </div>
 </template>
 
