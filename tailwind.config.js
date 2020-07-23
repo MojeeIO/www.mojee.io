@@ -112,6 +112,10 @@ module.exports = {
             "72": "18rem",
         },
 
+        inset: (theme) => ({
+            ...theme("spacing"),
+        }),
+
         // 8, 12, 16, 32
         borderRadius: {
             none: "0",
