@@ -14,3 +14,10 @@
     @apply underline;
   }
 }
+
+@variants hover, focus {
+  .shadow-border-2 {
+    box-shadow: inset 0 0 0 1px rgba(25, 137, 255, 1);
+    @apply border-blue-500;
+  }
+}
