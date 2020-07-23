@@ -58,7 +58,7 @@ export default {
     methods: {
         search: debounce(function (val) {
             this.results = Mojee.search(val);
-        }, 300),
+        }, 100),
     },
 };
 </script>
