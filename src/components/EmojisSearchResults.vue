@@ -2,7 +2,7 @@
     <div>
         <div
             v-if="results.length"
-            class="grid grid-cols-5 gap-3 sm:grid-cols-6 md:grid-cols-5 sm:gap-5 lg:gap-6 lg:grid-cols-7"
+            class="grid grid-cols-5 gap-3 text-xl sm:grid-cols-6 md:grid-cols-5 sm:gap-5 lg:gap-6 lg:grid-cols-7 md:text-3xl xl:text-4xl"
         >
             <emojis-search-result-item
                 v-for="result in results"
