@@ -9,7 +9,7 @@
 
         <div class="text-sm">{{ resultText }}</div>
 
-        <div>
+        <!-- <div>
             <button
                 class="inline-flex items-center justify-center p-2 text-gray-900 focus:outline-none"
             >
@@ -20,7 +20,7 @@
             >
                 <m-icon width="20" height="20"><m-icon-list /></m-icon>
             </button>
-        </div>
+        </div> -->
     </div>
 </template>
 
