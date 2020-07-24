@@ -1,6 +1,7 @@
 <template>
     <div class="relative flex items-center">
         <input
+            ref="input"
             type="text"
             placeholder="Search Emojis..."
             class="w-full h-12 pl-5 pr-12 border-2 border-gray-200 rounded-sm md:rounded md:h-15 focus:outline-none focus:border-yellow-500"
@@ -45,6 +46,10 @@ export default {
                 newValue: val,
             });
         },
+    },
+
+    mounted() {
+        this.$refs.input.focus();
     },
 };
 </script>
