@@ -1,6 +1,6 @@
 <template>
     <footer
-        class="flex flex-col-reverse max-w-screen-xl py-12 mx-auto mt-10 lg:flex-row lg:justify-between md:py-16"
+        class="flex flex-col-reverse w-full max-w-screen-xl py-12 mx-auto mt-10 lg:flex-row lg:justify-between md:py-16"
     >
         <div class="flex items-center justify-center h-16 text-xs">
             <m-footer-logo />

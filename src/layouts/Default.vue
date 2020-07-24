@@ -1,11 +1,13 @@
 <template>
     <div
-        class="px-6 text-base antialiased text-gray-700 bg-white font-body"
+        class="flex flex-col min-h-screen px-6 text-base antialiased text-gray-700 bg-white font-body"
         :class="{ 'm-page-bg': showBgImage }"
     >
         <m-header />
 
-        <slot />
+        <div class="flex-1 w-full">
+            <slot />
+        </div>
 
         <m-footer />
 
