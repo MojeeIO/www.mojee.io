@@ -5,13 +5,17 @@
             class="grid grid-cols-5 gap-3 text-xl sm:grid-cols-6 md:grid-cols-5 sm:gap-5 lg:gap-6 lg:grid-cols-7 md:text-3xl xl:text-4xl"
         >
             <emojis-search-result-item
-                v-for="result in results"
-                :key="result.unicode"
-                :unicode="result.unicode"
+                v-for="emoji in results"
+                :key="emoji.unicode"
+                :emoji="emoji"
             />
         </div>
 
         <div v-else>No emojis found...</div>
+
+        <m-drawer v-model="isDrawerOpen" @hide="onDrawerHide">
+            {{ selectedEmoji }}
+        </m-drawer>
     </div>
 </template>
 
@@ -32,12 +36,17 @@ export default {
         return {
             results: [],
             delay: 0,
+            isDrawerOpen: false,
         };
     },
 
     computed: {
         query() {
             return this.$route.query.q || "";
+        },
+
+        selectedEmoji() {
+            return store.state.selectedEmoji;
         },
     },
 
@@ -48,6 +57,14 @@ export default {
 
         query(val) {
             this.search(val);
+        },
+
+        selectedEmoji: {
+            handler(val) {
+                this.isDrawerOpen = val !== null;
+            },
+
+            immediate: true,
         },
     },
 
@@ -60,6 +77,10 @@ export default {
             this.results =
                 val.length >= 2 ? Mojee.search(val) : Mojee.search("");
         }, 100),
+
+        onDrawerHide() {
+            store.actions.setSelectedEmoji(null);
+        },
     },
 };
 </script>

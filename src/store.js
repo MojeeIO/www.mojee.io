@@ -4,6 +4,7 @@ export const store = Vue.observable({
     state: {
         isFilterSidebarOpen: false,
         searchResultsLength: 0,
+        selectedEmoji: null,
     },
 
     actions: {
@@ -13,6 +14,10 @@ export const store = Vue.observable({
 
         setSearchResultsLength(len) {
             store.state.searchResultsLength = len;
+        },
+
+        setSelectedEmoji(emoji) {
+            store.state.selectedEmoji = emoji;
         },
     },
 });

@@ -1,18 +1,25 @@
 <template>
-    <div class="relative transition-all duration-100 ease-in transform border border-blue-200 rounded-sm cursor-pointer md:rounded-md pb-full hover:scale-105">
+    <div class="relative transition-all duration-100 ease-in transform border border-blue-200 rounded-sm cursor-pointer md:rounded-md pb-full hover:scale-105" @click="onSelectEmoji">
         <div 
-            v-html="`&#x${unicode};`" 
+            v-html="`&#x${emoji.unicode};`" 
             class="absolute inset-0 flex items-center justify-center"
         />
     </div>
 </template>
 
 <script>
+import { store } from '../store';
 export default {
     name: "EmojiSearchResultItem",
 
     props: {
-        unicode: String,
+        emoji: Object,
+    },
+
+    methods: {
+        onSelectEmoji() {
+            store.actions.setSelectedEmoji(this.emoji)
+        }
     }
 };
 </script>

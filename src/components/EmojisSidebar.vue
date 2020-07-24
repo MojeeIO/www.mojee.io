@@ -1,6 +1,6 @@
 <template>
     <aside
-        class="fixed top-0 z-40 w-4/5 h-full pt-5 pl-6 -ml-6 transition duration-200 ease-in-out transform bg-white rounded-r-lg md:rounded-r-none md:sticky md:w-72 md:translate-x-0 md:pt-0 md:top-6"
+        class="fixed top-0 z-40 w-4/5 h-full pt-5 pl-6 -ml-6 transition duration-200 ease-in-out transform bg-white rounded-r-lg md:rounded-r-none md:sticky md:z-0 md:w-72 md:translate-x-0 md:pt-0 md:top-6"
         :class="{
             'translate-x-0': isFilterSidebarOpen,
             '-translate-x-full': !isFilterSidebarOpen,

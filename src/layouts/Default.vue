@@ -11,7 +11,7 @@
 
         <m-footer />
 
-        <portal-target name="overlay" />
+        <portal-target name="overlay" multiple />
     </div>
 </template>
 
