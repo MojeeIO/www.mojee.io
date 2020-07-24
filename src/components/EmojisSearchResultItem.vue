@@ -1,7 +1,7 @@
 <template>
     <div class="relative transition-all duration-100 ease-in transform border border-blue-200 rounded-sm cursor-pointer md:rounded-md pb-full hover:scale-105" @click="onSelectEmoji">
         <div 
-            v-html="`&#x${emoji.unicode};`" 
+            v-html="`&\#x${emoji.unicode.replace(/-/g,'&\#x')};`"
             class="absolute inset-0 flex items-center justify-center"
         />
     </div>
