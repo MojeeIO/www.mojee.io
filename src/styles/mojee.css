@@ -5,6 +5,7 @@
 
 @import "tailwindcss/utilities";
 
+/* purgecss start ignore */
 @import "prism";
 
 .link {
@@ -21,3 +22,4 @@
     @apply border-blue-500;
   }
 }
+/* purgecss end ignore */
