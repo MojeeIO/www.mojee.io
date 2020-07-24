@@ -57,7 +57,8 @@ export default {
 
     methods: {
         search: debounce(function (val) {
-            this.results = Mojee.search(val);
+            this.results =
+                val.length >= 2 ? Mojee.search(val) : Mojee.search("");
         }, 100),
     },
 };
