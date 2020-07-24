@@ -31,7 +31,7 @@
                     </m-icon>
                     <p class="ml-3">
                         Include a copy of the Mojee source code in C# or
-                        TypeScript for +$250 ($349 total).
+                        TypeScript for +$350 ($449 total).
                     </p>
                 </li>
             </ul>
@@ -101,7 +101,7 @@ export default {
                 community: 0,
                 pro: 35,
                 team: 99,
-                sourceCode: 250,
+                sourceCode: 350,
             },
             includeSource: false,
         };
