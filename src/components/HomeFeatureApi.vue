@@ -5,13 +5,13 @@
         <div class="order-2">
             <h2
                 class="text-2xl font-extrabold text-gray-900 md:text-3xl lg:text-4xl"
-            >
-                Simple, semantic API
-            </h2>
+            >Simple, semantic API</h2>
             <p class="mt-4">
                 Mojee provides a semantic API for .NET and TypeScript. These are
                 just a few examples. You can learn more reading the
-                <a href="https://github.com/MojeeIO/mojee/wiki">docs</a>
+                <a
+                    href="https://github.com/MojeeIO/mojee/wiki"
+                >docs</a>
                 .
             </p>
         </div>
@@ -28,8 +28,8 @@
                     <m-tab label=".NET" visible>
                         <pre v-highlight:cs>
 <code>// 1. Replace all shortcodes with an emoji
-Mojee.Replace("Hello, world :+1:");
-// Hello, world 👍
+Mojee.Replace("Hello, world :smile:");
+// Hello, world 😄
 
 // 2. Search for emojis
 Mojee.Search("smile")
@@ -42,12 +42,12 @@ Console.Write($"{emoji.Shortcode}: {emoji.Unicode}");
 // smile: 😄</code>
 </pre>
                     </m-tab>
-                    
+
                     <m-tab label="TypeScript">
                         <pre v-highlight:ts>
 <code>// 1. Replace all shortcodes with an emoji
-Mojee.replace("Hello, world :+1:");
-// Hello, world 👍
+Mojee.replace("Hello, world :smile:");
+// Hello, world 😄
 
 // 2. Search for emojis
 Mojee.search("smile")
