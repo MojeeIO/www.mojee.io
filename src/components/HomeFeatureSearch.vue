@@ -11,7 +11,7 @@
             <p class="mt-4">
                 <span class="font-bold text-gray-900">Mojee.io</span>
                 is a great tool for searching emojis. We provide a convenient
-                <g-link class="link" to="/">search tool</g-link>
+                <g-link class="link" to="/emojis">search tool</g-link>
                 where you can view and copy emojis.
             </p>
         </div>
