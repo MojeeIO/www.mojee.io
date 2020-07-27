@@ -25,23 +25,39 @@
                     nav-item-active-classes="bg-gray-800 text-white"
                     tab-content-classes="px-8 py-4 text-gray-300"
                 >
-                    <m-tab label="TypeScript" visible>
-                        <pre v-highlight:ts>
-<code>// Replace all shortcodes with a unicode emoji
-public static Replace(text: string): string  {}
+                    <m-tab label=".NET" visible>
+                        <pre v-highlight:cs>
+<code>// 1. Replace all shortcodes with an emoji
+Mojee.Replace("Hello, world :+1:");
+// Hello, world 👍
 
-// Get an emoji by shortcode
-public static Get(shortcode: string): Emoji {}</code>
+// 2. Search for emojis
+Mojee.Search("smile")
+     .ForEach(emoji => Console.Write(emoji.Unicode));
+// 😄 😸 😃 😺 😅
+
+// 3. Get an emoji
+var emoji = Mojee.Get("smile");
+Console.Write($"{emoji.Shortcode}: {emoji.Unicode}");
+// smile: 😄</code>
 </pre>
                     </m-tab>
+                    
+                    <m-tab label="TypeScript">
+                        <pre v-highlight:ts>
+<code>// 1. Replace all shortcodes with an emoji
+Mojee.replace("Hello, world :+1:");
+// Hello, world 👍
 
-                    <m-tab label=".NET">
-                        <pre v-highlight:cs>
-<code>// Replace all shortcodes with a unicode emoji
-public static string Replace(string text) {}
+// 2. Search for emojis
+Mojee.search("smile")
+     .forEach(emoji => console.log(emoji.unicode));
+// 😄 😸 😃 😺 😅
 
-// Get an emoji by shortcode
-public static Emoji Get(string shortcode) {}</code>
+// 3. Get an emoji
+let emoji = Mojee.get("smile");
+console.log(`${emoji.shortcode}: ${emoji.unicode}`);
+// smile: 😄</code>
 </pre>
                     </m-tab>
                 </m-tabs>
