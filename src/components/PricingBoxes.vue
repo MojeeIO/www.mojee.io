@@ -10,8 +10,7 @@
             <ul>
                 <li>
                     <pricing-feature>
-                        All Pro features plus licensing for up to five Employees
-                        and Contractors of the Licensee.
+                        All Pro features plus licensing for up to five Employees and Contractors
                     </pricing-feature>
                 </li>
                 <li
@@ -30,8 +29,7 @@
                         <m-icon-checkbox-unchecked v-else />
                     </m-icon>
                     <p class="ml-3">
-                        Include a copy of the Mojee source code in C# or
-                        TypeScript for +$350 ($449 total).
+                        Include a copy of the Mojee library source code for +$350 ($499 total)
                     </p>
                 </li>
             </ul>
@@ -47,13 +45,12 @@
             <ul>
                 <li>
                     <pricing-feature text-color="text-white">
-                        Per developer, unlimited projects.
+                        Per developer, unlimited projects
                     </pricing-feature>
                 </li>
                 <li>
                     <pricing-feature text-color="text-white">
-                        All Mojee API and Emoji class features, including all
-                        emojis, search, vendor images, categories, skin tones
+                        Full Mojee API including 1000's of emojis, search, categories, and skin tones
                     </pricing-feature>
                 </li>
             </ul>
@@ -69,13 +66,7 @@
             <ul>
                 <li>
                     <pricing-feature>
-                        Only
-                        <code
-                            class="px-2 py-1 text-xs text-yellow-900 bg-yellow-100 rounded-sm"
-                        >
-                            Mojee.Replace(text)
-                        </code>
-                        available for 100 pre-selected emojis.
+                        Limited to 200 popular emojis
                     </pricing-feature>
                 </li>
             </ul>
@@ -100,7 +91,7 @@ export default {
             price: {
                 community: 0,
                 pro: 35,
-                team: 99,
+                team: 149,
                 sourceCode: 350,
             },
             includeSource: false,
