@@ -57,7 +57,7 @@ Mojee.search("smile")
 // 😄 😸 😃 😺 😅
 
 // 3. Get an emoji
-let emoji = Mojee.get("smile");
+const emoji = Mojee.get("smile");
 console.log(`${emoji.shortcode}: ${emoji.unicode}`);
 // smile: 😄</code>
 </pre>
