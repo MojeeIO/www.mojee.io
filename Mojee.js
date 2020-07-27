@@ -1740,6 +1740,6 @@ module.exports = {
         { name: "", unicode: "1F3F3-FE0F", shortcode: "waving_white_flag", category: 8}
     ],
     search: function (query) {
-        return this.data.filter((emoji) => emoji.shortcode.includes(query));
-     },
+        return this.data.filter((emoji) => emoji.shortcode.includes(query.toLowerCase()));
+    },
 };
