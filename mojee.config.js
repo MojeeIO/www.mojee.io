@@ -7,7 +7,7 @@ module.exports = {
         // { label: "Community", to: "https://community.mojee.io" },
     ],
     social: [
-        { id: "email", value: "hello@mojee.io" },
+        { id: "email", value: "mojee@object.net" },
         { id: "twitter", value: "mojeeio" },
         { id: "instagram", value: "mojeeio" },
     ],
