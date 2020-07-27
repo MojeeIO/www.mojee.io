@@ -3,9 +3,8 @@
         <div style="max-width: 558px;">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="557.13"
-                height="468.52"
                 overflow="visible"
+                viewBox="0 0 558 469"
             >
                 <g opacity="0.75">
                     <path
