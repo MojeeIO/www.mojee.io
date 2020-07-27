@@ -7,7 +7,7 @@
                 <h1
                     class="pt-8 text-3xl font-extrabold text-center text-gray-900 md:text-left md:text-4xl lg:text-6xl"
                 >
-                    Lightning ⚡ fast Emoji library for TypeScript &amp; .NET
+                    Lightning ⚡ fast Emoji library for .NET &amp; TypeScript
                 </h1>
 
                 <p

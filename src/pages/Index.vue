@@ -17,7 +17,7 @@ export default {
     name: "Home",
 
     metaInfo: {
-        title: "Lightning fast Emoji library for TypeScript & .NET",
+        title: "Lightning fast Emoji library for .NET & TypeScript",
     },
 
     components: {
