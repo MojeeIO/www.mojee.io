@@ -4,6 +4,7 @@ import MIconClose from "./MIconClose.vue";
 import MIconEnvelope from "./MIconEnvelope.vue";
 import MIconFilter from "./MIconFilter.vue";
 import MIconGrid from "./MIconGrid.vue";
+import MIconInstagram from "./MIconInstagram.vue";
 import MIconList from "./MIconList.vue";
 import MIconPlus from "./MIconPlus.vue";
 import MIconSearch from "./MIconSearch.vue";
@@ -16,6 +17,7 @@ export {
     MIconEnvelope,
     MIconFilter,
     MIconGrid,
+    MIconInstagram,
     MIconList,
     MIconPlus,
     MIconSearch,
