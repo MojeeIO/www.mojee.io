@@ -5,6 +5,7 @@
             variant="blue-outline"
             title="Team"
             :price="teamPrice"
+            :price-discounted="teamPriceDiscounted"
             btn-class="btn-blue"
             btn-link=""
             btn-text="Buy"
@@ -44,6 +45,7 @@
             variant="blue"
             title="Pro"
             :price="price.pro"
+            :price-discounted="price.proDiscounted"
             btn-class="btn-white"
             btn-link=""
             btn-text="Buy"
@@ -99,8 +101,10 @@ export default {
         return {
             price: {
                 community: 0,
-                pro: 35,
-                team: 149,
+                pro: 85,
+                proDiscounted: 35,
+                team: 350,
+                teamDiscounted: 149,
                 sourceCode: 350,
             },
             includeSource: false,
@@ -112,6 +116,12 @@ export default {
             return this.includeSource
                 ? this.price.team + this.price.sourceCode
                 : this.price.team;
+        },
+
+        teamPriceDiscounted() {
+            return this.includeSource
+                ? this.price.teamDiscounted + this.price.sourceCode
+                : this.price.teamDiscounted;
         },
     },
 };

@@ -6,8 +6,28 @@
         <h3 class="text-3xl font-bold" :class="titleClasses">{{ title }}</h3>
 
         <div class="flex items-start mt-4" :class="priceClasses">
-            <div class="text-4xl opacity-50">$</div>
-            <div class="ml-1 font-bold leading-none text-8xl">{{ price }}</div>
+            <div class="text-3xl opacity-50">$</div>
+            <div class="flex flex-wrap items-start ml-1 font-bold leading-none">
+                <div
+                    class="relative flex items-center mr-2"
+                    :class="
+                        priceDiscounted ? 'text-3xl xl:text-5xl' : 'text-8xl'
+                    "
+                >
+                    <span>{{ price }}</span>
+                    <span
+                        :class="{
+                            'absolute w-full h-1 bg-red-500 z-5 -rotate-45 transform': priceDiscounted,
+                        }"
+                    ></span>
+                </div>
+                <div
+                    v-if="priceDiscounted"
+                    class="text-4xl lg:text-6xl xl:text-8xl"
+                >
+                    {{ priceDiscounted }}
+                </div>
+            </div>
         </div>
 
         <div class="mt-6 mb-16 text-sm">
@@ -27,6 +47,7 @@ export default {
     props: {
         title: String,
         price: Number,
+        priceDiscounted: Number,
         variant: String,
         btnClass: String,
         btnText: String,
