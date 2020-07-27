@@ -7,7 +7,7 @@
                 >
                     Choose your plan
                 </h1>
-                <p class="mt-2">Simple licensing options for everyone.</p>
+                <p class="mt-2">Simple licensing options for everyone</p>
             </div>
 
             <pricing-boxes class="mt-15" />
