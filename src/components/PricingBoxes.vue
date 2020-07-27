@@ -33,8 +33,7 @@
                         <m-icon-checkbox-unchecked v-else />
                     </m-icon>
                     <p class="ml-3">
-                        Include a copy of the Mojee library source code for
-                        +$350 ($499 total)
+                        Include a copy of the Mojee library source code for +$350
                     </p>
                 </li>
             </ul>
@@ -104,7 +103,7 @@ export default {
                 pro: 85,
                 proDiscounted: 35,
                 team: 350,
-                teamDiscounted: 149,
+                teamDiscounted: 135,
                 sourceCode: 350,
             },
             includeSource: false,
