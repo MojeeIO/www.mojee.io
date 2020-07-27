@@ -118,9 +118,10 @@ module.exports = {
             ...theme("spacing"),
         }),
 
-        // 8, 12, 16, 32
+        // 4, 8, 12, 16, 32
         borderRadius: {
             none: "0",
+            xs: ".25rem",
             sm: "0.5rem",
             default: "0.75rem",
             md: "1rem",
@@ -165,6 +166,10 @@ module.exports = {
 
             borderWidth: {
                 "6": "6px",
+            },
+
+            zIndex: {
+                "5": "5",
             },
         },
     },

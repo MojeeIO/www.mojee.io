@@ -7,7 +7,22 @@
                 <h1
                     class="pt-8 text-3xl font-extrabold text-center text-gray-900 md:text-left md:text-4xl lg:text-6xl"
                 >
-                    Lightning ⚡ fast Emoji library for .NET &amp; TypeScript
+                    Lightning ⚡ fast Emoji library for .NET &amp;
+                    <div class="inline-flex items-center">
+                        <div>TypeScript</div>
+                        <div
+                            class="relative flex items-center h-6 px-2 mt-1 ml-4 text-xs text-white bg-red-500 md:mt-2 rounded-xs"
+                        >
+                            <span
+                                class="relative leading-6 whitespace-no-wrap z-5"
+                            >
+                                Coming soon
+                            </span>
+                            <span
+                                class="absolute left-0 w-3 h-3 -ml-1 transform rotate-45 bg-red-500"
+                            ></span>
+                        </div>
+                    </div>
                 </h1>
 
                 <p
