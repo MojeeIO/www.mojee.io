@@ -32,9 +32,14 @@
                 enter-class="opacity-0"
                 enter-to-class="opacity-100"
             >
-                <m-button v-if="isMobileMenuOpen" class="w-full mt-6 ml-auto">
-                    Download
-                </m-button>
+                <div v-if="isMobileMenuOpen">
+                    <a
+                        class="w-full mt-6 ml-auto btn btn-yellow btn-md"
+                        href="https://github.com/MojeeIO/mojee"
+                    >
+                        Download
+                    </a>
+                </div>
             </transition>
         </div>
     </nav>

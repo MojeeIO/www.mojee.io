@@ -14,7 +14,12 @@
             to your app in minutes.
         </p>
 
-        <m-button class="mt-10 sm:w-40" variant="blue">Get started</m-button>
+        <a
+            class="mt-10 btn btn-blue btn-md sm:w-40"
+            href="https://github.com/MojeeIO/mojee"
+        >
+            Get started
+        </a>
 
         <div
             class="grid grid-cols-3 gap-5 mt-24 transform translate-y-3 lg:translate-y-5 sm:mt-32 xl:px-16 sm:grid-cols-5 md:grid-cols-7 lg:grid-cols-9"

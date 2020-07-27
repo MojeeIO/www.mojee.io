@@ -17,10 +17,18 @@
                 </p>
 
                 <div class="flex justify-center mt-8 md:justify-start md:mt-12">
-                    <m-button class="md:w-40">Download</m-button>
-                    <m-button class="ml-5 md:w-40" variant="blue">
+                    <a
+                        class="btn btn-yellow btn-md md:w-40"
+                        href="https://github.com/MojeeIO/mojee"
+                    >
+                        Download
+                    </a>
+                    <a
+                        class="ml-5 btn btn-blue btn-md md:w-40"
+                        href="https://github.com/MojeeIO/mojee/wiki"
+                    >
                         Docs
-                    </m-button>
+                    </a>
                 </div>
             </div>
 

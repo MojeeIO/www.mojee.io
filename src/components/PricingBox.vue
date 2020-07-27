@@ -14,9 +14,9 @@
             <slot />
         </div>
 
-        <m-button class="w-full mt-auto" :variant="btnVariant">
+        <a class="w-full mt-auto btn btn-md" :class="btnClass" :href="btnLink">
             {{ btnText }}
-        </m-button>
+        </a>
     </div>
 </template>
 
@@ -28,7 +28,9 @@ export default {
         title: String,
         price: Number,
         variant: String,
+        btnClass: String,
         btnText: String,
+        btnLink: String,
     },
 
     data() {

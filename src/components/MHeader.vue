@@ -7,7 +7,12 @@
         <div class="items-center hidden w-full h-full md:flex">
             <m-header-nav class="ml-12" />
 
-            <m-button class="ml-auto" size="sm">Download</m-button>
+            <a
+                class="ml-auto btn btn-yellow btn-sm"
+                href="https://github.com/MojeeIO/mojee"
+            >
+                Download
+            </a>
         </div>
 
         <m-header-mobile-menu-button

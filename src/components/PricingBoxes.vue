@@ -5,12 +5,15 @@
             variant="blue-outline"
             title="Team"
             :price="teamPrice"
+            btn-class="btn-blue"
+            btn-link=""
             btn-text="Buy"
         >
             <ul>
                 <li>
                     <pricing-feature>
-                        All Pro features plus licensing for up to five Employees and Contractors
+                        All Pro features plus licensing for up to five Employees
+                        and Contractors
                     </pricing-feature>
                 </li>
                 <li
@@ -29,7 +32,8 @@
                         <m-icon-checkbox-unchecked v-else />
                     </m-icon>
                     <p class="ml-3">
-                        Include a copy of the Mojee library source code for +$350 ($499 total)
+                        Include a copy of the Mojee library source code for
+                        +$350 ($499 total)
                     </p>
                 </li>
             </ul>
@@ -40,6 +44,8 @@
             variant="blue"
             title="Pro"
             :price="price.pro"
+            btn-class="btn-white"
+            btn-link=""
             btn-text="Buy"
         >
             <ul>
@@ -50,7 +56,8 @@
                 </li>
                 <li>
                     <pricing-feature text-color="text-white">
-                        Full Mojee API including 1000's of emojis, search, categories, and skin tones
+                        Full Mojee API including 1000's of emojis, search,
+                        categories, and skin tones
                     </pricing-feature>
                 </li>
             </ul>
@@ -61,6 +68,8 @@
             variant="yellow-outline"
             title="Free"
             :price="price.community"
+            btn-class="btn-yellow"
+            btn-link="https://github.com/MojeeIO/mojee"
             btn-text="Download"
         >
             <ul>
