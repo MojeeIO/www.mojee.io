@@ -9,5 +9,6 @@ module.exports = {
     social: [
         { id: "email", value: "hello@mojee.io" },
         { id: "twitter", value: "mojeeio" },
+        { id: "instagram", value: "mojeeio" },
     ],
 };
