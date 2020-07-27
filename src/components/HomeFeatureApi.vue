@@ -5,13 +5,15 @@
         <div class="order-2">
             <h2
                 class="text-2xl font-extrabold text-gray-900 md:text-3xl lg:text-4xl"
-            >Simple, semantic API</h2>
+            >
+                Simple, semantic API
+            </h2>
             <p class="mt-4">
                 Mojee provides a semantic API for .NET and TypeScript. These are
                 just a few examples. You can learn more reading the
-                <a
-                    href="https://github.com/MojeeIO/mojee/wiki"
-                >docs</a>
+                <a class="link" href="https://github.com/MojeeIO/mojee/wiki">
+                    <span>docs</span>
+                </a>
                 .
             </p>
         </div>
