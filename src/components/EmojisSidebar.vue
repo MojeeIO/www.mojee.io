@@ -36,7 +36,7 @@ export default {
 
     data() {
         return {
-            selected: this.$route.query.category || "all",
+            selected: "all",
             categories: [
                 { id: "all", name: "All " },
                 { id: "0", name: "Smileys & Emotion " },
@@ -59,6 +59,13 @@ export default {
                 defaultValue: "all",
                 newValue: val,
             });
+        },
+
+        $route: {
+            handler(newRoute) {
+                this.selected = newRoute.query.category || "all";
+            },
+            immediate: true,
         },
     },
 };
