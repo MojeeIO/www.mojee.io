@@ -21,6 +21,8 @@
 </template>
 
 <script>
+import * as clipboard from "clipboard-polyfill/text";
+
 export default {
     name: "EmojiCopyButton",
 
@@ -42,7 +44,7 @@ export default {
                 return;
             }
 
-            await navigator.clipboard.writeText(text);
+            await clipboard.writeText(text);
 
             this.isCopied = true;
 
