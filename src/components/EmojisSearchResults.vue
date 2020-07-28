@@ -7,6 +7,7 @@
             <emojis-search-result-item
                 v-for="emoji in results"
                 :key="emoji.unicode"
+                :class="{ 'select-none': isDrawerOpen }"
                 :emoji="emoji"
             />
         </div>
