@@ -8,8 +8,6 @@ export default {
     },
 
     mounted() {
-        this.setBodyWidth();
-
         window.addEventListener("resize", this.setBodyWidth);
     },
 
@@ -19,6 +17,8 @@ export default {
 
     methods: {
         disableBodyScroll() {
+            this.setBodyWidth();
+
             if (!this.isBodyScrollDisabled) {
                 const { body } = document;
 
