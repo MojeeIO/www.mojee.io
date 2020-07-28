@@ -10,9 +10,12 @@
 
 <script>
 import { store } from "../store";
+import bodyScroll from "../mixins/bodyScroll";
 
 export default {
     name: "MOverlay",
+
+    mixins: [bodyScroll],
 
     props: {
         isOpen: Boolean,
@@ -25,6 +28,16 @@ export default {
                 y: 0,
             },
         };
+    },
+
+    watch: {
+        isOpen(open) {
+            if (open) {
+                this.disableBodyScroll();
+            } else {
+                this.enableBodyScroll();
+            }
+        },
     },
 
     methods: {
@@ -45,6 +58,17 @@ export default {
 
                 if (dx > 0) {
                     this.$emit("swipe-right");
+                }
+            }
+
+            // Is it a vertical swipe with min 40px distance?
+            if (Math.abs(dy) > Math.abs(dx) && Math.abs(dy) > 40) {
+                if (dy < 0) {
+                    this.$emit("swipe-up");
+                }
+
+                if (dy > 0) {
+                    this.$emit("swipe-down");
                 }
             }
         },

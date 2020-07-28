@@ -6,7 +6,14 @@
         <slot />
 
         <portal to="overlay">
-            <m-overlay :is-open="isOpen" @swipe-left="hide" @click="hide" />
+            <m-overlay
+                :is-open="isOpen"
+                @swipe-left="placement === 'left' && hide()"
+                @swipe-right="placement === 'right' && hide()"
+                @swipe-down="placement === 'bottom' && hide()"
+                @swipe-up="placement === 'top' && hide()"
+                @click="hide"
+            />
         </portal>
     </div>
 </template>
