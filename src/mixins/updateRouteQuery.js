@@ -10,7 +10,9 @@ export default {
                 delete query[name];
             }
 
-            this.$router.replace({ ...this.$route, ...{ query } });
+            this.$router
+                .replace({ ...this.$route, ...{ query } })
+                .catch(() => {});
         },
     },
 };
