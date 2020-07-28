@@ -1,7 +1,10 @@
 <template>
     <div
-        class="fixed z-40 transition duration-200 ease-in-out transform bg-white"
+        ref="drawer"
+        tabindex="-1"
+        class="fixed z-40 transition duration-200 ease-in-out transform bg-white focus:outline-none"
         :class="[rootClasses, transformClasses]"
+        @keydown.esc="hide"
     >
         <slot />
 
@@ -36,18 +39,48 @@ export default {
     data() {
         return {
             isOpen: this.value,
-            transformClasses: "",
         };
     },
 
     computed: {
         rootClasses() {
             switch (this.placement) {
+                case "top":
+                    return [
+                        "top-0 left-0 right-0 rounded-b-lg",
+                        this.sizeClass || "h-auto",
+                    ];
+
+                case "right":
+                    return [
+                        "right-0 top-0 bottom-0 rounded-l-lg",
+                        this.sizeClass || "w-auto",
+                    ];
+
                 case "bottom":
                     return [
                         "bottom-0 left-0 right-0 rounded-t-lg",
                         this.sizeClass || "h-auto",
                     ];
+
+                case "left":
+                    return [
+                        "left-0 top-0 bottom-0 rounded-r-lg",
+                        this.sizeClass || "w-auto",
+                    ];
+            }
+        },
+
+        transformClasses() {
+            switch (this.placement) {
+                case "top":
+                    return this.isOpen ? "translate-y-0" : "-translate-y-full";
+                case "right":
+                    return this.isOpen ? "translate-x-0" : "translate-x-full";
+                case "bottom":
+                    return this.isOpen ? "translate-y-0" : "translate-y-full";
+                case "left":
+                    return this.isOpen ? "translate-x-0" : "-translate-x-full";
             }
         },
     },
@@ -57,10 +90,9 @@ export default {
             handler: function (val) {
                 this.isOpen = val;
 
-                this.transformClasses =
-                    this.placement === "bottom" && val
-                        ? "translate-y-0"
-                        : "translate-y-full";
+                this.$nextTick(() => {
+                    this.$refs.drawer.focus();
+                });
             },
 
             immediate: true,
