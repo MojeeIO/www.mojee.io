@@ -14,7 +14,7 @@
         <div v-else>No emojis found...</div>
 
         <m-drawer v-model="isDrawerOpen" @hide="onDrawerHide">
-            {{ selectedEmoji }}
+            <emoji-detail :emoji="selectedEmoji || {}" />
         </m-drawer>
     </div>
 </template>
@@ -22,6 +22,7 @@
 <script>
 import debounce from "lodash.debounce";
 import EmojisSearchResultItem from "./EmojisSearchResultItem";
+import EmojiDetail from "./EmojiDetail";
 import { store } from "../store";
 import Mojee from "../../Mojee";
 
@@ -30,6 +31,7 @@ export default {
 
     components: {
         EmojisSearchResultItem,
+        EmojiDetail,
     },
 
     data() {

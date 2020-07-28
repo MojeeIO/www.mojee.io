@@ -1,6 +1,14 @@
 module.exports = {
     purge: false,
     theme: {
+        screens: {
+            xs: "374px",
+            sm: "640px",
+            md: "768px",
+            lg: "1024px",
+            xl: "1280px",
+        },
+
         colors: {
             transparent: "transparent",
             black: "#000",
@@ -68,13 +76,16 @@ module.exports = {
             sm: ["1rem", "1.6"],
             base: ["1.125rem", "1.6"],
             lg: ["1.25rem", "1.6"],
-            xl: ["1.5rem", "1.4"],
-            "2xl": ["1.875rem", "1.4"],
-            "3xl": ["2.25rem", "1.4"],
-            "4xl": ["3rem", "1.3"],
+            xl: ["1.5rem", "1.2"],
+            "2xl": ["1.875rem", "1.2"],
+            "3xl": ["2.25rem", "1.2"],
+            "4xl": ["3rem", "1.2"],
             "5xl": ["3.5rem", "1.2"],
             "6xl": ["3.75rem", "1.2"],
             "8xl": ["4.5rem", "1.1"],
+            "10xl": ["6.5rem", "1"],
+            "16xl": ["9rem", "1"],
+            "20xl": ["12rem", "1"],
         },
 
         fontWeight: {

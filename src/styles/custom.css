@@ -40,6 +40,10 @@
   }
 }
 
+.btn-xs {
+  @apply h-8 px-3 text-xs rounded-xs;
+}
+
 .btn-sm {
   @apply h-10 px-5 text-sm rounded-sm;
 }

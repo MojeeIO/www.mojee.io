@@ -22,6 +22,8 @@ export default {
             type: String,
             default: "bottom",
         },
+
+        sizeClass: String,
     },
 
     data() {
@@ -35,7 +37,10 @@ export default {
         rootClasses() {
             switch (this.placement) {
                 case "bottom":
-                    return "bottom-0 left-0 right-0 h-4/5 md:h-72";
+                    return [
+                        "bottom-0 left-0 right-0 rounded-t-lg",
+                        this.sizeClass || "h-auto",
+                    ];
             }
         },
     },

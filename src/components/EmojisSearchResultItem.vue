@@ -1,14 +1,17 @@
 <template>
-    <div class="relative transition-all duration-100 ease-in transform border border-blue-100 rounded-sm cursor-pointer md:rounded-md pb-full hover:scale-110" @click="onSelectEmoji">
-        <div 
-            v-html="`&\#x${emoji.unicode.replace(/-/g,'&\#x')};`"
+    <div
+        class="relative transition-all duration-100 ease-in transform border border-blue-100 rounded-sm cursor-pointer md:rounded-md pb-full hover:scale-110"
+        @click="onSelectEmoji"
+    >
+        <m-emoji
+            :unicode="emoji.unicode"
             class="absolute inset-0 flex items-center justify-center"
         />
     </div>
 </template>
 
 <script>
-import { store } from '../store';
+import { store } from "../store";
 export default {
     name: "EmojiSearchResultItem",
 
@@ -18,8 +21,8 @@ export default {
 
     methods: {
         onSelectEmoji() {
-            store.actions.setSelectedEmoji(this.emoji)
-        }
-    }
+            store.actions.setSelectedEmoji(this.emoji);
+        },
+    },
 };
 </script>
