@@ -43,28 +43,19 @@
                 <h4 class="font-medium text-gray-900">Copy</h4>
 
                 <div class="flex mt-3">
-                    <m-button
-                        size="xs"
-                        @click="copy($refs.emoji.$el.innerText)"
-                    >
-                        Emoji
-                    </m-button>
+                    <emoji-copy-button label="Emoji" :copy-text="emojiChar" />
 
-                    <m-button
+                    <emoji-copy-button
                         class="ml-3"
-                        size="xs"
-                        @click="copy(emoji.unicode)"
-                    >
-                        Unicode
-                    </m-button>
+                        label="Unicode"
+                        :copy-text="emoji.unicode"
+                    />
 
-                    <m-button
+                    <emoji-copy-button
                         class="ml-3"
-                        size="xs"
-                        @click="copy(`:${emoji.shortcode}:`)"
-                    >
-                        Shortcode
-                    </m-button>
+                        label="Shortcode"
+                        :copy-text="`:${emoji.shortcode}:`"
+                    />
                 </div>
             </div>
         </div>
@@ -72,8 +63,14 @@
 </template>
 
 <script>
+import EmojiCopyButton from "./EmojiCopyButton";
+
 export default {
     name: "EmojiDetail",
+
+    components: {
+        EmojiCopyButton,
+    },
 
     props: {
         emoji: {
@@ -82,14 +79,14 @@ export default {
         },
     },
 
-    methods: {
-        async copy(text) {
-            if (!text) {
-                return;
-            }
+    data() {
+        return {
+            emojiChar: "",
+        };
+    },
 
-            await navigator.clipboard.writeText(text);
-        },
+    updated() {
+        this.emojiChar = this.$refs.emoji.$el.innerText;
     },
 };
 </script>
