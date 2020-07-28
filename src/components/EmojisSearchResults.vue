@@ -81,7 +81,9 @@ export default {
         }, 100),
 
         onDrawerHide() {
-            store.actions.setSelectedEmoji(null);
+            setTimeout(() => {
+                store.actions.setSelectedEmoji(null);
+            }, 300);
         },
     },
 };

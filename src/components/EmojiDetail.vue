@@ -4,6 +4,7 @@
     >
         <div class="flex md:items-center xs:flex-col">
             <m-emoji
+                ref="emoji"
                 :unicode="emoji.unicode"
                 class="mb-5 text-8xl xs:text-10xl md:text-16xl lg:text-20xl"
             />
@@ -33,7 +34,7 @@
 
                 <div class="mt-3 ml-3 font-mono text-xs truncate">
                     <span class="px-2 py-1 bg-gray-100">
-                        {{ emoji.shortcode }}
+                        :{{ emoji.shortcode }}:
                     </span>
                 </div>
             </div>
@@ -42,9 +43,28 @@
                 <h4 class="font-medium text-gray-900">Copy</h4>
 
                 <div class="flex mt-3">
-                    <m-button size="xs">Emoji</m-button>
-                    <m-button class="ml-3" size="xs">Unicode</m-button>
-                    <m-button class="ml-3" size="xs">Shortcode</m-button>
+                    <m-button
+                        size="xs"
+                        @click="copy($refs.emoji.$el.innerText)"
+                    >
+                        Emoji
+                    </m-button>
+
+                    <m-button
+                        class="ml-3"
+                        size="xs"
+                        @click="copy(emoji.unicode)"
+                    >
+                        Unicode
+                    </m-button>
+
+                    <m-button
+                        class="ml-3"
+                        size="xs"
+                        @click="copy(`:${emoji.shortcode}:`)"
+                    >
+                        Shortcode
+                    </m-button>
                 </div>
             </div>
         </div>
@@ -59,6 +79,16 @@ export default {
         emoji: {
             type: Object,
             required: true,
+        },
+    },
+
+    methods: {
+        async copy(text) {
+            if (!text) {
+                return;
+            }
+
+            await navigator.clipboard.writeText(text);
         },
     },
 };

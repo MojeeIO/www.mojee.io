@@ -48,6 +48,8 @@ export default {
 
     methods: {
         onClick() {
+            this.$emit("click");
+
             if (this.to) {
                 this.$router.push(to).catch(noop);
             }
