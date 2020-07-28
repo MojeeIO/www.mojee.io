@@ -1,6 +1,6 @@
 <template>
     <div
-        class="max-w-3xl px-6 pt-12 pb-6 mx-auto md:pt-16 md:pb-12 md:flex md:items-center"
+        class="px-6 pt-12 pb-6 mx-auto md:max-w-3xl xl:max-w-screen-xl xl:pl-72 md:pt-16 md:pb-12 md:flex md:items-center"
     >
         <div class="flex md:items-center xs:flex-col">
             <m-emoji
@@ -17,8 +17,10 @@
         </div>
 
         <div class="xs:mt-6 md:ml-12 lg:ml-12">
-            <h2 class="mt-1 text-xl font-bold text-gray-900 lowercase">
-                {{ emoji.name || "Untitled" }}
+            <h2
+                class="mt-1 text-xl font-bold text-gray-900 lowercase md:text-2xl"
+            >
+                {{ title }}
             </h2>
 
             <div class="grid items-baseline mt-6 codes-grid">
@@ -81,12 +83,21 @@ export default {
 
     data() {
         return {
+            title: "",
             emojiChar: "",
         };
     },
 
     updated() {
         this.emojiChar = this.$refs.emoji.$el.innerText;
+
+        if (this.emoji.name) {
+            this.title = this.emoji.name;
+        } else if (this.emoji.shortcode) {
+            this.title = this.emoji.shortcode.split(/_|-/).join(" ");
+        } else {
+            this.title = "Untitled";
+        }
     },
 };
 </script>
