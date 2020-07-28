@@ -35,7 +35,9 @@ export default {
             if (open) {
                 this.disableBodyScroll();
             } else {
-                this.enableBodyScroll();
+                setTimeout(() => {
+                    this.enableBodyScroll();
+                }, 250);
             }
         },
     },
