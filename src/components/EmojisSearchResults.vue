@@ -3,22 +3,19 @@
         <div
             v-if="results.length"
             class="grid grid-cols-5 gap-3 text-3xl sm:grid-cols-6 md:grid-cols-5 sm:gap-5 lg:gap-6 lg:grid-cols-7 sm:text-4xl md:text-4xl xl:text-6xl"
+            :class="{ 'emoji-drawer-open': isEmojiDrawerOpen }"
         >
             <emojis-search-result-item
                 v-for="emoji in results"
                 :key="emoji.unicode"
-                :class="{ 'select-none': isDrawerOpen }"
+                class="emoji"
                 :emoji="emoji"
             />
         </div>
 
         <div v-else>No emojis found...</div>
 
-        <m-drawer
-            placement="bottom"
-            v-model="isDrawerOpen"
-            @hide="onDrawerHide"
-        >
+        <m-drawer placement="bottom" v-model="isEmojiDrawerOpen">
             <emoji-detail :emoji="selectedEmoji || {}" />
         </m-drawer>
     </div>
@@ -43,7 +40,6 @@ export default {
         return {
             results: [],
             delay: 0,
-            isDrawerOpen: false,
         };
     },
 
@@ -55,6 +51,11 @@ export default {
         selectedEmoji() {
             return store.state.selectedEmoji;
         },
+
+        isEmojiDrawerOpen: {
+            get: () => store.state.isEmojiDrawerOpen,
+            set: (value) => store.actions.setEmojiDrawerState(value),
+        },
     },
 
     watch: {
@@ -64,14 +65,6 @@ export default {
 
         query(val) {
             this.search(val);
-        },
-
-        selectedEmoji: {
-            handler(val) {
-                this.isDrawerOpen = val !== null;
-            },
-
-            immediate: true,
         },
     },
 
@@ -84,12 +77,12 @@ export default {
             this.results =
                 val.length >= 2 ? Mojee.search(val) : Mojee.search("");
         }, 100),
-
-        onDrawerHide() {
-            setTimeout(() => {
-                store.actions.setSelectedEmoji(null);
-            }, 300);
-        },
     },
 };
 </script>
+
+<style scoped>
+.emoji-drawer-open .emoji:last-child {
+    user-select: none;
+}
+</style>

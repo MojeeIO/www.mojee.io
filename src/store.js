@@ -5,6 +5,7 @@ export const store = Vue.observable({
         isFilterSidebarOpen: false,
         searchResultsLength: 0,
         selectedEmoji: null,
+        isEmojiDrawerOpen: false,
     },
 
     actions: {
@@ -18,6 +19,10 @@ export const store = Vue.observable({
 
         setSelectedEmoji(emoji) {
             store.state.selectedEmoji = emoji;
+        },
+
+        setEmojiDrawerState(newState) {
+            store.state.isEmojiDrawerOpen = newState;
         },
     },
 });

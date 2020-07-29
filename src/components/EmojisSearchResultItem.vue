@@ -22,6 +22,7 @@ export default {
     methods: {
         onSelectEmoji() {
             store.actions.setSelectedEmoji(this.emoji);
+            store.actions.setEmojiDrawerState(true);
         },
     },
 };
