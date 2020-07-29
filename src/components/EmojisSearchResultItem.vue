@@ -4,7 +4,7 @@
         @click="onSelectEmoji"
     >
         <m-emoji
-            :unicode="emoji.unicode"
+            :emoji="emoji"
             class="absolute inset-0 flex items-center justify-center"
         />
     </div>

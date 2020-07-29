@@ -4,23 +4,14 @@
             <div class="flex md:items-center xs:flex-col">
                 <m-emoji
                     ref="emoji"
-                    :unicode="emoji.unicode"
+                    :emoji="emoji"
                     class="mb-5 text-8xl xs:text-10xl md:text-16xl lg:text-20xl"
                 />
                 <div class="items-baseline hidden mt-4 xs:flex">
-                    <m-emoji
-                        :unicode="emoji.unicode"
-                        class="text-4xl md:ml-2"
-                    />
-                    <m-emoji
-                        :unicode="emoji.unicode"
-                        class="text-3xl md:ml-2"
-                    />
-                    <m-emoji
-                        :unicode="emoji.unicode"
-                        class="text-2xl md:ml-2"
-                    />
-                    <m-emoji :unicode="emoji.unicode" class="md:ml-2" />
+                    <m-emoji :emoji="emoji" class="text-4xl md:ml-2" />
+                    <m-emoji :emoji="emoji" class="text-3xl md:ml-2" />
+                    <m-emoji :emoji="emoji" class="text-2xl md:ml-2" />
+                    <m-emoji :emoji="emoji" class="md:ml-2" />
                 </div>
             </div>
 
@@ -103,7 +94,7 @@ export default {
     },
 
     updated() {
-        this.emojiChar = this.$refs.emoji.$el.innerText;
+        this.emojiChar = this.$refs.emoji ? this.$refs.emoji.innerText : "";
 
         if (this.emoji.name) {
             this.title = this.emoji.name;
