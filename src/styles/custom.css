@@ -59,3 +59,24 @@
     @apply underline;
   }
 }
+
+/* Tippy Tooltip */
+.tippy-box[data-theme~="mojee"] {
+  background-color: #805ad5;
+  color: #fff;
+}
+
+.tippy-box[data-theme~="mojee"][data-placement^="top"] > .tippy-arrow::before {
+  border-top-color: #805ad5;
+}
+.tippy-box[data-theme~="mojee"][data-placement^="bottom"]
+  > .tippy-arrow::before {
+  border-bottom-color: #805ad5;
+}
+.tippy-box[data-theme~="mojee"][data-placement^="left"] > .tippy-arrow::before {
+  border-left-color: #805ad5;
+}
+.tippy-box[data-theme~="mojee"][data-placement^="right"]
+  > .tippy-arrow::before {
+  border-right-color: #805ad5;
+}

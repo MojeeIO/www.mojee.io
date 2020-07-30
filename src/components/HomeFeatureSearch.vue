@@ -76,6 +76,7 @@ export default {
     mounted() {
         tippy("[data-tippy-content]", {
             delay: 20,
+            theme: "mojee",
         });
     },
 };

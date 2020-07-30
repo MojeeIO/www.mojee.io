@@ -33,6 +33,7 @@ export default {
         tippy(this.$refs.result, {
             content: `:${this.emoji.shortcode}:` || "",
             delay: 20,
+            theme: "mojee",
         });
     },
 };
