@@ -75,7 +75,7 @@ export default {
 
     mounted() {
         tippy("[data-tippy-content]", {
-            delay: 100,
+            delay: 20,
         });
     },
 };
