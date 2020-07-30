@@ -1,5 +1,5 @@
 <template>
-    <div class="sticky z-10 flex items-center top-21 md:top-6">
+    <div class="sticky flex items-center z-5 top-21 md:top-6">
         <input
             ref="input"
             type="text"
