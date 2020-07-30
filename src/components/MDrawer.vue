@@ -91,7 +91,7 @@ export default {
                 this.isOpen = val;
 
                 this.$nextTick(() => {
-                    this.$refs.drawer.focus();
+                    this.$refs.drawer && this.$refs.drawer.focus();
                 });
             },
 
