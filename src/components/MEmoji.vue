@@ -35,7 +35,7 @@ export default {
                     domProps: { innerHTML: emojiHtml },
                 }),
             );
-            console.log(props.hasTooltip);
+
             if (props.hasTooltip) {
                 content.push(
                     h(

@@ -1,5 +1,6 @@
 <template>
     <div
+        ref="result"
         class="relative transition-all duration-100 ease-in transform border border-blue-100 rounded-sm cursor-pointer md:rounded-md pb-full hover:scale-110"
         @click="onSelectEmoji"
     >
@@ -12,6 +13,8 @@
 
 <script>
 import { store } from "../store";
+import tippy from "tippy.js";
+
 export default {
     name: "EmojiSearchResultItem",
 
@@ -24,6 +27,13 @@ export default {
             store.actions.setSelectedEmoji(this.emoji);
             store.actions.setEmojiDrawerState(true);
         },
+    },
+
+    mounted() {
+        tippy(this.$refs.result, {
+            content: `:${this.emoji.shortcode}:` || "",
+            delay: 100,
+        });
     },
 };
 </script>

@@ -12,7 +12,8 @@
     "lodash.debounce": "^4.0.8",
     "portal-vue": "^2.1.7",
     "prismjs": "^1.20.0",
-    "tailwindcss": "^1.4.6"
+    "tailwindcss": "^1.4.6",
+    "tippy.js": "^6.2.6"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.3.0",

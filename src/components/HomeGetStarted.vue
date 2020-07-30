@@ -22,7 +22,7 @@
         </a>
 
         <div
-            class="grid grid-cols-3 gap-5 mt-24 transform translate-y-3 lg:translate-y-5 sm:mt-32 xl:px-16 sm:grid-cols-5 md:grid-cols-7 lg:grid-cols-9"
+            class="grid grid-cols-3 gap-5 mt-24 transform translate-y-3 cursor-default lg:translate-y-5 sm:mt-32 xl:px-16 sm:grid-cols-5 md:grid-cols-7 lg:grid-cols-9"
         >
             <div
                 v-for="(emojiArr, index) in emojis"
@@ -36,14 +36,15 @@
                 }"
             >
                 <div
-                    v-for="emoji in emojiArr"
-                    :key="emoji"
+                    v-for="item in emojiArr"
+                    :key="item.shortcode"
                     class="relative pb-full"
+                    :data-tippy-content="item.shortcode"
                 >
                     <div
                         class="absolute inset-0 z-10 flex items-center justify-center text-2xl bg-white rounded-md sm:text-3xl"
                     >
-                        {{ emoji }}
+                        {{ item.emoji }}
                     </div>
                 </div>
             </div>
@@ -52,23 +53,61 @@
 </template>
 
 <script>
+import tippy from "tippy.js";
+
 export default {
     name: "HomeGetStarted",
 
     data() {
         return {
             emojis: [
-                ["🚴", "😜"],
-                ["🍭", "❤"],
-                ["🍄", "👌"],
-                ["👧", "🦄"],
-                ["💩", "🚀"],
-                ["🙊", "🌻"],
-                ["🙋", "👍"],
-                ["🍹", "👽"],
-                ["🐶", "😁"],
+                [
+                    { emoji: "🚴", shortcode: ":bike:" },
+                    {
+                        emoji: "😜",
+                        shortcode: ":stuck_out_tongue_winking_eye:",
+                    },
+                ],
+                [
+                    { emoji: "🍭", shortcode: ":lollipop:" },
+                    { emoji: "❤️", shortcode: ":heart:" },
+                ],
+                [
+                    { emoji: "🍄", shortcode: ":mushroom:" },
+                    { emoji: "👌", shortcode: ":ok_hand:" },
+                ],
+                [
+                    { emoji: "👧", shortcode: ":girl:" },
+                    { emoji: "🦄", shortcode: ":unicorn_face:" },
+                ],
+                [
+                    { emoji: "💩", shortcode: ":hankey:" },
+                    { emoji: "🚀", shortcode: ":rocket:" },
+                ],
+                [
+                    { emoji: "🐵", shortcode: ":monkey_face:" },
+                    { emoji: "🌻", shortcode: ":sunflower:" },
+                ],
+                [
+                    { emoji: "🙋‍♀️", shortcode: ":woman-raising-hand:" },
+                    { emoji: "👍", shortcode: ":+1:" },
+                ],
+                [
+                    { emoji: "🍹", shortcode: ":tropical_drink:" },
+                    { emoji: "👽", shortcode: ":alien:" },
+                ],
+                [
+                    { emoji: "🐶", shortcode: ":dog:" },
+                    { emoji: "😁", shortcode: ":grin:" },
+                ],
             ],
         };
+    },
+
+    mounted() {
+        tippy("[data-tippy-content]", {
+            delay: 100,
+        });
     },
 };
 </script>

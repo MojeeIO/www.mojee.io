@@ -21,7 +21,7 @@
                 class="flex items-center justify-between w-full px-4 bg-white rounded shadow-2xl h-15"
             >
                 <div class="flex items-center">
-                    <span>holiday</span>
+                    <span>face</span>
                     <svg
                         class="pl-px"
                         xmlns="http://www.w3.org/2000/svg"
@@ -41,13 +41,14 @@
             <div class="grid grid-cols-4 gap-5 mt-5">
                 <div
                     v-for="emoji in emojis"
-                    :key="emoji"
+                    :key="emoji.shortcode"
                     class="relative w-full bg-white rounded shadow-2xl pb-full"
+                    :data-tippy-content="emoji.shortcode"
                 >
                     <span
                         class="absolute inset-0 flex items-center justify-center text-xl md:text-3xl"
                     >
-                        {{ emoji }}
+                        {{ emoji.emoji }}
                     </span>
                 </div>
             </div>
@@ -56,13 +57,26 @@
 </template>
 
 <script>
+import tippy from "tippy.js";
+
 export default {
     name: "HomeFeatureSearch",
 
     data() {
         return {
-            emojis: ["🎄", "⛱️", "🎁", "🎀"],
+            emojis: [
+                { emoji: "🤡", shortcode: ":clown_face:" },
+                { emoji: "🥶", shortcode: ":cold_face:" },
+                { emoji: "🤖", shortcode: ":robot_face:" },
+                { emoji: "🦊", shortcode: ":fox_face:" },
+            ],
         };
+    },
+
+    mounted() {
+        tippy("[data-tippy-content]", {
+            delay: 100,
+        });
     },
 };
 </script>
