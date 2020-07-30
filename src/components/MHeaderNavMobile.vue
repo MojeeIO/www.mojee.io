@@ -15,6 +15,7 @@
                     v-for="item in $static.metadata.siteNav"
                     :key="item.to"
                     v-if="isMobileMenuOpen"
+                    @click="$emit('link-click')"
                 >
                     <g-link
                         class="flex items-center justify-center text-2xl font-extrabold text-yellow-700 h-15"

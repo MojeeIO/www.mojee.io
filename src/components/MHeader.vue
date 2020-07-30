@@ -29,6 +29,7 @@
         <m-header-nav-mobile
             class="z-30 md:hidden"
             :isMobileMenuOpen="isMobileMenuOpen"
+            @link-click="isMobileMenuOpen = false"
         />
     </header>
 </template>
