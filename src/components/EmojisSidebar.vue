@@ -9,6 +9,7 @@
                     :value="category.id"
                     v-model="selected"
                     class="absolute opacity-0"
+                    @click="onClick"
                 />
 
                 <span
@@ -28,6 +29,7 @@
 
 <script>
 import updateRouteQuery from "../mixins/updateRouteQuery";
+import { store } from "../store";
 
 export default {
     name: "SearchSidebar",
@@ -66,6 +68,12 @@ export default {
                 this.selected = newRoute.query.category || "0";
             },
             immediate: true,
+        },
+    },
+
+    methods: {
+        onClick() {
+            store.actions.setFilterSidebarState(false);
         },
     },
 };
