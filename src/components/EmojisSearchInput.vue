@@ -11,7 +11,7 @@
 
         <div class="absolute right-0 flex items-center mr-5">
             <button
-                v-if="query"
+                v-show="query !== ''"
                 class="flex items-center justify-center w-6 h-6 text-gray-700 rounded-full hover:bg-gray-200 focus:outline-none"
                 @click="query = ''"
             >
