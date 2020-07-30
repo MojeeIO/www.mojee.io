@@ -14,7 +14,11 @@
 
         <div v-else>No emojis found...</div>
 
-        <m-drawer placement="bottom" v-model="isEmojiDrawerOpen">
+        <m-drawer
+            :class="{ 'opacity-0': !selectedEmoji }"
+            placement="bottom"
+            v-model="isEmojiDrawerOpen"
+        >
             <emoji-detail :emoji="selectedEmoji || {}" />
         </m-drawer>
     </div>
