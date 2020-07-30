@@ -77,6 +77,7 @@ export default {
         tippy("[data-tippy-content]", {
             delay: 20,
             theme: "mojee",
+            touch: "hold",
         });
     },
 };

@@ -34,6 +34,7 @@ export default {
             content: `:${this.emoji.shortcode}:` || "",
             delay: 20,
             theme: "mojee",
+            touch: false,
         });
     },
 };
