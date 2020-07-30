@@ -2,7 +2,7 @@
     <m-intersect @enter="isInViewport = true">
         <div
             v-if="!isMounted && !isInViewport"
-            class="bg-gray-100 rounded-sm pb-full"
+            class="border-blue-100 rounded-sm pb-full"
         ></div>
         <div
             v-if="isInViewport"
