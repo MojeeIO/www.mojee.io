@@ -1,5 +1,5 @@
 <template>
-    <m-intersect @enter="isInViewport = true" @leave="isInViewport = false">
+    <m-intersect @enter="isInViewport = true">
         <div
             v-if="!isMounted && !isInViewport"
             class="bg-gray-100 rounded-sm pb-full"
@@ -61,7 +61,7 @@ export default {
     mounted() {
         setTimeout(() => {
             this.isMounted = true;
-        }, 1);
+        }, 10);
     },
 };
 </script>
