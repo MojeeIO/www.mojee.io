@@ -3,6 +3,7 @@ import Vue from "vue";
 export const store = Vue.observable({
     state: {
         isFilterSidebarOpen: false,
+        totalEmojis: 0,
         searchResultsLength: 0,
         selectedEmoji: null,
         isEmojiDrawerOpen: false,
@@ -13,8 +14,12 @@ export const store = Vue.observable({
             store.state.isFilterSidebarOpen = newState;
         },
 
-        setSearchResultsLength(len) {
-            store.state.searchResultsLength = len;
+        setTotalEmojis(value) {
+            store.state.totalEmojis = value;
+        },
+
+        setSearchResultsLength(value) {
+            store.state.searchResultsLength = value;
         },
 
         setSelectedEmoji(emoji) {

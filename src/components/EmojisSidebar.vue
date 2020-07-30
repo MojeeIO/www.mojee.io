@@ -36,9 +36,9 @@ export default {
 
     data() {
         return {
-            selected: "all",
+            selected: "0",
             categories: [
-                { id: "all", name: "All " },
+                { id: "0", name: "All " },
                 { id: "1", name: "Smileys & Emotion " },
                 { id: "2", name: "People & Body " },
                 { id: "3", name: "Animals & Nature " },
@@ -56,14 +56,14 @@ export default {
         selected(val) {
             this.updateRouteQuery({
                 name: "category",
-                defaultValue: "all",
+                defaultValue: "0",
                 newValue: val,
             });
         },
 
         $route: {
             handler(newRoute) {
-                this.selected = newRoute.query.category || "all";
+                this.selected = newRoute.query.category || "0";
             },
             immediate: true,
         },

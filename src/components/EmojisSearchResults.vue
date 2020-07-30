@@ -77,6 +77,8 @@ export default {
     },
 
     mounted() {
+        store.actions.setTotalEmojis(Mojee.data.length);
+
         this.results = Mojee.search(this.query, { category: this.category });
     },
 

@@ -7,7 +7,14 @@
             <m-icon width="20" height="20"><m-icon-filter /></m-icon>
         </button>
 
-        <div class="text-sm">{{ resultText }}</div>
+        <div class="text-sm" v-if="searchResultsLength < totalEmojis">
+            Showing
+            <span class="font-extrabold text-gray-900">
+                {{ searchResultsLength }}
+            </span>
+            of {{ totalEmojis }} {{ emojisText }}
+        </div>
+        <div v-else>Showing all {{ totalEmojis }} {{ emojisText }}</div>
 
         <!-- <div>
             <button
@@ -31,11 +38,16 @@ export default {
     name: "EmojisToolbar",
 
     computed: {
-        resultText() {
-            const len = store.state.searchResultsLength;
-            const emojis = len === 1 ? "emoji" : "emojis";
+        totalEmojis() {
+            return store.state.totalEmojis;
+        },
 
-            return `Showing ${len} ${emojis}`;
+        searchResultsLength() {
+            return store.state.searchResultsLength;
+        },
+
+        emojisText() {
+            return this.searchResultsLength === 1 ? "emoji" : "emojis";
         },
     },
 
