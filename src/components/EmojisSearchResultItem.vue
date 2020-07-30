@@ -32,7 +32,7 @@ export default {
     mounted() {
         tippy(this.$refs.result, {
             content: `:${this.emoji.shortcode}:` || "",
-            delay: 100,
+            delay: 20,
         });
     },
 };
