@@ -38,7 +38,7 @@ export default {
 
     data() {
         return {
-            selected: "0",
+            selected: "",
             categories: [
                 { id: "0", name: "All " },
                 { id: "1", name: "Smileys & Emotion " },
@@ -65,8 +65,11 @@ export default {
 
         $route: {
             handler(newRoute) {
-                this.selected = newRoute.query.category || "0";
+                this.$nextTick(() => {
+                    this.selected = newRoute.query.category || "0";
+                });
             },
+
             immediate: true,
         },
     },
