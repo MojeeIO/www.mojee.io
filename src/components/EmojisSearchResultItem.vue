@@ -1,14 +1,21 @@
 <template>
-    <div
-        ref="result"
-        class="relative transition-all duration-100 ease-in transform border border-blue-100 rounded-sm cursor-pointer md:rounded-md pb-full hover:scale-110"
-        @click="onSelectEmoji"
-    >
-        <m-emoji
-            :emoji="emoji"
-            class="absolute inset-0 flex items-center justify-center"
-        />
-    </div>
+    <m-intersect @enter="isInViewport = true" @leave="isInViewport = false">
+        <div
+            v-if="!isMounted && !isInViewport"
+            class="bg-gray-100 rounded-sm pb-full"
+        ></div>
+        <div
+            v-if="isInViewport"
+            ref="result"
+            class="relative transition-all duration-100 ease-in transform border border-blue-100 rounded-sm cursor-pointer md:rounded-md pb-full hover:scale-110"
+            @click="onSelectEmoji"
+        >
+            <m-emoji
+                :emoji="emoji"
+                class="absolute inset-0 flex items-center justify-center"
+            />
+        </div>
+    </m-intersect>
 </template>
 
 <script>
@@ -22,6 +29,13 @@ export default {
         emoji: Object,
     },
 
+    data() {
+        return {
+            isInViewport: false,
+            isMounted: false,
+        };
+    },
+
     methods: {
         onSelectEmoji() {
             store.actions.setSelectedEmoji(this.emoji);
@@ -29,13 +43,25 @@ export default {
         },
     },
 
+    watch: {
+        isInViewport(val) {
+            if (val) {
+                this.$nextTick(() => {
+                    tippy(this.$refs.result, {
+                        content: `:${this.emoji.shortcode}:` || "",
+                        delay: 20,
+                        theme: "mojee",
+                        touch: false,
+                    });
+                });
+            }
+        },
+    },
+
     mounted() {
-        tippy(this.$refs.result, {
-            content: `:${this.emoji.shortcode}:` || "",
-            delay: 20,
-            theme: "mojee",
-            touch: false,
-        });
+        setTimeout(() => {
+            this.isMounted = true;
+        }, 1);
     },
 };
 </script>

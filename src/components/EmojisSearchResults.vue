@@ -8,7 +8,6 @@
             <emojis-search-result-item
                 v-for="emoji in results"
                 :key="emoji.unicode"
-                class="emoji"
                 :emoji="emoji"
             />
         </div>
