@@ -46,7 +46,7 @@
                     :data-tippy-content="emoji.shortcode"
                 >
                     <span
-                        class="absolute inset-0 flex items-center justify-center text-xl md:text-3xl"
+                        class="absolute inset-0 flex items-center justify-center text-xl cursor-default md:text-3xl"
                     >
                         {{ emoji.emoji }}
                     </span>

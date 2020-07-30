@@ -45,7 +45,9 @@ Console.Write($"{emoji.Shortcode}: {emoji.Unicode}");
 </pre>
                     </m-tab>
 
-                    <m-tab label="TypeScript">
+                    <m-tab
+                        label="<div class='flex items-center'><div>TypeScript</div><div class='relative flex items-center h-6 px-2 ml-4 text-xs text-white bg-gray-500 rounded-xs'>Coming soon</div></div>"
+                    >
                         <pre v-highlight:ts>
 <code>// 1. Replace all shortcodes with an emoji
 Mojee.replace("Hello, world :smile:");

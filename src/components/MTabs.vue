@@ -9,9 +9,8 @@
                     ]"
                     href
                     @click.prevent="onTabClick(index)"
-                >
-                    {{ tabItem.label }}
-                </a>
+                    v-html="tabItem.label"
+                />
             </li>
         </ul>
 
