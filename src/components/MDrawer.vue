@@ -11,13 +11,22 @@
         <portal to="overlay">
             <m-overlay
                 :is-open="isOpen"
-                @swipe-left="placement === 'left' && hide()"
-                @swipe-right="placement === 'right' && hide()"
-                @swipe-down="placement === 'bottom' && hide()"
-                @swipe-up="placement === 'top' && hide()"
+                @swipe-left="() => placement === 'left' && hide()"
+                @swipe-right="() => placement === 'right' && hide()"
+                @swipe-down="() => placement === 'bottom' && hide()"
+                @swipe-up="() => placement === 'top' && hide()"
                 @click="hide"
             />
         </portal>
+
+        <button
+            class="absolute flex items-center justify-center w-10 h-10 top-5 right-5 focus:outline-none"
+            @click="hide"
+        >
+            <m-icon width="24" height="24">
+                <m-icon-close />
+            </m-icon>
+        </button>
     </div>
 </template>
 
@@ -39,38 +48,11 @@ export default {
     data() {
         return {
             isOpen: this.value,
+            rootClasses: "",
         };
     },
 
     computed: {
-        rootClasses() {
-            switch (this.placement) {
-                case "top":
-                    return [
-                        "top-0 left-0 right-0 rounded-b-lg",
-                        this.sizeClass || "h-auto",
-                    ];
-
-                case "right":
-                    return [
-                        "right-0 top-0 bottom-0 rounded-l-lg",
-                        this.sizeClass || "w-auto",
-                    ];
-
-                case "bottom":
-                    return [
-                        "bottom-0 left-0 right-0 rounded-t-lg",
-                        this.sizeClass || "h-auto",
-                    ];
-
-                case "left":
-                    return [
-                        "left-0 top-0 bottom-0 rounded-r-lg",
-                        this.sizeClass || "w-auto",
-                    ];
-            }
-        },
-
         transformClasses() {
             switch (this.placement) {
                 case "top":
@@ -105,9 +87,47 @@ export default {
         },
     },
 
+    beforeMount() {
+        this.setClasses();
+    },
+
     methods: {
         hide() {
             this.isOpen = false;
+        },
+
+        setClasses() {
+            switch (this.placement) {
+                case "top":
+                    this.rootClasses = [
+                        "top-0 left-0 right-0 rounded-b-lg",
+                        this.sizeClass || "h-auto",
+                    ];
+
+                    break;
+
+                case "right":
+                    this.rootClasses = [
+                        "right-0 top-0 bottom-0 rounded-l-lg",
+                        this.sizeClass || "w-auto",
+                    ];
+
+                    break;
+
+                case "bottom":
+                    this.rootClasses = [
+                        "bottom-0 left-0 right-0 rounded-t-lg",
+                        this.sizeClass || "h-auto",
+                    ];
+
+                    break;
+
+                case "left":
+                    this.rootClasses = [
+                        "left-0 top-0 bottom-0 rounded-r-lg",
+                        this.sizeClass || "w-auto",
+                    ];
+            }
         },
     },
 };

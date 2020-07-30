@@ -4,7 +4,7 @@
             <emojis-sidebar class="hidden md:block" />
 
             <m-drawer placement="left" v-model="isFilterSidebarOpen">
-                <emojis-sidebar class="mt-6 ml-6" />
+                <emojis-sidebar class="mt-8 ml-6" />
             </m-drawer>
 
             <emojis-content class="xl:pl-10" />
