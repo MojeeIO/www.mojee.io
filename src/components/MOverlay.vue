@@ -10,12 +10,12 @@
 
 <script>
 import { store } from "../store";
-// import bodyScroll from "../mixins/bodyScroll";
+import bodyScroll from "../mixins/bodyScroll";
 
 export default {
     name: "MOverlay",
 
-    // mixins: [bodyScroll],
+    mixins: [bodyScroll],
 
     props: {
         isOpen: Boolean,
@@ -30,17 +30,17 @@ export default {
         };
     },
 
-    // watch: {
-    //     isOpen(open) {
-    //         if (open) {
-    //             this.disableBodyScroll();
-    //         } else {
-    //             setTimeout(() => {
-    //                 this.enableBodyScroll();
-    //             }, 250);
-    //         }
-    //     },
-    // },
+    watch: {
+        isOpen(open) {
+            if (open) {
+                this.disableBodyScroll();
+            } else {
+                setTimeout(() => {
+                    this.enableBodyScroll();
+                }, 250);
+            }
+        },
+    },
 
     methods: {
         onTouchStart(e) {
