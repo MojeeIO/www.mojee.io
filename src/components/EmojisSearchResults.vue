@@ -48,6 +48,10 @@ export default {
             return this.$route.query.q || "";
         },
 
+        category() {
+            return parseInt(this.$route.query.category, 10) || 0;
+        },
+
         selectedEmoji() {
             return store.state.selectedEmoji;
         },
@@ -63,19 +67,25 @@ export default {
             store.actions.setSearchResultsLength(this.results.length);
         },
 
-        query(val) {
-            this.search(val);
+        "$route.query": {
+            handler(routeQuery) {
+                this.search(this.query, { category: this.category });
+            },
+
+            deep: true,
         },
     },
 
     mounted() {
-        this.results = Mojee.search(this.query);
+        this.results = Mojee.search(this.query, { category: this.category });
     },
 
     methods: {
         search: debounce(function (val) {
             this.results =
-                val.length >= 2 ? Mojee.search(val) : Mojee.search("");
+                val.length >= 2
+                    ? Mojee.search(val, { category: this.category })
+                    : Mojee.search("", { category: this.category });
         }, 100),
     },
 };
