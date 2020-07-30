@@ -2,9 +2,10 @@
   "name": "mojeeweb",
   "private": true,
   "scripts": {
-    "build": "gridsome build",
-    "dev": "gridsome develop",
-    "explore": "gridsome explore"
+    "build": "npm run build:mojee && gridsome build",
+    "dev": "npm run build:mojee && gridsome develop",
+    "explore": "gridsome explore",
+    "build:mojee": "node ./data/index.js"
   },
   "dependencies": {
     "clipboard-polyfill": "^3.0.1",

@@ -26,7 +26,7 @@ import debounce from "lodash.debounce";
 import EmojisSearchResultItem from "./EmojisSearchResultItem";
 import EmojiDetail from "./EmojiDetail";
 import { store } from "../store";
-import Mojee from "../../Mojee";
+import Mojee from "../../data/Mojee";
 
 export default {
     name: "EmojisSearchResults",
