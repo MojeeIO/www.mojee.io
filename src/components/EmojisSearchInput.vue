@@ -51,8 +51,10 @@ export default {
     },
 
     mounted() {
-        this.$refs.input.focus();
-        this.getScrollTop();
+        this.$nextTick(() => {
+            this.$refs.input.focus();
+            this.getScrollTop();
+        });
 
         window.addEventListener("scroll", this.getScrollTop);
     },
