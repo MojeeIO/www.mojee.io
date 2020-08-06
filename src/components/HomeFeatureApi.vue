@@ -27,7 +27,7 @@
                     nav-item-active-classes="bg-gray-800 text-white"
                     tab-content-classes="px-8 py-4 text-gray-300"
                 >
-                    <m-tab label="<div class='flex items-center'><div>.NET</div><div class='relative flex items-center h-6 px-2 ml-4 text-xs text-white bg-gray-500 rounded-xs'>Available now</div></div>" visible>
+                    <m-tab label=".NET" visible>
                         <pre v-highlight:cs>
 <code>// 1. Replace all shortcodes with an emoji
 Mojee.Replace("Hello, world :smile:");
