@@ -3,7 +3,7 @@
         <h5 class="mb-4 text-xs text-gray-900">CATEGORY</h5>
 
         <div v-for="category in categories" :key="category.id" class="mt-1">
-            <label class="inline-flex items-center cursor-pointer">
+            <label class="inline-flex items-center cursor-pointer group">
                 <input
                     type="radio"
                     :value="category.id"
@@ -13,11 +13,11 @@
                 />
 
                 <span
-                    class="inline-block w-4 h-4 rounded-full"
+                    class="inline-block w-4 h-4 transition-all duration-75 ease-linear rounded-full"
                     :class="
                         selected === category.id
                             ? 'border-6 border-blue-500'
-                            : 'border-2 border-gray-400'
+                            : 'border-2 border-gray-400 group-hover:border-blue-300'
                     "
                 ></span>
 
