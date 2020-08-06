@@ -33,7 +33,8 @@
                         <m-icon-checkbox-unchecked v-else />
                     </m-icon>
                     <p class="ml-3">
-                        Include a copy of the Mojee library source code for +$350
+                        Include a copy of the Mojee library source code for
+                        +$350
                     </p>
                 </li>
             </ul>

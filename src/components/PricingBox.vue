@@ -6,8 +6,8 @@
         <h3 class="text-3xl font-bold" :class="titleClasses">{{ title }}</h3>
 
         <div class="flex items-start mt-4" :class="priceClasses">
-            <div class="text-3xl opacity-50">$</div>
-            <div class="flex flex-wrap items-start ml-1 font-bold leading-none">
+            <div class="-mt-px text-3xl opacity-50">$</div>
+            <div class="flex flex-wrap items-start ml-1 -mt-2 font-bold">
                 <div
                     class="relative flex items-center mr-2"
                     :class="
