@@ -97,6 +97,7 @@ module.exports = {
 
         spacing: {
             full: "100%",
+            vmax: "100vmax",
             px: "1px",
             "1/2": "50%",
             "1/4": "25%",
@@ -182,6 +183,10 @@ module.exports = {
 
             zIndex: {
                 "5": "5",
+            },
+
+            scale: {
+                "200": "2",
             },
         },
     },
