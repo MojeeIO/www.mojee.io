@@ -45,17 +45,20 @@
                 <div class="mt-4 md:mt-10">
                     <div class="flex mt-3">
                         <emoji-copy-button
+                            ref="copyEmoji"
                             label="Emoji"
                             :copy-text="emojiChar"
                         />
 
                         <emoji-copy-button
+                            ref="copyUnicode"
                             class="ml-3"
                             label="Unicode"
                             :copy-text="emoji.unicode"
                         />
 
                         <emoji-copy-button
+                            ref="copyShortcode"
                             class="ml-3"
                             label="Shortcode"
                             :copy-text="`:${emoji.shortcode}:`"
@@ -68,6 +71,7 @@
 </template>
 
 <script>
+import tippy from "tippy.js";
 import EmojiCopyButton from "./EmojiCopyButton";
 
 export default {
@@ -91,6 +95,20 @@ export default {
         };
     },
 
+    computed: {
+        copyButtons() {
+            return [
+                { ref: "copyEmoji", copyText: this.emojiChar },
+                { ref: "copyUnicode", copyText: this.emoji.unicode },
+                { ref: "copyShortcode", copyText: this.emoji.shortcode },
+            ];
+        },
+    },
+
+    mounted() {
+        this.initializeTooltips();
+    },
+
     updated() {
         this.emojiChar = this.$refs.emoji ? this.$refs.emoji.innerText : "";
 
@@ -101,6 +119,30 @@ export default {
         } else {
             this.title = "Untitled";
         }
+
+        this.updateTooltipContent();
+    },
+
+    methods: {
+        initializeTooltips() {
+            [
+                this.emojiTooltip,
+                this.unicodeTooltip,
+                this.shortcodeTooltip,
+            ] = this.copyButtons.map((btn) =>
+                tippy(this.$refs[btn.ref].$el, {
+                    content: btn.copyText,
+                    theme: "mojee",
+                    touch: false,
+                }),
+            );
+        },
+
+        updateTooltipContent() {
+            this.emojiTooltip.setContent(this.emojiChar);
+            this.unicodeTooltip.setContent(this.emoji.unicode);
+            this.shortcodeTooltip.setContent(`:${this.emoji.shortcode}:`);
+        },
     },
 };
 </script>
