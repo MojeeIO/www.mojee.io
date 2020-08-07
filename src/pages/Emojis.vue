@@ -1,6 +1,6 @@
 <template>
     <Layout>
-        <div class="flex max-w-screen-xl pt-5 mx-auto md:pt-10">
+        <div class="flex max-w-screen-xl mx-auto md:pt-4">
             <emojis-sidebar class="hidden md:block" />
 
             <m-drawer placement="left" v-model="isFilterSidebarOpen">

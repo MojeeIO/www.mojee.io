@@ -1,5 +1,5 @@
 <template>
-    <aside class="sticky h-full md:z-0 top-6 w-72">
+    <aside class="sticky top-0 h-full pt-5 md:z-0 w-72">
         <h5 class="mb-4 text-xs text-gray-900">CATEGORY</h5>
 
         <div v-for="category in categories" :key="category.id" class="mt-1">

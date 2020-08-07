@@ -1,8 +1,12 @@
 <template>
     <div class="flex-grow">
-        <emojis-search-input />
-
-        <emojis-toolbar />
+        <div
+            class="sticky px-6 pt-5 -mx-6 bg-white top-16 md:top-0 z-5 bg-opacity-90 md:bg-opacity-95 bg-filters"
+            style="backdrop-filter: blur(4px);"
+        >
+            <emojis-search-input />
+            <emojis-toolbar />
+        </div>
 
         <emojis-search-results />
     </div>

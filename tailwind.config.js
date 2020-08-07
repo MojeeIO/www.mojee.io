@@ -188,6 +188,11 @@ module.exports = {
             scale: {
                 "200": "2",
             },
+
+            opacity: {
+                "90": "0.9",
+                "95": "0.95",
+            },
         },
     },
     variants: {

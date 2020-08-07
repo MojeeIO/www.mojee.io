@@ -1,11 +1,10 @@
 <template>
-    <div class="sticky flex items-center z-5 top-21 md:top-6">
+    <div class="relative flex items-center">
         <input
             ref="input"
             type="text"
             placeholder="Search Emojis..."
             class="w-full h-12 pl-5 pr-12 bg-white border-2 border-gray-200 rounded-sm md:rounded md:h-15 focus:outline-none focus:border-yellow-500"
-            :class="{ 'shadow-lg': scrollTop > 74 }"
             v-model="query"
         />
 
@@ -36,7 +35,6 @@ export default {
     data() {
         return {
             query: this.$route.query.q || "",
-            scrollTop: 0,
         };
     },
 
@@ -55,24 +53,10 @@ export default {
             if (window.innerWidth > 640) {
                 this.$refs.input.focus();
             }
-
-            this.getScrollTop();
         });
-
-        window.addEventListener("scroll", this.getScrollTop);
-    },
-
-    beforeDestroy() {
-        window.removeEventListener("scroll", this.getScrollTop);
     },
 
     methods: {
-        getScrollTop() {
-            this.scrollTop = Math.abs(
-                document.body.getBoundingClientRect().top,
-            );
-        },
-
         clear() {
             this.query = "";
             this.$refs.input.focus();
