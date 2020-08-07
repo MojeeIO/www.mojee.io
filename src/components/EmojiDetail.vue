@@ -1,11 +1,11 @@
 <template>
-    <div class="flex items-center px-6 py-6 mx-auto md:pt-15 md:pb-10">
+    <div class="flex items-center px-6 py-6 pt-8 pb-8 mx-auto md:pb-10 md:pt-15">
         <div class="flex flex-col mx-auto md:items-center md:flex-row">
             <div class="flex items-baseline md:items-center md:flex-col">
                 <m-emoji
                     ref="emoji"
                     :emoji="emoji"
-                    class="text-8xl md:text-16xl lg:text-20xl"
+                    class="text-8xl xs:text-10xl md:text-16xl lg:text-20xl"
                 />
                 <div class="flex items-baseline md:mt-10">
                     <m-emoji :emoji="emoji" class="text-4xl" />
@@ -17,12 +17,12 @@
 
             <div class="md:ml-12 lg:ml-12">
                 <h2
-                    class="mt-4 text-xl font-extrabold text-gray-900 lowercase md:mt-0 md:text-3xl"
+                    class="mt-6 text-xl font-extrabold text-gray-900 lowercase md:mt-0 md:text-3xl"
                 >
                     {{ title }}
                 </h2>
 
-                <div class="grid items-baseline mt-2 codes-grid md:mt-10">
+                <div class="grid items-baseline mt-4 codes-grid md:mt-10">
                     <div class="text-sm font-medium text-gray-900">Unicode</div>
 
                     <div class="ml-3 font-mono text-xs truncate">
@@ -35,14 +35,14 @@
                         Shortcode
                     </div>
 
-                    <div class="mt-1 ml-3 font-mono text-xs truncate md:mt-3">
+                    <div class="mt-3 ml-3 font-mono text-xs truncate md:mt-3">
                         <span class="px-2 py-1 bg-gray-100">
                             :{{ emoji.shortcode }}:
                         </span>
                     </div>
                 </div>
 
-                <div class="mt-4 md:mt-10">
+                <div class="mt-6 md:mt-10">
                     <div class="flex mt-3">
                         <emoji-copy-button
                             ref="copyEmoji"
