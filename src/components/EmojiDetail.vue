@@ -1,14 +1,14 @@
 <template>
-    <div class="flex items-center px-6 pb-10 mx-auto pt-15">
-        <div class="flex flex-col mx-auto md:flex-row md:items-center">
-            <div class="flex md:items-center xs:flex-col">
+    <div class="flex items-center px-6 pt-12 pb-10 mx-auto md:pt-15">
+        <div class="flex flex-col items-center mx-auto md:flex-row">
+            <div class="flex items-baseline md:items-center md:flex-col">
                 <m-emoji
                     ref="emoji"
                     :emoji="emoji"
-                    class="mb-5 text-8xl xs:text-10xl md:text-16xl lg:text-20xl"
+                    class="text-8xl xs:text-10xl md:text-16xl lg:text-20xl"
                 />
-                <div class="items-baseline hidden mt-4 xs:flex">
-                    <m-emoji :emoji="emoji" class="text-4xl md:ml-2" />
+                <div class="flex items-baseline md:mt-10">
+                    <m-emoji :emoji="emoji" class="text-4xl" />
                     <m-emoji :emoji="emoji" class="text-3xl md:ml-2" />
                     <m-emoji :emoji="emoji" class="text-2xl md:ml-2" />
                     <m-emoji :emoji="emoji" class="md:ml-2" />
@@ -17,7 +17,7 @@
 
             <div class="md:ml-12 lg:ml-12">
                 <h2
-                    class="mt-1 text-xl font-extrabold text-gray-900 lowercase md:text-3xl"
+                    class="mt-8 text-xl font-extrabold text-gray-900 lowercase md:mt-0 md:text-3xl"
                 >
                     {{ title }}
                 </h2>

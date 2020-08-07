@@ -46,20 +46,30 @@ export default {
                 newValue: val,
             });
         },
+
+        "$route.query.category": {
+            handler() {
+                this.focus();
+            },
+        },
     },
 
     mounted() {
-        this.$nextTick(() => {
-            if (window.innerWidth > 640) {
-                this.$refs.input.focus();
-            }
-        });
+        this.focus();
     },
 
     methods: {
         clear() {
             this.query = "";
             this.$refs.input.focus();
+        },
+
+        focus() {
+            this.$nextTick(() => {
+                if (window.innerWidth > 640) {
+                    this.$refs.input.focus();
+                }
+            });
         },
     },
 };

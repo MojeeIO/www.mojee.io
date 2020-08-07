@@ -9,12 +9,7 @@ export default {
             type: Object,
             default: () => ({
                 unicode: "",
-                shortcode: "",
             }),
-        },
-        hasTooltip: {
-            type: Boolean,
-            default: false,
         },
     },
 
@@ -23,35 +18,11 @@ export default {
             ? `&\#x${props.emoji.unicode.replace(/-/g, "&\#x")}`
             : "";
 
-        const shortcode = props.emoji ? props.emoji.shortcode : "";
-
-        const buildEmojiDiv = () => {
-            const content = [];
-
-            content.push(
-                h("div", {
-                    ref: data.ref,
-                    class: [data.staticClass, "m-emoji"],
-                    domProps: { innerHTML: emojiHtml },
-                }),
-            );
-
-            if (props.hasTooltip) {
-                content.push(
-                    h(
-                        "span",
-                        { class: "text-xs font-mono" },
-                        `:${props.emoji.shortcode}:`,
-                    ),
-                );
-            }
-
-            return content;
-        };
-
-        const content = buildEmojiDiv();
-
-        return h("div", content);
+        return h("div", {
+            ref: data.ref,
+            class: [data.staticClass, "m-emoji"],
+            domProps: { innerHTML: emojiHtml },
+        });
     },
 };
 </script>
