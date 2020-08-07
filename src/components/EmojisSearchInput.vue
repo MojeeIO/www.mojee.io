@@ -12,10 +12,10 @@
         <div class="absolute right-0 flex items-center mr-5">
             <button
                 v-show="query !== ''"
-                class="flex items-center justify-center w-6 h-6 text-gray-700 rounded-full hover:bg-gray-200 focus:outline-none"
-                @click="query = ''"
+                class="flex items-center justify-center w-10 h-10 text-gray-700 rounded-full hover:bg-gray-200 focus:outline-none"
+                @click="clear"
             >
-                <m-icon width="14" height="14"><m-icon-close /></m-icon>
+                <m-icon width="16" height="16"><m-icon-close /></m-icon>
             </button>
 
             <m-icon class="ml-1 text-gray-400">
@@ -71,6 +71,11 @@ export default {
             this.scrollTop = Math.abs(
                 document.body.getBoundingClientRect().top,
             );
+        },
+
+        clear() {
+            this.query = "";
+            this.$refs.input.focus();
         },
     },
 };
