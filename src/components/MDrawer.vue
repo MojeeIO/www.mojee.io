@@ -20,6 +20,7 @@
         </portal>
 
         <button
+            ref="closeButton"
             class="absolute flex items-center justify-center w-10 h-10 rounded-full top-5 right-5 focus:outline-none hover:bg-gray-200"
             @click="hide"
         >
@@ -31,6 +32,8 @@
 </template>
 
 <script>
+import tippy from "tippy.js";
+
 export default {
     name: "MDrawer",
 
@@ -89,6 +92,15 @@ export default {
 
     beforeMount() {
         this.setClasses();
+    },
+
+    mounted() {
+        tippy(this.$refs.closeButton, {
+            content: "esc",
+            placement: "left",
+            theme: "mojee",
+            touch: false,
+        });
     },
 
     methods: {
