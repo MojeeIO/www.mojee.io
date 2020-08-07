@@ -20,7 +20,7 @@
         </portal>
 
         <button
-            class="absolute flex items-center justify-center w-10 h-10 top-5 right-5 focus:outline-none"
+            class="absolute flex items-center justify-center w-10 h-10 rounded-full top-5 right-5 focus:outline-none hover:bg-gray-200"
             @click="hide"
         >
             <m-icon width="24" height="24">
