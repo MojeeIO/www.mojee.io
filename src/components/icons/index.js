@@ -1,6 +1,7 @@
 import MIconCheckboxChecked from "./MIconCheckboxChecked.vue";
 import MIconCheckboxUnchecked from "./MIconCheckboxUnchecked.vue";
 import MIconClose from "./MIconClose.vue";
+import MIconCopy from "./MIconCopy.vue";
 import MIconEnvelope from "./MIconEnvelope.vue";
 import MIconFilter from "./MIconFilter.vue";
 import MIconGrid from "./MIconGrid.vue";
@@ -14,6 +15,7 @@ export {
     MIconCheckboxChecked,
     MIconCheckboxUnchecked,
     MIconClose,
+    MIconCopy,
     MIconEnvelope,
     MIconFilter,
     MIconGrid,

@@ -5,8 +5,13 @@
         style="align-items: start !important; border: none !important;"
         @click="copy(copyText)"
     >
+        <div class="flex items-center h-full">
+            <m-icon width="16" height="16" class="mt-px">
+                <m-icon-copy />
+            </m-icon>
+        </div>
         <div
-            class="flex flex-col h-16 transition-all duration-100"
+            class="flex flex-col h-16 ml-1 transition-all duration-100"
             :class="{ '-mt-8': isCopied }"
         >
             <div class="flex items-center justify-center h-8">
