@@ -52,7 +52,10 @@ export default {
 
     mounted() {
         this.$nextTick(() => {
-            this.$refs.input.focus();
+            if (window.innerWidth > 640) {
+                this.$refs.input.focus();
+            }
+
             this.getScrollTop();
         });
 

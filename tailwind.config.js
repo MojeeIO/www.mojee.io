@@ -193,7 +193,7 @@ module.exports = {
     variants: {
         boxShadow: ["responsive", "hover", "focus", "active"],
         translate: ["responsive", "hover", "focus", "active"],
-        borderColor: ["responsive", "hover", "group-hover"],
+        borderColor: ["responsive", "hover", "focus", "group-hover"],
     },
     plugins: [],
 };
