@@ -97,7 +97,7 @@ export default {
     mounted() {
         tippy(this.$refs.closeButton, {
             content: "esc",
-            placement: "left",
+            placement: "top",
             theme: "mojee",
             touch: false,
         });
