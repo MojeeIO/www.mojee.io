@@ -1,5 +1,5 @@
 <template>
-    <div class="flex items-center px-6 pt-12 pb-10 mx-auto md:pt-15">
+    <div class="flex items-center px-6 pt-8 pb-10 mx-auto md:pt-15">
         <div class="flex flex-col items-center mx-auto md:flex-row">
             <div class="flex items-baseline md:items-center md:flex-col">
                 <m-emoji
@@ -17,12 +17,12 @@
 
             <div class="md:ml-12 lg:ml-12">
                 <h2
-                    class="mt-8 text-xl font-extrabold text-gray-900 lowercase md:mt-0 md:text-3xl"
+                    class="mt-6 text-xl font-extrabold text-gray-900 lowercase md:mt-0 md:text-3xl"
                 >
                     {{ title }}
                 </h2>
 
-                <div class="grid items-baseline mt-6 codes-grid md:mt-10">
+                <div class="grid items-baseline mt-4 codes-grid md:mt-10">
                     <div class="text-sm font-medium text-gray-900">Unicode</div>
 
                     <div class="ml-3 font-mono text-xs truncate">
@@ -42,7 +42,7 @@
                     </div>
                 </div>
 
-                <div class="mt-6 md:mt-10">
+                <div class="mt-4 md:mt-10">
                     <h4 class="font-medium text-gray-900">Copy</h4>
 
                     <div class="flex mt-3">
