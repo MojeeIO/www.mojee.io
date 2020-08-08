@@ -29,4 +29,72 @@ export default function (Vue, { router, head, isClient }) {
         rel: "stylesheet",
         href: "https://use.typekit.net/jrn2kbj.css",
     });
+
+    // Remove "generator" meta tag
+    const gIndex = head.meta.findIndex(e => e.name === 'generator')
+    if (gIndex !== -1) head.meta.splice(gIndex, 1)
+
+    // Add social media cards
+    router.beforeEach((to, _from, next) => {
+        head.meta.push({
+            key: 'og:url',
+            name: 'og:url',
+            content: 'https://dev.mojee.io/',
+        })
+
+        head.meta.push({
+            key: 'twitter:url',
+            name: 'twitter:url',
+            content: 'https://dev.mojee.io/',
+        })
+        next()
+    })
+
+    head.meta.push({
+        key: 'og:title',
+        name: 'og:title',
+        content: `Lightning fast Emoji library for .NET &amp; TypeScript`,
+    })
+
+    head.meta.push({
+        key: 'og:description',
+        name: 'og:description',
+        content: `Lightning fast Emoji library for .NET &amp; TypeScript`,
+    })
+
+    head.meta.push({
+        key: 'og:image',
+        name: 'og:image',
+        content: 'https://dev.mojee.io/img/mojee-social-card.png',
+    })
+
+    head.meta.push({
+        key: 'og:site_name',
+        name: 'og:site_name',
+        content: 'Mojee',
+    })
+
+    head.meta.push({
+        key: 'twitter:title',
+        name: 'twitter:title',
+        content: `Lightning fast Emoji library for .NET &amp; TypeScript`,
+    })
+
+    head.meta.push({
+        key: 'twitter:description',
+        name: 'twitter:description',
+        content: `Lightning fast Emoji library for .NET &amp; TypeScript`,
+    })
+
+    head.meta.push({
+        key: 'twitter:image',
+        name: 'twitter:image',
+        content: 'https://dev.mojee.io/img/mojee-social-card.png',
+    })
+
+    head.meta.push({
+        key: 'twitter:site',
+        name: 'twitter:site',
+        content: '@mojeeio',
+    })
 }
