@@ -34,9 +34,9 @@
                 <div class="flex justify-center mt-8 md:justify-start md:mt-12">
                     <a
                         class="btn btn-yellow btn-md md:w-40"
-                        href="https://github.com/MojeeIO/mojee"
+                        :href="`emojis`"
                     >
-                        Download
+                        Emoji Search
                     </a>
                     <a
                         class="ml-5 btn btn-blue btn-md md:w-40"
