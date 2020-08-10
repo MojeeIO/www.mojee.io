@@ -80,3 +80,19 @@
   > .tippy-arrow::before {
   border-right-color: #805ad5;
 }
+
+/* Page Background */
+
+.m-page-bg {
+  background-image: url("/img/hero-bg.svg");
+  background-position: top -30rem left 37vw;
+  background-repeat: no-repeat;
+
+  @media (min-width: 768px) {
+    background-position: top -20rem left 34vw;
+  }
+
+  @media (min-width: 1024px) {
+    background-position: top -12rem left 43vw;
+  }
+}

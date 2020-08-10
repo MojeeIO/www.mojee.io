@@ -16,8 +16,9 @@ const postcssPlugins = [
 ];
 
 module.exports = {
-    siteName: "Mojee.io",
-    siteDescription: "Lightning fast Emoji library for .NET &amp; TypeScript",
+    siteName: "Mojee",
+    siteDescription: "Lightning fast Emoji library for .NET & TypeScript",
+    siteUrl: "https://dev.mojee.io",
     plugins: [],
     css: {
         loaderOptions: {

@@ -1,10 +1,10 @@
 <template>
-    <Layout show-bg-image>
+    <div class="px-6 -mx-6 m-page-bg">
         <home-hero />
         <home-feature-api />
         <home-feature-search />
         <home-get-started />
-    </Layout>
+    </div>
 </template>
 
 <script>
@@ -15,10 +15,6 @@ import HomeGetStarted from "../components/HomeGetStarted";
 
 export default {
     name: "Home",
-
-    metaInfo: {
-        title: "Lightning fast Emoji library for .NET & TypeScript",
-    },
 
     components: {
         HomeHero,
