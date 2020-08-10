@@ -5,7 +5,7 @@
         style="align-items: start !important; border: none !important;"
         @click="copy(copyText)"
     >
-        <div class="flex items-center h-full">
+        <div class="flex items-center h-8">
             <m-icon width="16" height="16" class="mt-px">
                 <m-icon-copy />
             </m-icon>
