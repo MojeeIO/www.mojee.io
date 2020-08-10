@@ -30,6 +30,7 @@ import EmojisSearchResultItem from "./EmojisSearchResultItem";
 import EmojiDetail from "./EmojiDetail";
 import { store } from "../store";
 import Mojee from "../../data/Mojee";
+import { hideAll } from "tippy.js";
 
 export default {
     name: "EmojisSearchResults",
@@ -91,6 +92,8 @@ export default {
                 val.length >= 2
                     ? Mojee.search(val, { category: this.category })
                     : Mojee.search("", { category: this.category });
+
+            hideAll({ duration: 0 });
         }, 100),
     },
 };
