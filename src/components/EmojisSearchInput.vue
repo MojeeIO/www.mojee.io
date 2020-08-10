@@ -47,6 +47,12 @@ export default {
             });
         },
 
+        "$route.query.q": {
+            handler(newQuery) {
+                this.query = newQuery || "";
+            },
+        },
+
         "$route.query.category": {
             handler() {
                 this.focus();
