@@ -11,7 +11,7 @@
             <p class="mt-4">
                 Mojee provides a semantic API for .NET and TypeScript. These are
                 just a few examples. You can learn more reading the
-                <a class="link" href="https://github.com/MojeeIO/mojee/wiki">
+                <a class="link" href="https://github.com/MojeeIO/mojee/">
                     <span>docs</span>
                 </a>
                 .
