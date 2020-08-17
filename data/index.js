@@ -2,15 +2,14 @@ const fs = require("fs");
 const data = require("./emoji_pretty.json");
 
 const categories = {
-    "Smileys & Emotion": 1,
-    "People & Body": 2,
-    "Animals & Nature": 3,
-    "Food & Drink": 4,
-    "Travel & Places": 5,
-    Activities: 6,
-    Objects: 7,
-    Symbols: 8,
-    Flags: 9,
+    "Smileys & People": 1,
+    "Animals & Nature": 2,
+    "Food & Drink": 3,
+    "Travel & Places": 4,
+    "Activities": 5,
+    "Objects": 6,
+    "Symbols": 7,
+    "Flags": 8,
 };
 
 function buildCategory(categoryName) {
