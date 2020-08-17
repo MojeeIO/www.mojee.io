@@ -62,6 +62,10 @@ const searchFn = function (query, options) {
                 : true),
     );
 };
+        if (query === "") {
+            return this.data;
+        }
+
 
 const fileName = "Mojee.js";
 const content = `module.exports = {
