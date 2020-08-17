@@ -69,7 +69,7 @@ const content = `module.exports = {
     search: ${searchFn},
     data: ${JSON.stringify(emojis)}
 }    
-`;
+`.replace(/"([^"]+)":/g, '$1:');
 
 fs.writeFile(`./data/${fileName}`, content, (err) => {
     if (err) {
