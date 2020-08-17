@@ -43,7 +43,7 @@ export default {
             this.updateRouteQuery({
                 name: "q",
                 defaultValue: "",
-                newValue: val,
+                newValue: val.trim(),
             });
         },
 
