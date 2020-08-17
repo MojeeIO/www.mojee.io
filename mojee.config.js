@@ -3,7 +3,7 @@ module.exports = {
         { label: "Home", to: "/" },
         { label: "Emojis", to: "/emojis" },
         { label: "Pricing", to: "/pricing" },
-        { label: "Docs", to: "https://github.com/MojeeIO/Mojee" },
+        { label: "Docs", to: "https://github.com/MojeeIO/Mojee/" },
         // { label: "Community", to: "https://community.mojee.io" },
     ],
     social: [

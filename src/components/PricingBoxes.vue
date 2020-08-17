@@ -71,7 +71,7 @@
             title="Free"
             :price="price.community"
             btn-class="btn-yellow"
-            btn-link="https://github.com/MojeeIO/mojee"
+            btn-link="https://github.com/MojeeIO/mojee/"
             btn-text="Download"
         >
             <ul>

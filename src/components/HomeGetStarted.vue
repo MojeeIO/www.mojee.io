@@ -16,7 +16,7 @@
 
         <a
             class="mt-10 btn btn-blue btn-md sm:w-40"
-            href="https://github.com/MojeeIO/mojee"
+            href="https://github.com/MojeeIO/mojee/"
         >
             Get started
         </a>
