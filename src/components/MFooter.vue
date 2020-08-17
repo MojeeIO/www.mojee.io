@@ -5,7 +5,14 @@
         <div class="flex items-center justify-center h-16 text-xs">
             <m-footer-logo />
             <span class="w-px h-6 mx-4 bg-gray-700"></span>
-            &copy; {{ year }} Object.NET, Inc.
+            &copy; {{ year }} &nbsp;
+            <a
+                class="transition-colors duration-150 ease-in hover:text-yellow-600"
+                href="https://object.net"
+                target="_blank"
+            >
+                Object.NET, Inc.
+            </a>
         </div>
 
         <m-footer-nav />
