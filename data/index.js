@@ -38,7 +38,7 @@ for (let i = 0; i < data.length; i++) {
 }
 
 const searchFn = function (query, options) {
-        if (query === "") {
+        if (query && query.trim() === "") {
             return this.data;
         }
 
