@@ -21,7 +21,7 @@
                 class="flex items-center justify-between w-full px-4 bg-white rounded shadow-2xl h-15"
             >
                 <div class="flex items-center">
-                    <span>face</span>
+                    <span>smile</span>
                     <svg
                         class="pl-px"
                         xmlns="http://www.w3.org/2000/svg"
@@ -65,10 +65,10 @@ export default {
     data() {
         return {
             emojis: [
-                { emoji: "🤡", shortcode: ":clown_face:" },
-                { emoji: "🥶", shortcode: ":cold_face:" },
-                { emoji: "🤖", shortcode: ":robot_face:" },
-                { emoji: "🦊", shortcode: ":fox_face:" },
+                { emoji: "😃", shortcode: ":smiley:" },
+                { emoji: "😅", shortcode: ":sweat_smile:" },
+                { emoji: "😍", shortcode: ":heart_eyes:" },
+                { emoji: "😸", shortcode: ":smile_cat:" },
             ],
         };
     },
