@@ -35,12 +35,12 @@ Mojee.Replace("Hello, world :smile:");
 
 // 2. Search for emojis
 Mojee.Search("smile")
-     .ForEach(emoji => Console.Write(emoji.Unicode));
+     .ForEach(emoji => Console.Write(emoji.id));
 // 😄 😸 😃 😺 😅
 
 // 3. Get an emoji
 var emoji = Mojee.Get("smile");
-Console.Write($"{emoji.Shortcode}: {emoji.Unicode}");
+Console.Write($"{emoji.Shortcode}: {emoji.id}");
 // smile: 😄</code>
 </pre>
                     </m-tab>
@@ -55,12 +55,12 @@ Mojee.replace("Hello, world :smile:");
 
 // 2. Search for emojis
 Mojee.search("smile")
-     .forEach(emoji => console.log(emoji.unicode));
+     .forEach(emoji => console.log(emoji.id));
 // 😄 😸 😃 😺 😅
 
 // 3. Get an emoji
 const emoji = Mojee.get("smile");
-console.log(`${emoji.shortcode}: ${emoji.unicode}`);
+console.log(`${emoji.shortcode}: ${emoji.id}`);
 // smile: 😄</code>
 </pre>
                     </m-tab>

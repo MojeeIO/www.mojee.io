@@ -8,14 +8,14 @@ export default {
         emoji: {
             type: Object,
             default: () => ({
-                unicode: "",
+                id: "",
             }),
         },
     },
 
     render: (h, { data, props }) => {
-        const emojiHtml = props.emoji.unicode
-            ? `&\#x${props.emoji.unicode.replace(/-/g, "&\#x")}`
+        const emojiHtml = props.emoji.id
+            ? `&\#x${props.emoji.id.replace(/-/g, "&\#x")}`
             : "";
 
         return h("div", {

@@ -23,11 +23,11 @@
                 </h2>
 
                 <div class="grid items-baseline mt-4 codes-grid md:mt-10">
-                    <div class="text-sm font-medium text-gray-900">Unicode</div>
+                    <div class="text-sm font-medium text-gray-900">Id</div>
 
                     <div class="ml-3 font-mono text-xs truncate">
                         <span class="px-2 py-1 bg-gray-100">
-                            {{ emoji.unicode }}
+                            {{ emoji.id }}
                         </span>
                     </div>
 
@@ -51,10 +51,10 @@
                         />
 
                         <emoji-copy-button
-                            ref="copyUnicode"
+                            ref="copyId"
                             class="ml-3"
-                            label="Unicode"
-                            :copy-text="emoji.unicode"
+                            label="Id"
+                            :copy-text="emoji.id"
                         />
 
                         <emoji-copy-button
@@ -99,7 +99,7 @@ export default {
         copyButtons() {
             return [
                 { ref: "copyEmoji", copyText: this.emojiChar },
-                { ref: "copyUnicode", copyText: this.emoji.unicode },
+                { ref: "copyId", copyText: this.emoji.id },
                 { ref: "copyShortcode", copyText: this.emoji.shortcode },
             ];
         },
@@ -112,8 +112,8 @@ export default {
     updated() {
         this.emojiChar = this.$refs.emoji ? this.$refs.emoji.innerText : "";
 
-        if (this.emoji.name) {
-            this.title = this.emoji.name;
+        if (this.emoji.description) {
+            this.title = this.emoji.description;
         } else if (this.emoji.shortcode) {
             this.title = this.emoji.shortcode.split(/_|-/).join(" ");
         } else {
@@ -127,7 +127,7 @@ export default {
         initializeTooltips() {
             [
                 this.emojiTooltip,
-                this.unicodeTooltip,
+                this.idTooltip,
                 this.shortcodeTooltip,
             ] = this.copyButtons.map((btn) =>
                 tippy(this.$refs[btn.ref].$el, {
@@ -140,7 +140,7 @@ export default {
 
         updateTooltipContent() {
             this.emojiTooltip.setContent(this.emojiChar);
-            this.unicodeTooltip.setContent(this.emoji.unicode);
+            this.idTooltip.setContent(this.emoji.id);
             this.shortcodeTooltip.setContent(`:${this.emoji.shortcode}:`);
         },
     },

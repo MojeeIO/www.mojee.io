@@ -12,60 +12,46 @@ const categories = {
     "Flags": 8,
 };
 
-function buildCategory(categoryName) {
-    const result = [];
+const emojis = [];
+let temp = {};
 
-    for (let i = 0; i < data.length; i++) {
-        if (data[i].category === categoryName) {
-            result.push({
-                shortcode: `${data[i].short_name}`,
-                unicode: data[i].unified,
-                emoticon: data[i].text,
-                description: data[i].name,
-                category: categories[categoryName],
-            });
-        }
+for (let i = 0; i < data.length; i++) {
+    temp = {
+        id: `${data[i].id}`,
+        shortcode: `${data[i].shortcode}`,
+        category: data[i].category,
+    };
+
+    if (data[i].description && data[i].description.length > 0) {
+        temp.description = data[i].description;
     }
 
-    // Sort by shortcode
-    result.sort((a, b) => {
-        var nameA = a.shortcode.toUpperCase();
-        var nameB = b.shortcode.toUpperCase();
+    if (data[i].tags && data[i].tags.length > 0) {
+        temp.tags = data[i].tags;
+    }
 
-        if (nameA < nameB) {
-            return -1;
-        }
+    if (data[i].aliases && data[i].aliases.length > 0) {
+        temp.aliases = data[i].aliases;
+    }
 
-        if (nameA > nameB) {
-            return 1;
-        }
-
-        // names must be equal
-        return 0;
-    });
-
-    return result;
+    emojis.push(temp);
 }
 
-const emojis = [];
-
-Object.keys(categories).forEach((key) => {
-    emojis.push(...buildCategory(key));
-});
-
 const searchFn = function (query, options) {
-    return this.data.filter(
-        (emoji) =>
-            emoji.shortcode.includes(query.toLowerCase()) &&
-            (options !== undefined && options.category !== 0
-                ? emoji.category === options.category
-                : true),
-    );
-};
         if (query === "") {
             return this.data;
         }
 
+        const q = query.toLowerCase();
+        
+        return this.data.filter(
+            (emoji) =>
+                (emoji.shortcode.includes(q) || (emoji.tags && emoji.tags.includes(q)) || (emoji.aliases && emoji.aliases.includes(q))) &&
+                (options !== undefined && options.category !== 0
+                    ? emoji.category === options.category
+                    : true),
+        );
+    };
 
 const fileName = "Mojee.js";
 const content = `module.exports = {

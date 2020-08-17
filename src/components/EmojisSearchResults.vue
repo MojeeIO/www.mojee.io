@@ -7,7 +7,7 @@
         >
             <emojis-search-result-item
                 v-for="emoji in results"
-                :key="emoji.unicode"
+                :key="emoji.id"
                 :emoji="emoji"
             />
         </div>
@@ -94,7 +94,7 @@ export default {
                     : Mojee.search("", { category: this.category });
 
             hideAll({ duration: 0 });
-        }, 100),
+        }, 50),
     },
 };
 </script>
