@@ -1,6 +1,6 @@
 module.exports = {
     search: function (query, options) {
-        if (query === "") {
+        if (query && query.trim() === "") {
             return this.data;
         }
 

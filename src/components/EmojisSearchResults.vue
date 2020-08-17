@@ -88,10 +88,13 @@ export default {
 
     methods: {
         search: debounce(function (val) {
-            this.results =
-                val.length >= 2
-                    ? Mojee.search(val, { category: this.category })
-                    : Mojee.search("", { category: this.category });
+            if (val.length >= 2) {
+                this.results = Mojee.search(val, { category: this.category });
+            } else if (val.length === 0) {
+                this.results = Mojee.search("", { category: this.category })
+            }
+
+            // if val.length === 1, do nothing
 
             hideAll({ duration: 0 });
         }, 50),
