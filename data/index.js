@@ -27,7 +27,9 @@ for (let i = 0; i < data.length; i++) {
     }
 
     if (data[i].tags && data[i].tags.length > 0) {
-        temp.tags = data[i].tags;
+        if (data[i].tags[0] != "flag") {
+            temp.tags = data[i].tags;
+        }
     }
 
     if (data[i].aliases && data[i].aliases.length > 0) {
