@@ -8,7 +8,11 @@ module.exports = {
         
         return this.data.filter(
             (emoji) =>
-                (emoji.shortcode.includes(q) || (emoji.tags && emoji.tags.includes(q)) || (emoji.aliases && emoji.aliases.includes(q))) &&
+            (
+                emoji.shortcode.includes(q) ||
+                (emoji.tags    && (emoji.tags.find(t => t.includes(q)) != null)) ||
+                (emoji.aliases && (emoji.aliases.find(a => a.includes(q)) != null))
+            ) &&
                 (options !== undefined && options.category !== 0
                     ? emoji.category === options.category
                     : true),
