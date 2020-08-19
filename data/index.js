@@ -45,13 +45,14 @@ const searchFn = function (query, options) {
         }
 
         const q = query.toLowerCase();
+        const rx = new RegExp(`${q.replace(/[-_]/g, "[-_]?")}`, "i");
         
         return this.data.filter(
             (emoji) =>
             (
-                emoji.shortcode.includes(q) ||
+                rx.test(emoji.shortcode.replace(/[-_]/gi, "")) ||
                 (emoji.tags    && (emoji.tags.find(t => t.includes(q)) != null)) ||
-                (emoji.aliases && (emoji.aliases.find(a => a.includes(q)) != null))
+                (emoji.aliases && (emoji.aliases.find(a => rx.test(a.replace(/[-_]/gi, ""))) != null))
             ) &&
                 (options !== undefined && options.category !== 0
                     ? emoji.category === options.category
