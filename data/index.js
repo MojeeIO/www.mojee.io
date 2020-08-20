@@ -45,7 +45,7 @@ const searchFn = function (query, options) {
         }
 
         const q = query.toLowerCase();
-        const rx = new RegExp(`${q.replace(/[-_]/g, "[-_]?")}`, "i");
+        const rx = new RegExp(`${q.replace(/[-_ ]/g, "[-_ ]?")}`, "i");
         
         return this.data.filter(
             (emoji) =>
