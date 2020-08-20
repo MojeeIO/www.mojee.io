@@ -7,7 +7,8 @@
     "tags": [
       "face",
       "grin"
-    ]
+    ],
+    "emoticon": ":D"
   },
   {
     "id": "1F603",
@@ -57,7 +58,8 @@
     ],
     "aliases": [
       "satisfied"
-    ]
+    ],
+    "emoticon": "xD"
   },
   {
     "id": "1F605",
@@ -78,7 +80,8 @@
     "tags": [
       "face",
       "laugh"
-    ]
+    ],
+    "emoticon": ":'D"
   },
   {
     "id": "1F602",
@@ -89,7 +92,8 @@
       "face",
       "laugh",
       "tear"
-    ]
+    ],
+    "emoticon": ":')"
   },
   {
     "id": "1F642",
@@ -98,7 +102,8 @@
     "category": 1,
     "tags": [
       "smile"
-    ]
+    ],
+    "emoticon": ":)"
   },
   {
     "id": "1F643",
@@ -113,7 +118,8 @@
     "category": 1,
     "tags": [
       "face"
-    ]
+    ],
+    "emoticon": ";)"
   },
   {
     "id": "1F60A",
@@ -124,7 +130,8 @@
       "eye",
       "face",
       "smile"
-    ]
+    ],
+    "emoticon": ":>"
   },
   {
     "id": "1F607",
@@ -136,7 +143,8 @@
       "face",
       "fantasy",
       "halo"
-    ]
+    ],
+    "emoticon": "o:)"
   },
   {
     "id": "1F970",
@@ -179,7 +187,8 @@
     "tags": [
       "face",
       "kiss"
-    ]
+    ],
+    "emoticon": ":x"
   },
   {
     "id": "1F617",
@@ -211,7 +220,8 @@
       "eye",
       "face",
       "kiss"
-    ]
+    ],
+    "emoticon": ":*"
   },
   {
     "id": "1F619",
@@ -244,7 +254,8 @@
     "category": 1,
     "tags": [
       "face"
-    ]
+    ],
+    "emoticon": ":p"
   },
   {
     "id": "1F61C",
@@ -255,7 +266,8 @@
       "face",
       "joke",
       "wink"
-    ]
+    ],
+    "emoticon": ";p"
   },
   {
     "id": "1F92A",
@@ -279,7 +291,8 @@
       "face",
       "horrible",
       "taste"
-    ]
+    ],
+    "emoticon": "xp"
   },
   {
     "id": "1F911",
@@ -325,13 +338,15 @@
     "id": "1F914",
     "shortcode": "thinking_face",
     "description": "THINKING FACE",
-    "category": 1
+    "category": 1,
+    "emoticon": ":l"
   },
   {
     "id": "1F910",
     "shortcode": "zipper_mouth_face",
     "description": "ZIPPER-MOUTH FACE",
-    "category": 1
+    "category": 1,
+    "emoticon": ":z"
   },
   {
     "id": "1F928",
@@ -354,7 +369,8 @@
     "tags": [
       "deadpan",
       "meh"
-    ]
+    ],
+    "emoticon": ":|"
   },
   {
     "id": "1F611",
@@ -377,7 +393,8 @@
       "face",
       "quiet",
       "silent"
-    ]
+    ],
+    "emoticon": ":#"
   },
   {
     "id": "1F60F",
@@ -386,7 +403,8 @@
     "category": 1,
     "tags": [
       "face"
-    ]
+    ],
+    "emoticon": ":j"
   },
   {
     "id": "1F612",
@@ -396,7 +414,8 @@
     "tags": [
       "face",
       "unhappy"
-    ]
+    ],
+    "emoticon": ":?"
   },
   {
     "id": "1F644",
@@ -415,7 +434,8 @@
     "tags": [
       "face",
       "grimace"
-    ]
+    ],
+    "emoticon": "8D"
   },
   {
     "id": "1F925",
@@ -512,7 +532,8 @@
     "category": 1,
     "tags": [
       "vomit"
-    ]
+    ],
+    "emoticon": "%("
   },
   {
     "id": "1F92E",
@@ -577,13 +598,15 @@
       "tipsy",
       "uneven",
       "wavy"
-    ]
+    ],
+    "emoticon": ":&"
   },
   {
     "id": "1F635",
     "shortcode": "dizzy_face",
     "description": "DIZZY FACE",
-    "category": 1
+    "category": 1,
+    "emoticon": "xo"
   },
   {
     "id": "1F92F",
@@ -629,7 +652,8 @@
       "cool",
       "face",
       "sun"
-    ]
+    ],
+    "emoticon": "8)"
   },
   {
     "id": "1F913",
@@ -638,7 +662,8 @@
     "category": 1,
     "tags": [
       "geek"
-    ]
+    ],
+    "emoticon": ":B"
   },
   {
     "id": "1F9D0",
@@ -657,7 +682,8 @@
     "tags": [
       "face",
       "meh"
-    ]
+    ],
+    "emoticon": ":/"
   },
   {
     "id": "1F61F",
@@ -683,7 +709,8 @@
     "category": 1,
     "tags": [
       "frown"
-    ]
+    ],
+    "emoticon": ":("
   },
   {
     "id": "1F62E",
@@ -715,7 +742,8 @@
       "face",
       "shocked",
       "totally"
-    ]
+    ],
+    "emoticon": ":o"
   },
   {
     "id": "1F633",
@@ -725,7 +753,8 @@
     "tags": [
       "dazed",
       "face"
-    ]
+    ],
+    "emoticon": ":$"
   },
   {
     "id": "1F97A",
@@ -758,7 +787,8 @@
     "category": 1,
     "tags": [
       "face"
-    ]
+    ],
+    "emoticon": ":s"
   },
   {
     "id": "1F628",
@@ -801,7 +831,8 @@
       "face",
       "sad",
       "tear"
-    ]
+    ],
+    "emoticon": ":'("
   },
   {
     "id": "1F62D",
@@ -813,7 +844,8 @@
       "face",
       "sad",
       "tear"
-    ]
+    ],
+    "emoticon": ":'o"
   },
   {
     "id": "1F631",
@@ -825,7 +857,8 @@
       "fear",
       "munch",
       "scared"
-    ]
+    ],
+    "emoticon": "Dx"
   },
   {
     "id": "1F616",
@@ -834,7 +867,8 @@
     "category": 1,
     "tags": [
       "face"
-    ]
+    ],
+    "emoticon": "x("
   },
   {
     "id": "1F623",
@@ -862,7 +896,8 @@
     "tags": [
       "cold",
       "face"
-    ]
+    ],
+    "emoticon": ":<"
   },
   {
     "id": "1F629",
@@ -872,13 +907,15 @@
     "tags": [
       "face",
       "tired"
-    ]
+    ],
+    "emoticon": "D:"
   },
   {
     "id": "1F62B",
     "shortcode": "tired_face",
     "description": "TIRED FACE",
-    "category": 1
+    "category": 1,
+    "emoticon": ":c"
   },
   {
     "id": "1F971",
@@ -912,7 +949,8 @@
       "mad",
       "pouting",
       "red"
-    ]
+    ],
+    "emoticon": ">:/"
   },
   {
     "id": "1F620",
@@ -934,7 +972,8 @@
     ],
     "aliases": [
       "serious_face_with_symbols_covering_mouth"
-    ]
+    ],
+    "emoticon": ":@"
   },
   {
     "id": "1F608",
@@ -948,7 +987,8 @@
       "horns",
       "smile",
       "tale"
-    ]
+    ],
+    "emoticon": ">:)"
   },
   {
     "id": "1F47F",
@@ -960,7 +1000,8 @@
       "devil",
       "face",
       "fantasy"
-    ]
+    ],
+    "emoticon": ">:("
   },
   {
     "id": "1F480",
@@ -1019,7 +1060,8 @@
       "fantasy",
       "monster",
       "tale"
-    ]
+    ],
+    "emoticon": ">0)"
   },
   {
     "id": "1F47A",
@@ -1152,7 +1194,8 @@
       "eye",
       "face",
       "kiss"
-    ]
+    ],
+    "emoticon": ":3"
   },
   {
     "id": "1F640",
@@ -1325,13 +1368,15 @@
     "category": 1,
     "tags": [
       "break"
-    ]
+    ],
+    "emoticon": "</3"
   },
   {
     "id": "2764-FE0F",
     "shortcode": "heart",
     "description": "HEAVY BLACK HEART",
-    "category": 1
+    "category": 1,
+    "emoticon": "<3"
   },
   {
     "id": "1F9E1",
@@ -1628,7 +1673,8 @@
     ],
     "aliases": [
       "sign_of_the_horns"
-    ]
+    ],
+    "emoticon": "\\m/"
   },
   {
     "id": "1F919",
@@ -3350,7 +3396,8 @@
     "tags": [
       "sorcerer",
       "wizard"
-    ]
+    ],
+    "emoticon": ":{>"
   },
   {
     "id": "1F9D9-200D-2640-FE0F",
@@ -3397,7 +3444,8 @@
     "tags": [
       "dracula",
       "undead"
-    ]
+    ],
+    "emoticon": ":E"
   },
   {
     "id": "1F9DB-200D-2642-FE0F",
@@ -3502,7 +3550,8 @@
       "dead",
       "undead",
       "walking"
-    ]
+    ],
+    "emoticon": "8#"
   },
   {
     "id": "1F9DF-200D-2642-FE0F",
