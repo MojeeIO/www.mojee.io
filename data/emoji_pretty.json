@@ -5,7 +5,8 @@
     "description": "GRINNING FACE",
     "category": 1,
     "tags": [
-      "face"
+      "face",
+      "grin"
     ]
   },
   {
@@ -16,7 +17,8 @@
     "tags": [
       "face",
       "mouth",
-      "open"
+      "open",
+      "smile"
     ]
   },
   {
@@ -49,8 +51,8 @@
     "category": 1,
     "tags": [
       "face",
+      "laugh",
       "mouth",
-      "satisfied",
       "smile"
     ],
     "aliases": [
@@ -74,7 +76,8 @@
     "description": "ROLLING ON THE FLOOR LAUGHING",
     "category": 1,
     "tags": [
-      "face"
+      "face",
+      "laugh"
     ]
   },
   {
@@ -101,10 +104,7 @@
     "id": "1F643",
     "shortcode": "upside_down_face",
     "description": "UPSIDE-DOWN FACE",
-    "category": 1,
-    "tags": [
-      "upside-down"
-    ]
+    "category": 1
   },
   {
     "id": "1F609",
@@ -146,7 +146,8 @@
     "tags": [
       "adore",
       "crush",
-      "in_love"
+      "in",
+      "love"
     ]
   },
   {
@@ -155,6 +156,7 @@
     "description": "SMILING FACE WITH HEART-SHAPED EYES",
     "category": 1,
     "tags": [
+      "eye",
       "face",
       "love",
       "smile"
@@ -165,11 +167,6 @@
     "shortcode": "star-struck",
     "description": "GRINNING FACE WITH STAR EYES",
     "category": 1,
-    "tags": [
-      "eyes",
-      "face",
-      "grinning"
-    ],
     "aliases": [
       "grinning_face_with_star_eyes"
     ]
@@ -180,7 +177,8 @@
     "description": "FACE THROWING A KISS",
     "category": 1,
     "tags": [
-      "face"
+      "face",
+      "kiss"
     ]
   },
   {
@@ -189,7 +187,8 @@
     "description": "KISSING FACE",
     "category": 1,
     "tags": [
-      "face"
+      "face",
+      "kiss"
     ]
   },
   {
@@ -209,7 +208,9 @@
     "description": "KISSING FACE WITH CLOSED EYES",
     "category": 1,
     "tags": [
-      "face"
+      "eye",
+      "face",
+      "kiss"
     ]
   },
   {
@@ -218,7 +219,9 @@
     "description": "KISSING FACE WITH SMILING EYES",
     "category": 1,
     "tags": [
+      "eye",
       "face",
+      "kiss",
       "smile"
     ]
   },
@@ -250,7 +253,8 @@
     "category": 1,
     "tags": [
       "face",
-      "joke"
+      "joke",
+      "wink"
     ]
   },
   {
@@ -259,10 +263,7 @@
     "description": "GRINNING FACE WITH ONE LARGE AND ONE SMALL EYE",
     "category": 1,
     "tags": [
-      "eye",
-      "goofy",
-      "large",
-      "small"
+      "goofy"
     ],
     "aliases": [
       "grinning_face_with_one_large_and_one_small_eye"
@@ -274,6 +275,7 @@
     "description": "FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES",
     "category": 1,
     "tags": [
+      "eye",
       "face",
       "horrible",
       "taste"
@@ -289,7 +291,10 @@
     "id": "1F917",
     "shortcode": "hugging_face",
     "description": "HUGGING FACE",
-    "category": 1
+    "category": 1,
+    "tags": [
+      "hug"
+    ]
   },
   {
     "id": "1F92D",
@@ -309,7 +314,8 @@
     "description": "FACE WITH FINGER COVERING CLOSED LIPS",
     "category": 1,
     "tags": [
-      "quiet"
+      "quiet",
+      "shush"
     ],
     "aliases": [
       "face_with_finger_covering_closed_lips"
@@ -446,7 +452,8 @@
     "description": "SLEEPY FACE",
     "category": 1,
     "tags": [
-      "face"
+      "face",
+      "sleep"
     ]
   },
   {
@@ -462,6 +469,7 @@
     "category": 1,
     "tags": [
       "face",
+      "sleep",
       "zzz"
     ]
   },
@@ -512,7 +520,8 @@
     "description": "FACE WITH OPEN MOUTH VOMITING",
     "category": 1,
     "tags": [
-      "sick"
+      "sick",
+      "vomit"
     ],
     "aliases": [
       "face_with_open_mouth_vomiting"
@@ -534,9 +543,11 @@
     "description": "OVERHEATED FACE",
     "category": 1,
     "tags": [
+      "faced",
       "feverish",
-      "heat_stroke",
-      "red-faced",
+      "heat",
+      "red",
+      "stroke",
       "sweating"
     ]
   },
@@ -546,7 +557,8 @@
     "description": "FREEZING FACE",
     "category": 1,
     "tags": [
-      "blue-faced",
+      "blue",
+      "faced",
       "freezing",
       "frostbite",
       "icicles"
@@ -559,10 +571,12 @@
     "category": 1,
     "tags": [
       "dizzy",
+      "eyes",
       "intoxicated",
+      "mouth",
       "tipsy",
-      "uneven_eyes",
-      "wavy_mouth"
+      "uneven",
+      "wavy"
     ]
   },
   {
@@ -577,8 +591,8 @@
     "description": "SHOCKED FACE WITH EXPLODING HEAD",
     "category": 1,
     "tags": [
-      "mind_blown",
-      "shocked"
+      "blown",
+      "mind"
     ],
     "aliases": [
       "shocked_face_with_exploding_head"
@@ -601,7 +615,8 @@
     "tags": [
       "celebration",
       "hat",
-      "horn"
+      "horn",
+      "party"
     ]
   },
   {
@@ -612,7 +627,8 @@
     "tags": [
       "bright",
       "cool",
-      "face"
+      "face",
+      "sun"
     ]
   },
   {
@@ -656,12 +672,18 @@
     "id": "1F641",
     "shortcode": "slightly_frowning_face",
     "description": "SLIGHTLY FROWNING FACE",
-    "category": 1
+    "category": 1,
+    "tags": [
+      "frown"
+    ]
   },
   {
     "id": "2639-FE0F",
     "shortcode": "white_frowning_face",
-    "category": 1
+    "category": 1,
+    "tags": [
+      "frown"
+    ]
   },
   {
     "id": "1F62E",
@@ -712,8 +734,9 @@
     "category": 1,
     "tags": [
       "begging",
+      "eyes",
       "mercy",
-      "puppy_eyes"
+      "puppy"
     ]
   },
   {
@@ -723,6 +746,7 @@
     "category": 1,
     "tags": [
       "face",
+      "frown",
       "mouth",
       "open"
     ]
@@ -743,6 +767,7 @@
     "category": 1,
     "tags": [
       "face",
+      "fear",
       "scared"
     ]
   },
@@ -862,7 +887,8 @@
     "category": 1,
     "tags": [
       "bored",
-      "tired"
+      "tired",
+      "yawn"
     ]
   },
   {
@@ -917,10 +943,11 @@
     "category": 1,
     "tags": [
       "face",
-      "fairy_tale",
+      "fairy",
       "fantasy",
       "horns",
-      "smile"
+      "smile",
+      "tale"
     ]
   },
   {
@@ -943,8 +970,9 @@
     "tags": [
       "death",
       "face",
-      "fairy_tale",
-      "monster"
+      "fairy",
+      "monster",
+      "tale"
     ]
   },
   {
@@ -966,8 +994,7 @@
       "dung",
       "face",
       "monster",
-      "poo",
-      "poop"
+      "poo"
     ],
     "aliases": [
       "poop",
@@ -988,9 +1015,10 @@
     "tags": [
       "creature",
       "face",
-      "fairy_tale",
+      "fairy",
       "fantasy",
-      "monster"
+      "monster",
+      "tale"
     ]
   },
   {
@@ -1001,9 +1029,10 @@
     "tags": [
       "creature",
       "face",
-      "fairy_tale",
+      "fairy",
       "fantasy",
-      "monster"
+      "monster",
+      "tale"
     ]
   },
   {
@@ -1014,9 +1043,10 @@
     "tags": [
       "creature",
       "face",
-      "fairy_tale",
+      "fairy",
       "fantasy",
-      "monster"
+      "monster",
+      "tale"
     ]
   },
   {
@@ -1064,7 +1094,8 @@
       "face",
       "grinning",
       "mouth",
-      "open"
+      "open",
+      "smile"
     ]
   },
   {
@@ -1094,6 +1125,7 @@
     "description": "SMILING CAT FACE WITH HEART-SHAPED EYES",
     "category": 1,
     "tags": [
+      "eye",
       "face",
       "love",
       "smile"
@@ -1118,7 +1150,8 @@
     "category": 1,
     "tags": [
       "eye",
-      "face"
+      "face",
+      "kiss"
     ]
   },
   {
@@ -1139,6 +1172,7 @@
     "description": "CRYING CAT FACE",
     "category": 1,
     "tags": [
+      "cry",
       "sad",
       "tear"
     ]
@@ -1241,7 +1275,8 @@
     "tags": [
       "excited",
       "growing",
-      "nervous"
+      "nervous",
+      "pulse"
     ]
   },
   {
@@ -1444,7 +1479,6 @@
     "shortcode": "eye-in-speech-bubble",
     "category": 1,
     "tags": [
-      "speech_bubble",
       "witness"
     ]
   },
@@ -1508,7 +1542,10 @@
   {
     "id": "1F590-FE0F",
     "shortcode": "raised_hand_with_fingers_splayed",
-    "category": 1
+    "category": 1,
+    "tags": [
+      "finger"
+    ]
   },
   {
     "id": "270B",
@@ -1541,7 +1578,8 @@
     "description": "PINCHING HAND",
     "category": 1,
     "tags": [
-      "small_amount"
+      "amount",
+      "small"
     ]
   },
   {
@@ -1560,7 +1598,8 @@
     "description": "HAND WITH INDEX AND MIDDLE FINGERS CROSSED",
     "category": 1,
     "tags": [
-      "hand",
+      "cross",
+      "finger",
       "luck"
     ],
     "aliases": [
@@ -1584,7 +1623,8 @@
     "tags": [
       "finger",
       "hand",
-      "rock-on"
+      "on",
+      "rock"
     ],
     "aliases": [
       "sign_of_the_horns"
@@ -1636,9 +1676,6 @@
     "shortcode": "middle_finger",
     "description": "REVERSED HAND WITH MIDDLE FINGER EXTENDED",
     "category": 1,
-    "tags": [
-      "hand"
-    ],
     "aliases": [
       "reversed_hand_with_middle_finger_extended"
     ]
@@ -1753,6 +1790,7 @@
     "tags": [
       "celebration",
       "gesture",
+      "hand",
       "hooray"
     ]
   },
@@ -1760,7 +1798,10 @@
     "id": "1F450",
     "shortcode": "open_hands",
     "description": "OPEN HANDS SIGN",
-    "category": 1
+    "category": 1,
+    "tags": [
+      "hand"
+    ]
   },
   {
     "id": "1F932",
@@ -1778,7 +1819,9 @@
     "category": 1,
     "tags": [
       "agreement",
-      "meeting"
+      "hand",
+      "meeting",
+      "shake"
     ]
   },
   {
@@ -1889,7 +1932,8 @@
     "category": 1,
     "tags": [
       "accessibility",
-      "hard_of_hearing"
+      "hard",
+      "of"
     ]
   },
   {
@@ -1934,6 +1978,7 @@
     "description": "EYES",
     "category": 1,
     "tags": [
+      "eye",
       "face"
     ]
   },
@@ -1975,8 +2020,9 @@
     "description": "CHILD",
     "category": 1,
     "tags": [
-      "gender-neutral",
-      "unspecified_gender",
+      "gender",
+      "neutral",
+      "unspecified",
       "young"
     ]
   },
@@ -2006,8 +2052,9 @@
     "description": "ADULT",
     "category": 1,
     "tags": [
-      "gender-neutral",
-      "unspecified_gender"
+      "gender",
+      "neutral",
+      "unspecified"
     ]
   },
   {
@@ -2016,7 +2063,7 @@
     "description": "PERSON WITH BLOND HAIR",
     "category": 1,
     "tags": [
-      "blond-haired_person"
+      "haired"
     ]
   },
   {
@@ -2034,6 +2081,7 @@
     "description": "BEARDED PERSON",
     "category": 1,
     "tags": [
+      "beard",
       "man"
     ]
   },
@@ -2043,7 +2091,7 @@
     "category": 1,
     "tags": [
       "adult",
-      "red_hair"
+      "hair"
     ]
   },
   {
@@ -2052,7 +2100,7 @@
     "category": 1,
     "tags": [
       "adult",
-      "curly_hair"
+      "hair"
     ]
   },
   {
@@ -2061,7 +2109,7 @@
     "category": 1,
     "tags": [
       "adult",
-      "white_hair"
+      "hair"
     ]
   },
   {
@@ -2087,7 +2135,7 @@
     "category": 1,
     "tags": [
       "adult",
-      "red_hair"
+      "hair"
     ]
   },
   {
@@ -2096,9 +2144,10 @@
     "category": 1,
     "tags": [
       "adult",
-      "gender-neutral",
-      "red_hair",
-      "unspecified_gender"
+      "gender",
+      "hair",
+      "neutral",
+      "unspecified"
     ]
   },
   {
@@ -2107,7 +2156,7 @@
     "category": 1,
     "tags": [
       "adult",
-      "curly_hair"
+      "hair"
     ]
   },
   {
@@ -2116,9 +2165,10 @@
     "category": 1,
     "tags": [
       "adult",
-      "curly_hair",
-      "gender-neutral",
-      "unspecified_gender"
+      "gender",
+      "hair",
+      "neutral",
+      "unspecified"
     ]
   },
   {
@@ -2127,7 +2177,7 @@
     "category": 1,
     "tags": [
       "adult",
-      "white_hair"
+      "hair"
     ]
   },
   {
@@ -2136,9 +2186,10 @@
     "category": 1,
     "tags": [
       "adult",
-      "gender-neutral",
-      "unspecified_gender",
-      "white_hair"
+      "gender",
+      "hair",
+      "neutral",
+      "unspecified"
     ]
   },
   {
@@ -2155,8 +2206,9 @@
     "category": 1,
     "tags": [
       "adult",
-      "gender-neutral",
-      "unspecified_gender"
+      "gender",
+      "neutral",
+      "unspecified"
     ]
   },
   {
@@ -2164,8 +2216,8 @@
     "shortcode": "blond-haired-woman",
     "category": 1,
     "tags": [
-      "blond-haired_woman",
-      "blonde"
+      "blonde",
+      "hair"
     ]
   },
   {
@@ -2173,7 +2225,7 @@
     "shortcode": "blond-haired-man",
     "category": 1,
     "tags": [
-      "blond-haired_man"
+      "hair"
     ]
   },
   {
@@ -2182,8 +2234,10 @@
     "description": "OLDER ADULT",
     "category": 1,
     "tags": [
-      "gender-neutral",
-      "unspecified_gender"
+      "gender",
+      "neutral",
+      "old",
+      "unspecified"
     ]
   },
   {
@@ -2192,7 +2246,8 @@
     "description": "OLDER MAN",
     "category": 1,
     "tags": [
-      "adult"
+      "adult",
+      "old"
     ]
   },
   {
@@ -2201,7 +2256,8 @@
     "description": "OLDER WOMAN",
     "category": 1,
     "tags": [
-      "adult"
+      "adult",
+      "old"
     ]
   },
   {
@@ -2210,6 +2266,7 @@
     "description": "PERSON FROWNING",
     "category": 1,
     "tags": [
+      "frown",
       "gesture"
     ]
   },
@@ -2262,8 +2319,9 @@
     "tags": [
       "forbidden",
       "gesture",
+      "gesturing",
       "hand",
-      "person_gesturing_no",
+      "person",
       "prohibited"
     ]
   },
@@ -2275,7 +2333,6 @@
       "forbidden",
       "gesture",
       "hand",
-      "man_gesturing_no",
       "prohibited"
     ]
   },
@@ -2287,8 +2344,7 @@
       "forbidden",
       "gesture",
       "hand",
-      "prohibited",
-      "woman_gesturing_no"
+      "prohibited"
     ]
   },
   {
@@ -2298,8 +2354,9 @@
     "category": 1,
     "tags": [
       "gesture",
+      "gesturing",
       "hand",
-      "person_gesturing_ok"
+      "person"
     ]
   },
   {
@@ -2308,8 +2365,7 @@
     "category": 1,
     "tags": [
       "gesture",
-      "hand",
-      "man_gesturing_ok"
+      "hand"
     ]
   },
   {
@@ -2318,8 +2374,7 @@
     "category": 1,
     "tags": [
       "gesture",
-      "hand",
-      "woman_gesturing_ok"
+      "hand"
     ]
   },
   {
@@ -2339,8 +2394,7 @@
     "shortcode": "man-tipping-hand",
     "category": 1,
     "tags": [
-      "sassy",
-      "tipping_hand"
+      "sassy"
     ]
   },
   {
@@ -2348,8 +2402,7 @@
     "shortcode": "woman-tipping-hand",
     "category": 1,
     "tags": [
-      "sassy",
-      "tipping_hand"
+      "sassy"
     ]
   },
   {
@@ -2368,8 +2421,7 @@
     "shortcode": "man-raising-hand",
     "category": 1,
     "tags": [
-      "gesture",
-      "raising_hand"
+      "gesture"
     ]
   },
   {
@@ -2377,8 +2429,7 @@
     "shortcode": "woman-raising-hand",
     "category": 1,
     "tags": [
-      "gesture",
-      "raising_hand"
+      "gesture"
     ]
   },
   {
@@ -2451,7 +2502,8 @@
     "category": 1,
     "tags": [
       "disbelief",
-      "exasperation"
+      "exasperation",
+      "facepalm"
     ]
   },
   {
@@ -2460,7 +2512,8 @@
     "category": 1,
     "tags": [
       "disbelief",
-      "exasperation"
+      "exasperation",
+      "facepalm"
     ]
   },
   {
@@ -2481,7 +2534,8 @@
     "tags": [
       "doubt",
       "ignorance",
-      "indifference"
+      "indifference",
+      "shrug"
     ]
   },
   {
@@ -2491,7 +2545,8 @@
     "tags": [
       "doubt",
       "ignorance",
-      "indifference"
+      "indifference",
+      "shrug"
     ]
   },
   {
@@ -2732,8 +2787,9 @@
     "tags": [
       "architect",
       "business",
+      "collar",
       "manager",
-      "white-collar"
+      "white"
     ]
   },
   {
@@ -2743,9 +2799,10 @@
     "tags": [
       "architect",
       "business",
+      "collar",
       "man",
       "manager",
-      "white-collar"
+      "white"
     ]
   },
   {
@@ -2755,8 +2812,9 @@
     "tags": [
       "architect",
       "business",
+      "collar",
       "manager",
-      "white-collar",
+      "white",
       "woman"
     ]
   },
@@ -3026,7 +3084,10 @@
     "id": "1F482",
     "shortcode": "guardsman",
     "description": "GUARDSMAN",
-    "category": 1
+    "category": 1,
+    "tags": [
+      "guard"
+    ]
   },
   {
     "id": "1F482-200D-2642-FE0F",
@@ -3081,8 +3142,9 @@
     "description": "PRINCESS",
     "category": 1,
     "tags": [
-      "fairy_tale",
-      "fantasy"
+      "fairy",
+      "fantasy",
+      "tale"
     ]
   },
   {
@@ -3108,7 +3170,6 @@
     "category": 1,
     "tags": [
       "cap",
-      "gua_pi_mao",
       "hat",
       "person",
       "skullcap"
@@ -3169,8 +3230,9 @@
     "tags": [
       "baby",
       "face",
-      "fairy_tale",
-      "fantasy"
+      "fairy",
+      "fantasy",
+      "tale"
     ]
   },
   {
@@ -3182,8 +3244,7 @@
       "celebration",
       "christmas",
       "claus",
-      "father",
-      "santa_claus"
+      "father"
     ]
   },
   {
@@ -3193,10 +3254,7 @@
     "category": 1,
     "tags": [
       "celebration",
-      "christmas",
-      "mother",
-      "mrs.",
-      "mrs._claus"
+      "mrs."
     ],
     "aliases": [
       "mother_christmas"
@@ -3209,6 +3267,7 @@
     "category": 1,
     "tags": [
       "good",
+      "hero",
       "heroine",
       "superpower"
     ]
@@ -3219,6 +3278,7 @@
     "category": 1,
     "tags": [
       "good",
+      "hero",
       "man",
       "superpower"
     ]
@@ -3229,6 +3289,7 @@
     "category": 1,
     "tags": [
       "good",
+      "hero",
       "heroine",
       "superpower",
       "woman"
@@ -3242,7 +3303,8 @@
     "tags": [
       "criminal",
       "evil",
-      "superpower"
+      "superpower",
+      "villain"
     ]
   },
   {
@@ -3253,7 +3315,8 @@
       "criminal",
       "evil",
       "man",
-      "superpower"
+      "superpower",
+      "villain"
     ]
   },
   {
@@ -3264,6 +3327,7 @@
       "criminal",
       "evil",
       "superpower",
+      "villain",
       "woman"
     ]
   },
@@ -3435,8 +3499,9 @@
     "description": "ZOMBIE",
     "category": 1,
     "tags": [
+      "dead",
       "undead",
-      "walking_dead"
+      "walking"
     ]
   },
   {
@@ -3444,8 +3509,9 @@
     "shortcode": "male_zombie",
     "category": 1,
     "tags": [
+      "dead",
       "undead",
-      "walking_dead"
+      "walking"
     ]
   },
   {
@@ -3453,8 +3519,9 @@
     "shortcode": "female_zombie",
     "category": 1,
     "tags": [
+      "dead",
       "undead",
-      "walking_dead"
+      "walking"
     ]
   },
   {
@@ -3510,7 +3577,8 @@
     "description": "PEDESTRIAN",
     "category": 1,
     "tags": [
-      "hike"
+      "hike",
+      "walk"
     ]
   },
   {
@@ -3518,7 +3586,8 @@
     "shortcode": "man-walking",
     "category": 1,
     "tags": [
-      "hike"
+      "hike",
+      "walk"
     ]
   },
   {
@@ -3526,14 +3595,18 @@
     "shortcode": "woman-walking",
     "category": 1,
     "tags": [
-      "hike"
+      "hike",
+      "walk"
     ]
   },
   {
     "id": "1F9CD",
     "shortcode": "standing_person",
     "description": "STANDING PERSON",
-    "category": 1
+    "category": 1,
+    "tags": [
+      "stand"
+    ]
   },
   {
     "id": "1F9CD-200D-2642-FE0F",
@@ -3549,7 +3622,10 @@
     "id": "1F9CE",
     "shortcode": "kneeling_person",
     "description": "KNEELING PERSON",
-    "category": 1
+    "category": 1,
+    "tags": [
+      "kneel"
+    ]
   },
   {
     "id": "1F9CE-200D-2642-FE0F",
@@ -3642,8 +3718,7 @@
     "description": "RUNNER",
     "category": 1,
     "tags": [
-      "marathon",
-      "running"
+      "marathon"
     ],
     "aliases": [
       "running"
@@ -3700,7 +3775,9 @@
     "description": "WOMAN WITH BUNNY EARS",
     "category": 1,
     "tags": [
-      "bunny_ear",
+      "bunny",
+      "dancer",
+      "ear",
       "partying"
     ]
   },
@@ -3709,8 +3786,8 @@
     "shortcode": "man-with-bunny-ears-partying",
     "category": 1,
     "tags": [
-      "bunny_ear",
       "dancer",
+      "ear",
       "men"
     ]
   },
@@ -3719,8 +3796,8 @@
     "shortcode": "woman-with-bunny-ears-partying",
     "category": 1,
     "tags": [
-      "bunny_ear",
       "dancer",
+      "ear",
       "women"
     ]
   },
@@ -3731,7 +3808,7 @@
     "category": 1,
     "tags": [
       "sauna",
-      "steam_room"
+      "steam"
     ]
   },
   {
@@ -3740,7 +3817,7 @@
     "category": 1,
     "tags": [
       "sauna",
-      "steam_room"
+      "steam"
     ]
   },
   {
@@ -3749,7 +3826,7 @@
     "category": 1,
     "tags": [
       "sauna",
-      "steam_room"
+      "steam"
     ]
   },
   {
@@ -3802,6 +3879,7 @@
     "shortcode": "skier",
     "category": 1,
     "tags": [
+      "ski",
       "snow"
     ]
   },
@@ -3811,7 +3889,9 @@
     "description": "SNOWBOARDER",
     "category": 1,
     "tags": [
-      "ski"
+      "ski",
+      "snow",
+      "snowboard"
     ]
   },
   {
@@ -3819,18 +3899,25 @@
     "shortcode": "golfer",
     "category": 1,
     "tags": [
-      "ball"
+      "ball",
+      "golf"
     ]
   },
   {
     "id": "1F3CC-FE0F-200D-2642-FE0F",
     "shortcode": "man-golfing",
-    "category": 1
+    "category": 1,
+    "tags": [
+      "golf"
+    ]
   },
   {
     "id": "1F3CC-FE0F-200D-2640-FE0F",
     "shortcode": "woman-golfing",
-    "category": 1
+    "category": 1,
+    "tags": [
+      "golf"
+    ]
   },
   {
     "id": "1F3C4",
@@ -3855,7 +3942,10 @@
     "id": "1F6A3",
     "shortcode": "rowboat",
     "description": "ROWBOAT",
-    "category": 1
+    "category": 1,
+    "tags": [
+      "boat"
+    ]
   },
   {
     "id": "1F6A3-200D-2642-FE0F",
@@ -3877,17 +3967,26 @@
     "id": "1F3CA",
     "shortcode": "swimmer",
     "description": "SWIMMER",
-    "category": 1
+    "category": 1,
+    "tags": [
+      "swim"
+    ]
   },
   {
     "id": "1F3CA-200D-2642-FE0F",
     "shortcode": "man-swimming",
-    "category": 1
+    "category": 1,
+    "tags": [
+      "swim"
+    ]
   },
   {
     "id": "1F3CA-200D-2640-FE0F",
     "shortcode": "woman-swimming",
-    "category": 1
+    "category": 1,
+    "tags": [
+      "swim"
+    ]
   },
   {
     "id": "26F9-FE0F",
@@ -3914,7 +4013,8 @@
     "shortcode": "man-lifting-weights",
     "category": 1,
     "tags": [
-      "weight_lifter"
+      "lifter",
+      "weight"
     ]
   },
   {
@@ -3922,7 +4022,8 @@
     "shortcode": "woman-lifting-weights",
     "category": 1,
     "tags": [
-      "weight_lifter"
+      "lifter",
+      "weight"
     ]
   },
   {
@@ -3932,7 +4033,8 @@
     "category": 1,
     "tags": [
       "bicycle",
-      "biking"
+      "biking",
+      "cyclist"
     ]
   },
   {
@@ -3960,7 +4062,8 @@
     "category": 1,
     "tags": [
       "bicycle",
-      "bike"
+      "bike",
+      "cyclist"
     ]
   },
   {
@@ -3997,6 +4100,7 @@
     "shortcode": "man-cartwheeling",
     "category": 1,
     "tags": [
+      "cartwheel",
       "gymnastics"
     ]
   },
@@ -4005,6 +4109,7 @@
     "shortcode": "woman-cartwheeling",
     "category": 1,
     "tags": [
+      "cartwheel",
       "gymnastics"
     ]
   },
@@ -4012,7 +4117,11 @@
     "id": "1F93C",
     "shortcode": "wrestlers",
     "description": "WRESTLERS",
-    "category": 1
+    "category": 1,
+    "tags": [
+      "wrestle",
+      "wrestler"
+    ]
   },
   {
     "id": "1F93C-200D-2642-FE0F",
@@ -4041,24 +4150,21 @@
   {
     "id": "1F93D-200D-2642-FE0F",
     "shortcode": "man-playing-water-polo",
-    "category": 1,
-    "tags": [
-      "water_polo"
-    ]
+    "category": 1
   },
   {
     "id": "1F93D-200D-2640-FE0F",
     "shortcode": "woman-playing-water-polo",
-    "category": 1,
-    "tags": [
-      "water_polo"
-    ]
+    "category": 1
   },
   {
     "id": "1F93E",
     "shortcode": "handball",
     "description": "HANDBALL",
-    "category": 1
+    "category": 1,
+    "tags": [
+      "ball"
+    ]
   },
   {
     "id": "1F93E-200D-2642-FE0F",
@@ -4141,7 +4247,8 @@
     "description": "SLEEPING ACCOMMODATION",
     "category": 1,
     "tags": [
-      "hotel"
+      "hotel",
+      "sleep"
     ]
   },
   {
@@ -4150,7 +4257,8 @@
     "category": 1,
     "tags": [
       "couple",
-      "holding_hands",
+      "hand",
+      "hold",
       "person"
     ]
   },
@@ -4161,7 +4269,7 @@
     "category": 1,
     "tags": [
       "couple",
-      "holding_hands"
+      "hand"
     ],
     "aliases": [
       "women_holding_hands"
@@ -4174,10 +4282,7 @@
     "category": 1,
     "tags": [
       "hand",
-      "hold",
-      "holding_hands",
-      "man",
-      "woman"
+      "hold"
     ],
     "aliases": [
       "man_and_woman_holding_hands",
@@ -4192,7 +4297,6 @@
     "tags": [
       "couple",
       "gemini",
-      "holding_hands",
       "man",
       "twins",
       "zodiac"
@@ -4205,7 +4309,10 @@
     "id": "1F48F",
     "shortcode": "couplekiss",
     "description": "KISS",
-    "category": 1
+    "category": 1,
+    "tags": [
+      "couple"
+    ]
   },
   {
     "id": "1F469-200D-2764-FE0F-200D-1F48B-200D-1F468",
@@ -4246,8 +4353,8 @@
     "category": 1,
     "tags": [
       "couple",
-      "couple_with_heart",
-      "love"
+      "love",
+      "with"
     ]
   },
   {
@@ -4256,8 +4363,8 @@
     "category": 1,
     "tags": [
       "couple",
-      "couple_with_heart",
-      "love"
+      "love",
+      "with"
     ]
   },
   {
@@ -4266,27 +4373,21 @@
     "category": 1,
     "tags": [
       "couple",
-      "couple_with_heart",
-      "love"
+      "love",
+      "with"
     ]
   },
   {
     "id": "1F46A",
     "shortcode": "family",
     "description": "FAMILY",
-    "category": 1,
-    "aliases": [
-      "man-woman-boy"
-    ]
+    "category": 1
   },
   {
     "id": "1F468-200D-1F469-200D-1F466",
     "shortcode": "man-woman-boy",
     "category": 1,
     "tags": [
-      "family"
-    ],
-    "aliases": [
       "family"
     ]
   },
@@ -4487,7 +4588,8 @@
     "shortcode": "speaking_head_in_silhouette",
     "category": 1,
     "tags": [
-      "face"
+      "face",
+      "speak"
     ]
   },
   {
@@ -4500,7 +4602,10 @@
     "id": "1F465",
     "shortcode": "busts_in_silhouette",
     "description": "BUSTS IN SILHOUETTE",
-    "category": 1
+    "category": 1,
+    "tags": [
+      "bust"
+    ]
   },
   {
     "id": "1F463",
@@ -4508,7 +4613,9 @@
     "description": "FOOTPRINTS",
     "category": 1,
     "tags": [
-      "clothing"
+      "clothing",
+      "footprint",
+      "print"
     ]
   },
   {
@@ -4517,8 +4624,8 @@
     "description": "EMOJI MODIFIER FITZPATRICK TYPE-1-2",
     "category": 1,
     "tags": [
-      "skin_tone",
-      "type_1\u20132"
+      "1\u20132",
+      "type"
     ]
   },
   {
@@ -4527,8 +4634,7 @@
     "description": "EMOJI MODIFIER FITZPATRICK TYPE-3",
     "category": 1,
     "tags": [
-      "skin_tone",
-      "type_3"
+      "type"
     ]
   },
   {
@@ -4537,8 +4643,7 @@
     "description": "EMOJI MODIFIER FITZPATRICK TYPE-4",
     "category": 1,
     "tags": [
-      "skin_tone",
-      "type_4"
+      "type"
     ]
   },
   {
@@ -4547,8 +4652,7 @@
     "description": "EMOJI MODIFIER FITZPATRICK TYPE-5",
     "category": 1,
     "tags": [
-      "skin_tone",
-      "type_5"
+      "type"
     ]
   },
   {
@@ -4557,8 +4661,7 @@
     "description": "EMOJI MODIFIER FITZPATRICK TYPE-6",
     "category": 1,
     "tags": [
-      "skin_tone",
-      "type_6"
+      "type"
     ]
   },
   {
@@ -4702,7 +4805,10 @@
     "id": "1F405",
     "shortcode": "tiger2",
     "description": "TIGER",
-    "category": 2
+    "category": 2,
+    "tags": [
+      "tiger"
+    ]
   },
   {
     "id": "1F406",
@@ -4780,7 +4886,10 @@
     "id": "1F404",
     "shortcode": "cow2",
     "description": "COW",
-    "category": 2
+    "category": 2,
+    "tags": [
+      "cow"
+    ]
   },
   {
     "id": "1F437",
@@ -4905,7 +5014,10 @@
     "id": "1F99B",
     "shortcode": "hippopotamus",
     "description": "HIPPOPOTAMUS",
-    "category": 2
+    "category": 2,
+    "tags": [
+      "hippo"
+    ]
   },
   {
     "id": "1F42D",
@@ -4920,7 +5032,10 @@
     "id": "1F401",
     "shortcode": "mouse2",
     "description": "MOUSE",
-    "category": 2
+    "category": 2,
+    "tags": [
+      "mouse"
+    ]
   },
   {
     "id": "1F400",
@@ -5056,7 +5171,7 @@
     "description": "BADGER",
     "category": 2,
     "tags": [
-      "honey_badger",
+      "honey",
       "pester"
     ]
   },
@@ -5066,7 +5181,6 @@
     "description": "PAW PRINTS",
     "category": 2,
     "tags": [
-      "paw",
       "print"
     ],
     "aliases": [
@@ -5179,7 +5293,8 @@
     "tags": [
       "bird",
       "cygnet",
-      "ugly_duckling"
+      "duckling",
+      "ugly"
     ]
   },
   {
@@ -5277,7 +5392,8 @@
     "description": "DRAGON FACE",
     "category": 2,
     "tags": [
-      "fairy_tale"
+      "fairy",
+      "tale"
     ]
   },
   {
@@ -5286,7 +5402,8 @@
     "description": "DRAGON",
     "category": 2,
     "tags": [
-      "fairy_tale"
+      "fairy",
+      "tale"
     ]
   },
   {
@@ -5306,7 +5423,8 @@
     "description": "T-REX",
     "category": 2,
     "tags": [
-      "tyrannosaurus_rex"
+      "t-rex",
+      "tyrannosaurus"
     ]
   },
   {
@@ -5323,16 +5441,16 @@
     "id": "1F40B",
     "shortcode": "whale2",
     "description": "WHALE",
-    "category": 2
+    "category": 2,
+    "tags": [
+      "whale"
+    ]
   },
   {
     "id": "1F42C",
     "shortcode": "dolphin",
     "description": "DOLPHIN",
     "category": 2,
-    "tags": [
-      "flipper"
-    ],
     "aliases": [
       "flipper"
     ]
@@ -5357,7 +5475,10 @@
     "id": "1F421",
     "shortcode": "blowfish",
     "description": "BLOWFISH",
-    "category": 2
+    "category": 2,
+    "tags": [
+      "fish"
+    ]
   },
   {
     "id": "1F988",
@@ -5468,6 +5589,7 @@
     "description": "SCORPION",
     "category": 2,
     "tags": [
+      "scorpio",
       "zodiac"
     ]
   },
@@ -5555,7 +5677,11 @@
     "id": "1F33B",
     "shortcode": "sunflower",
     "description": "SUNFLOWER",
-    "category": 2
+    "category": 2,
+    "tags": [
+      "flower",
+      "sun"
+    ]
   },
   {
     "id": "1F33C",
@@ -5646,8 +5772,7 @@
     "description": "FOUR LEAF CLOVER",
     "category": 2,
     "tags": [
-      "4",
-      "four-leaf_clover"
+      "4"
     ]
   },
   {
@@ -5686,7 +5811,8 @@
     "description": "GRAPES",
     "category": 3,
     "tags": [
-      "fruit"
+      "fruit",
+      "grape"
     ]
   },
   {
@@ -5810,6 +5936,7 @@
     "description": "STRAWBERRY",
     "category": 3,
     "tags": [
+      "berry",
       "fruit"
     ]
   },
@@ -5819,7 +5946,9 @@
     "description": "KIWIFRUIT",
     "category": 3,
     "tags": [
-      "food"
+      "food",
+      "fruit",
+      "kiwi"
     ]
   },
   {
@@ -5838,8 +5967,9 @@
     "description": "COCONUT",
     "category": 3,
     "tags": [
+      "colada",
       "palm",
-      "pi\u00F1a_colada"
+      "pi\u00F1a"
     ]
   },
   {
@@ -5915,8 +6045,9 @@
     "description": "LEAFY GREEN",
     "category": 3,
     "tags": [
-      "bok_choy",
+      "bok",
       "cabbage",
+      "choy",
       "kale",
       "lettuce"
     ]
@@ -5927,7 +6058,8 @@
     "description": "BROCCOLI",
     "category": 3,
     "tags": [
-      "wild_cabbage"
+      "cabbage",
+      "wild"
     ]
   },
   {
@@ -5964,6 +6096,8 @@
     "category": 3,
     "tags": [
       "food",
+      "nut",
+      "peanut",
       "vegetable"
     ]
   },
@@ -6037,7 +6171,8 @@
       "breakfast",
       "cr\u00EApe",
       "food",
-      "hotcake"
+      "hotcake",
+      "pancake"
     ]
   },
   {
@@ -6101,7 +6236,10 @@
     "id": "1F354",
     "shortcode": "hamburger",
     "description": "HAMBURGER",
-    "category": 3
+    "category": 3,
+    "tags": [
+      "burger"
+    ]
   },
   {
     "id": "1F35F",
@@ -6274,7 +6412,10 @@
     "id": "1F96B",
     "shortcode": "canned_food",
     "description": "CANNED FOOD",
-    "category": 3
+    "category": 3,
+    "tags": [
+      "can"
+    ]
   },
   {
     "id": "1F371",
@@ -6437,7 +6578,8 @@
     "description": "TAKEOUT BOX",
     "category": 3,
     "tags": [
-      "oyster_pail"
+      "oyster",
+      "pail"
     ]
   },
   {
@@ -6498,7 +6640,9 @@
     "description": "SOFT ICE CREAM",
     "category": 3,
     "tags": [
+      "cream",
       "dessert",
+      "ice",
       "soft",
       "sweet"
     ]
@@ -6761,6 +6905,7 @@
     "category": 3,
     "tags": [
       "bar",
+      "beer",
       "clink",
       "drink",
       "mug"
@@ -6773,7 +6918,9 @@
     "category": 3,
     "tags": [
       "celebrate",
-      "drink"
+      "clink",
+      "drink",
+      "glass"
     ]
   },
   {
@@ -6821,7 +6968,6 @@
     "category": 3,
     "tags": [
       "cold",
-      "ice_cube",
       "iceberg"
     ]
   },
@@ -6868,7 +7014,6 @@
     "category": 3,
     "tags": [
       "cooking",
-      "knife",
       "tool",
       "weapon"
     ],
@@ -6897,7 +7042,7 @@
     "tags": [
       "europe",
       "globe",
-      "globe_showing_europe-africa",
+      "showing",
       "world"
     ]
   },
@@ -6908,7 +7053,7 @@
     "category": 4,
     "tags": [
       "globe",
-      "globe_showing_americas",
+      "showing",
       "world"
     ]
   },
@@ -6920,7 +7065,7 @@
     "tags": [
       "australia",
       "globe",
-      "globe_showing_asia-australia",
+      "showing",
       "world"
     ]
   },
@@ -6946,7 +7091,7 @@
     "category": 4,
     "tags": [
       "map",
-      "map_of_japan"
+      "of"
     ]
   },
   {
@@ -7089,8 +7234,7 @@
     "description": "JAPANESE POST OFFICE",
     "category": 4,
     "tags": [
-      "japanese",
-      "japanese_post_office"
+      "japanese"
     ]
   },
   {
@@ -7195,10 +7339,7 @@
     "id": "1F5FD",
     "shortcode": "statue_of_liberty",
     "description": "STATUE OF LIBERTY",
-    "category": 4,
-    "tags": [
-      "statue_of_liberty"
-    ]
+    "category": 4
   },
   {
     "id": "26EA",
@@ -7278,18 +7419,27 @@
     "id": "1F301",
     "shortcode": "foggy",
     "description": "FOGGY",
-    "category": 4
+    "category": 4,
+    "tags": [
+      "fog"
+    ]
   },
   {
     "id": "1F303",
     "shortcode": "night_with_stars",
     "description": "NIGHT WITH STARS",
-    "category": 4
+    "category": 4,
+    "tags": [
+      "star"
+    ]
   },
   {
     "id": "1F3D9-FE0F",
     "shortcode": "cityscape",
-    "category": 4
+    "category": 4,
+    "tags": [
+      "city"
+    ]
   },
   {
     "id": "1F304",
@@ -7297,7 +7447,9 @@
     "description": "SUNRISE OVER MOUNTAINS",
     "category": 4,
     "tags": [
-      "morning"
+      "morning",
+      "mountain",
+      "sun"
     ]
   },
   {
@@ -7306,7 +7458,8 @@
     "description": "SUNRISE",
     "category": 4,
     "tags": [
-      "morning"
+      "morning",
+      "sun"
     ]
   },
   {
@@ -7326,7 +7479,8 @@
     "description": "SUNSET OVER BUILDINGS",
     "category": 4,
     "tags": [
-      "dusk"
+      "dusk",
+      "sun"
     ]
   },
   {
@@ -7341,6 +7495,8 @@
     "description": "HOT SPRINGS",
     "category": 4,
     "tags": [
+      "hot",
+      "springs",
       "steaming"
     ]
   },
@@ -7356,7 +7512,8 @@
     "description": "FERRIS WHEEL",
     "category": 4,
     "tags": [
-      "amusement_park"
+      "amusement",
+      "park"
     ]
   },
   {
@@ -7365,7 +7522,8 @@
     "description": "ROLLER COASTER",
     "category": 4,
     "tags": [
-      "amusement_park"
+      "amusement",
+      "park"
     ]
   },
   {
@@ -7415,7 +7573,8 @@
     "tags": [
       "railway",
       "shinkansen",
-      "speed"
+      "speed",
+      "train"
     ]
   },
   {
@@ -7424,9 +7583,11 @@
     "description": "HIGH-SPEED TRAIN WITH BULLET NOSE",
     "category": 4,
     "tags": [
+      "bullet",
       "railway",
       "shinkansen",
-      "speed"
+      "speed",
+      "train"
     ]
   },
   {
@@ -7525,14 +7686,19 @@
     "description": "TROLLEYBUS",
     "category": 4,
     "tags": [
-      "tram"
+      "bus",
+      "tram",
+      "trolley"
     ]
   },
   {
     "id": "1F690",
     "shortcode": "minibus",
     "description": "MINIBUS",
-    "category": 4
+    "category": 4,
+    "tags": [
+      "bus"
+    ]
   },
   {
     "id": "1F691",
@@ -7607,7 +7773,8 @@
     "category": 4,
     "tags": [
       "recreational",
-      "sport_utility"
+      "sport",
+      "utility"
     ]
   },
   {
@@ -7678,7 +7845,7 @@
     "description": "AUTO RICKSHAW",
     "category": 4,
     "tags": [
-      "tuk_tuk"
+      "tuk"
     ]
   },
   {
@@ -7700,13 +7867,20 @@
     "id": "1F6F9",
     "shortcode": "skateboard",
     "description": "SKATEBOARD",
-    "category": 4
+    "category": 4,
+    "tags": [
+      "board"
+    ]
   },
   {
     "id": "1F68F",
     "shortcode": "busstop",
     "description": "BUS STOP",
-    "category": 4
+    "category": 4,
+    "tags": [
+      "bus",
+      "stop"
+    ]
   },
   {
     "id": "1F6E3-FE0F",
@@ -7737,7 +7911,9 @@
     "category": 4,
     "tags": [
       "diesel",
+      "fuel",
       "gas",
+      "pump",
       "station"
     ]
   },
@@ -7826,7 +8002,10 @@
     "id": "1F6A4",
     "shortcode": "speedboat",
     "description": "SPEEDBOAT",
-    "category": 4
+    "category": 4,
+    "tags": [
+      "boat"
+    ]
   },
   {
     "id": "1F6F3-FE0F",
@@ -7884,6 +8063,7 @@
     "category": 4,
     "tags": [
       "aeroplane",
+      "check",
       "check-in",
       "departures"
     ]
@@ -7905,7 +8085,8 @@
     "description": "PARACHUTE",
     "category": 4,
     "tags": [
-      "hang-glide",
+      "glide",
+      "hang",
       "parasail",
       "skydive"
     ]
@@ -7940,6 +8121,7 @@
     "description": "MOUNTAIN CABLEWAY",
     "category": 4,
     "tags": [
+      "cable",
       "gondola"
     ]
   },
@@ -8057,7 +8239,9 @@
     "category": 4,
     "tags": [
       "00",
+      "12",
       "12:00",
+      "clock",
       "o\u2019clock",
       "twelve"
     ]
@@ -8068,7 +8252,9 @@
     "description": "CLOCK FACE TWELVE-THIRTY",
     "category": 4,
     "tags": [
+      "12",
       "12:30",
+      "clock",
       "thirty",
       "twelve"
     ]
@@ -8080,9 +8266,11 @@
     "category": 4,
     "tags": [
       "00",
+      "1",
       "1:00",
-      "one",
-      "o\u2019clock"
+      "clock",
+      "o\u2019clock",
+      "one"
     ]
   },
   {
@@ -8091,7 +8279,9 @@
     "description": "CLOCK FACE ONE-THIRTY",
     "category": 4,
     "tags": [
+      "1",
       "1:30",
+      "clock",
       "one",
       "thirty"
     ]
@@ -8103,7 +8293,9 @@
     "category": 4,
     "tags": [
       "00",
+      "2",
       "2:00",
+      "clock",
       "o\u2019clock",
       "two"
     ]
@@ -8114,7 +8306,9 @@
     "description": "CLOCK FACE TWO-THIRTY",
     "category": 4,
     "tags": [
+      "2",
       "2:30",
+      "clock",
       "thirty",
       "two"
     ]
@@ -8126,7 +8320,9 @@
     "category": 4,
     "tags": [
       "00",
+      "3",
       "3:00",
+      "clock",
       "o\u2019clock",
       "three"
     ]
@@ -8137,7 +8333,9 @@
     "description": "CLOCK FACE THREE-THIRTY",
     "category": 4,
     "tags": [
+      "3",
       "3:30",
+      "clock",
       "thirty",
       "three"
     ]
@@ -8149,7 +8347,9 @@
     "category": 4,
     "tags": [
       "00",
+      "4",
       "4:00",
+      "clock",
       "four",
       "o\u2019clock"
     ]
@@ -8160,7 +8360,9 @@
     "description": "CLOCK FACE FOUR-THIRTY",
     "category": 4,
     "tags": [
+      "4",
       "4:30",
+      "clock",
       "four",
       "thirty"
     ]
@@ -8172,7 +8374,9 @@
     "category": 4,
     "tags": [
       "00",
+      "5",
       "5:00",
+      "clock",
       "five",
       "o\u2019clock"
     ]
@@ -8183,7 +8387,9 @@
     "description": "CLOCK FACE FIVE-THIRTY",
     "category": 4,
     "tags": [
+      "5",
       "5:30",
+      "clock",
       "five",
       "thirty"
     ]
@@ -8195,7 +8401,9 @@
     "category": 4,
     "tags": [
       "00",
+      "6",
       "6:00",
+      "clock",
       "o\u2019clock",
       "six"
     ]
@@ -8206,7 +8414,9 @@
     "description": "CLOCK FACE SIX-THIRTY",
     "category": 4,
     "tags": [
+      "6",
       "6:30",
+      "clock",
       "six",
       "thirty"
     ]
@@ -8218,7 +8428,9 @@
     "category": 4,
     "tags": [
       "00",
+      "7",
       "7:00",
+      "clock",
       "o\u2019clock",
       "seven"
     ]
@@ -8229,7 +8441,9 @@
     "description": "CLOCK FACE SEVEN-THIRTY",
     "category": 4,
     "tags": [
+      "7",
       "7:30",
+      "clock",
       "seven",
       "thirty"
     ]
@@ -8241,7 +8455,9 @@
     "category": 4,
     "tags": [
       "00",
+      "8",
       "8:00",
+      "clock",
       "eight",
       "o\u2019clock"
     ]
@@ -8252,7 +8468,9 @@
     "description": "CLOCK FACE EIGHT-THIRTY",
     "category": 4,
     "tags": [
+      "8",
       "8:30",
+      "clock",
       "eight",
       "thirty"
     ]
@@ -8264,7 +8482,9 @@
     "category": 4,
     "tags": [
       "00",
+      "9",
       "9:00",
+      "clock",
       "nine",
       "o\u2019clock"
     ]
@@ -8275,7 +8495,9 @@
     "description": "CLOCK FACE NINE-THIRTY",
     "category": 4,
     "tags": [
+      "9",
       "9:30",
+      "clock",
       "nine",
       "thirty"
     ]
@@ -8287,7 +8509,9 @@
     "category": 4,
     "tags": [
       "00",
+      "10",
       "10:00",
+      "clock",
       "o\u2019clock",
       "ten"
     ]
@@ -8298,7 +8522,9 @@
     "description": "CLOCK FACE TEN-THIRTY",
     "category": 4,
     "tags": [
+      "10",
       "10:30",
+      "clock",
       "ten",
       "thirty"
     ]
@@ -8310,7 +8536,9 @@
     "category": 4,
     "tags": [
       "00",
+      "11",
       "11:00",
+      "clock",
       "eleven",
       "o\u2019clock"
     ]
@@ -8321,7 +8549,9 @@
     "description": "CLOCK FACE ELEVEN-THIRTY",
     "category": 4,
     "tags": [
+      "11",
       "11:30",
+      "clock",
       "eleven",
       "thirty"
     ]
@@ -8352,10 +8582,6 @@
     "shortcode": "moon",
     "description": "WAXING GIBBOUS MOON SYMBOL",
     "category": 4,
-    "tags": [
-      "gibbous",
-      "waxing"
-    ],
     "aliases": [
       "waxing_gibbous_moon"
     ]
@@ -8469,7 +8695,8 @@
       "glittery",
       "glow",
       "shining",
-      "sparkle"
+      "sparkle",
+      "star"
     ]
   },
   {
@@ -8479,7 +8706,8 @@
     "category": 4,
     "tags": [
       "falling",
-      "shooting"
+      "shooting",
+      "star"
     ]
   },
   {
@@ -8506,7 +8734,8 @@
     "description": "SUN BEHIND CLOUD",
     "category": 4,
     "tags": [
-      "cloud"
+      "cloud",
+      "sun"
     ]
   },
   {
@@ -8518,9 +8747,6 @@
     "id": "1F324-FE0F",
     "shortcode": "mostly_sunny",
     "category": 4,
-    "tags": [
-      "cloud"
-    ],
     "aliases": [
       "sun_small_cloud"
     ]
@@ -8529,9 +8755,6 @@
     "id": "1F325-FE0F",
     "shortcode": "barely_sunny",
     "category": 4,
-    "tags": [
-      "cloud"
-    ],
     "aliases": [
       "sun_behind_cloud"
     ]
@@ -8540,9 +8763,6 @@
     "id": "1F326-FE0F",
     "shortcode": "partly_sunny_rain",
     "category": 4,
-    "tags": [
-      "cloud"
-    ],
     "aliases": [
       "sun_behind_rain_cloud"
     ]
@@ -8564,9 +8784,6 @@
     "id": "1F329-FE0F",
     "shortcode": "lightning",
     "category": 4,
-    "tags": [
-      "cloud"
-    ],
     "aliases": [
       "lightning_cloud"
     ]
@@ -8576,7 +8793,6 @@
     "shortcode": "tornado",
     "category": 4,
     "tags": [
-      "cloud",
       "whirlwind"
     ],
     "aliases": [
@@ -8596,6 +8812,7 @@
     "shortcode": "wind_blowing_face",
     "category": 4,
     "tags": [
+      "blow",
       "cloud"
     ]
   },
@@ -8615,7 +8832,10 @@
     "id": "1F308",
     "shortcode": "rainbow",
     "description": "RAINBOW",
-    "category": 4
+    "category": 4,
+    "tags": [
+      "rain"
+    ]
   },
   {
     "id": "1F302",
@@ -8642,7 +8862,8 @@
     "description": "UMBRELLA WITH RAIN DROPS",
     "category": 4,
     "tags": [
-      "clothing"
+      "clothing",
+      "drop"
     ]
   },
   {
@@ -8672,7 +8893,8 @@
     "description": "SNOWFLAKE",
     "category": 4,
     "tags": [
-      "cold"
+      "cold",
+      "snow"
     ]
   },
   {
@@ -8680,7 +8902,8 @@
     "shortcode": "snowman",
     "category": 4,
     "tags": [
-      "cold"
+      "cold",
+      "snow"
     ]
   },
   {
@@ -8718,6 +8941,7 @@
     "tags": [
       "cold",
       "comic",
+      "drop",
       "sweat"
     ]
   },
@@ -8766,7 +8990,8 @@
     "category": 5,
     "tags": [
       "celebration",
-      "fireworks"
+      "fireworks",
+      "sparkle"
     ]
   },
   {
@@ -8787,6 +9012,7 @@
     "category": 5,
     "tags": [
       "*",
+      "sparkle",
       "star"
     ]
   },
@@ -8848,9 +9074,9 @@
     "category": 5,
     "tags": [
       "celebration",
+      "doll",
       "festival",
-      "japanese",
-      "japanese_dolls"
+      "japanese"
     ]
   },
   {
@@ -8892,10 +9118,12 @@
     "category": 5,
     "tags": [
       "gift",
-      "good_luck",
+      "good",
       "h\u00F3ngb\u0101o",
-      "lai_see",
-      "money"
+      "lai",
+      "luck",
+      "money",
+      "see"
     ]
   },
   {
@@ -8930,7 +9158,10 @@
   {
     "id": "1F39F-FE0F",
     "shortcode": "admission_tickets",
-    "category": 5
+    "category": 5,
+    "tags": [
+      "ticket"
+    ]
   },
   {
     "id": "1F3AB",
@@ -9006,7 +9237,10 @@
     "id": "26BE",
     "shortcode": "baseball",
     "description": "BASEBALL",
-    "category": 5
+    "category": 5,
+    "tags": [
+      "ball"
+    ]
   },
   {
     "id": "1F94E",
@@ -9014,6 +9248,7 @@
     "description": "SOFTBALL",
     "category": 5,
     "tags": [
+      "ball",
       "glove",
       "underarm"
     ]
@@ -9024,6 +9259,7 @@
     "description": "BASKETBALL AND HOOP",
     "category": 5,
     "tags": [
+      "ball",
       "hoop"
     ]
   },
@@ -9033,6 +9269,7 @@
     "description": "VOLLEYBALL",
     "category": 5,
     "tags": [
+      "ball",
       "game"
     ]
   },
@@ -9042,14 +9279,18 @@
     "description": "AMERICAN FOOTBALL",
     "category": 5,
     "tags": [
-      "american"
+      "american",
+      "ball"
     ]
   },
   {
     "id": "1F3C9",
     "shortcode": "rugby_football",
     "description": "RUGBY FOOTBALL",
-    "category": 5
+    "category": 5,
+    "tags": [
+      "ball"
+    ]
   },
   {
     "id": "1F3BE",
@@ -9125,8 +9366,7 @@
     "category": 5,
     "tags": [
       "bat",
-      "game",
-      "table_tennis"
+      "game"
     ]
   },
   {
@@ -9153,7 +9393,6 @@
     "tags": [
       "judo",
       "karate",
-      "martial_arts",
       "taekwondo"
     ]
   },
@@ -9269,6 +9508,8 @@
     "description": "BILLIARDS",
     "category": 5,
     "tags": [
+      "8",
+      "ball",
       "billiard",
       "eight",
       "game"
@@ -9280,9 +9521,10 @@
     "description": "CRYSTAL BALL",
     "category": 5,
     "tags": [
-      "fairy_tale",
+      "fairy",
       "fantasy",
       "fortune",
+      "tale",
       "tool"
     ]
   },
@@ -9294,7 +9536,8 @@
     "tags": [
       "bead",
       "charm",
-      "evil-eye",
+      "evil",
+      "eye",
       "talisman"
     ]
   },
@@ -9313,7 +9556,7 @@
     "category": 5,
     "tags": [
       "game",
-      "video_game"
+      "video"
     ]
   },
   {
@@ -9434,6 +9677,7 @@
     "description": "FLOWER PLAYING CARDS",
     "category": 5,
     "tags": [
+      "card",
       "game",
       "japanese"
     ]
@@ -9444,6 +9688,7 @@
     "description": "PERFORMING ARTS",
     "category": 5,
     "tags": [
+      "art",
       "mask",
       "theater",
       "theatre"
@@ -9500,6 +9745,7 @@
     "category": 6,
     "tags": [
       "clothing",
+      "eye",
       "eyewear"
     ]
   },
@@ -9509,7 +9755,8 @@
     "category": 6,
     "tags": [
       "eye",
-      "eyewear"
+      "eyewear",
+      "glasses"
     ]
   },
   {
@@ -9518,7 +9765,8 @@
     "description": "GOGGLES",
     "category": 6,
     "tags": [
-      "eye_protection",
+      "eye",
+      "protection",
       "swimming",
       "welding"
     ]
@@ -9549,7 +9797,8 @@
     "description": "NECKTIE",
     "category": 6,
     "tags": [
-      "clothing"
+      "clothing",
+      "tie"
     ]
   },
   {
@@ -9558,8 +9807,7 @@
     "description": "T-SHIRT",
     "category": 6,
     "tags": [
-      "clothing",
-      "tshirt"
+      "clothing"
     ],
     "aliases": [
       "tshirt"
@@ -9646,7 +9894,8 @@
     "description": "ONE-PIECE SWIMSUIT",
     "category": 6,
     "tags": [
-      "bathing_suit"
+      "bathing",
+      "suit"
     ]
   },
   {
@@ -9655,8 +9904,10 @@
     "description": "BRIEFS",
     "category": 6,
     "tags": [
-      "bathing_suit",
-      "one-piece",
+      "bathing",
+      "one",
+      "piece",
+      "suit",
       "swimsuit",
       "underwear"
     ]
@@ -9667,8 +9918,9 @@
     "description": "SHORTS",
     "category": 6,
     "tags": [
-      "bathing_suit",
+      "bathing",
       "pants",
+      "suit",
       "underwear"
     ]
   },
@@ -9688,7 +9940,8 @@
     "description": "WOMANS CLOTHES",
     "category": 6,
     "tags": [
-      "clothing"
+      "clothing",
+      "woman"
     ]
   },
   {
@@ -9707,6 +9960,7 @@
     "description": "HANDBAG",
     "category": 6,
     "tags": [
+      "bag",
       "clothing",
       "purse"
     ]
@@ -9726,6 +9980,7 @@
     "shortcode": "shopping_bags",
     "category": 6,
     "tags": [
+      "bag",
       "hotel"
     ]
   },
@@ -9745,7 +10000,8 @@
     "description": "MANS SHOE",
     "category": 6,
     "tags": [
-      "clothing"
+      "clothing",
+      "man"
     ],
     "aliases": [
       "shoe"
@@ -9777,8 +10033,9 @@
     "description": "FLAT SHOE",
     "category": 6,
     "tags": [
-      "ballet_flat",
-      "slip-on",
+      "ballet",
+      "on",
+      "slip",
       "slipper"
     ]
   },
@@ -9841,7 +10098,8 @@
     "description": "WOMANS HAT",
     "category": 6,
     "tags": [
-      "clothing"
+      "clothing",
+      "woman"
     ]
   },
   {
@@ -9850,7 +10108,9 @@
     "description": "TOP HAT",
     "category": 6,
     "tags": [
-      "clothing"
+      "clothing",
+      "hat",
+      "top"
     ]
   },
   {
@@ -9872,7 +10132,7 @@
     "description": "BILLED CAP",
     "category": 6,
     "tags": [
-      "baseball_cap"
+      "baseball"
     ]
   },
   {
@@ -9966,7 +10226,9 @@
     "description": "PUBLIC ADDRESS LOUDSPEAKER",
     "category": 6,
     "tags": [
-      "public_address"
+      "address",
+      "loud",
+      "public"
     ]
   },
   {
@@ -9982,7 +10244,10 @@
     "id": "1F4EF",
     "shortcode": "postal_horn",
     "description": "POSTAL HORN",
-    "category": 6
+    "category": 6,
+    "tags": [
+      "post"
+    ]
   },
   {
     "id": "1F514",
@@ -10006,13 +10271,19 @@
     "id": "1F3BC",
     "shortcode": "musical_score",
     "description": "MUSICAL SCORE",
-    "category": 6
+    "category": 6,
+    "tags": [
+      "music"
+    ]
   },
   {
     "id": "1F3B5",
     "shortcode": "musical_note",
     "description": "MUSICAL NOTE",
-    "category": 6
+    "category": 6,
+    "tags": [
+      "music"
+    ]
   },
   {
     "id": "1F3B6",
@@ -10020,7 +10291,8 @@
     "description": "MULTIPLE MUSICAL NOTES",
     "category": 6,
     "tags": [
-      "music"
+      "music",
+      "note"
     ]
   },
   {
@@ -10028,6 +10300,7 @@
     "shortcode": "studio_microphone",
     "category": 6,
     "tags": [
+      "mic",
       "music"
     ]
   },
@@ -10053,7 +10326,8 @@
     "description": "MICROPHONE",
     "category": 6,
     "tags": [
-      "karaoke"
+      "karaoke",
+      "mic"
     ]
   },
   {
@@ -10081,7 +10355,8 @@
     "category": 6,
     "tags": [
       "instrument",
-      "music"
+      "music",
+      "sax"
     ]
   },
   {
@@ -10101,6 +10376,7 @@
     "category": 6,
     "tags": [
       "instrument",
+      "music",
       "piano"
     ]
   },
@@ -10151,6 +10427,7 @@
     "tags": [
       "cell",
       "mobile",
+      "phone",
       "telephone"
     ]
   },
@@ -10180,7 +10457,10 @@
     "id": "1F4DE",
     "shortcode": "telephone_receiver",
     "description": "TELEPHONE RECEIVER",
-    "category": 6
+    "category": 6,
+    "tags": [
+      "phone"
+    ]
   },
   {
     "id": "1F4DF",
@@ -10294,10 +10574,11 @@
     "description": "DVD",
     "category": 6,
     "tags": [
-      "blu-ray",
+      "blu",
       "computer",
       "disk",
-      "optical"
+      "optical",
+      "ray"
     ]
   },
   {
@@ -10440,6 +10721,7 @@
     "category": 6,
     "tags": [
       "electric",
+      "light",
       "tool",
       "torch"
     ]
@@ -10473,6 +10755,7 @@
     "description": "NOTEBOOK WITH DECORATIVE COVER",
     "category": 6,
     "tags": [
+      "book",
       "decorated"
     ]
   },
@@ -10487,9 +10770,6 @@
     "shortcode": "book",
     "description": "OPEN BOOK",
     "category": 6,
-    "tags": [
-      "open"
-    ],
     "aliases": [
       "open_book"
     ]
@@ -10516,7 +10796,10 @@
     "id": "1F4DA",
     "shortcode": "books",
     "description": "BOOKS",
-    "category": 6
+    "category": 6,
+    "tags": [
+      "book"
+    ]
   },
   {
     "id": "1F4D3",
@@ -10564,12 +10847,20 @@
     "id": "1F4F0",
     "shortcode": "newspaper",
     "description": "NEWSPAPER",
-    "category": 6
+    "category": 6,
+    "tags": [
+      "news",
+      "paper"
+    ]
   },
   {
     "id": "1F5DE-FE0F",
     "shortcode": "rolled_up_newspaper",
-    "category": 6
+    "category": 6,
+    "tags": [
+      "news",
+      "paper"
+    ]
   },
   {
     "id": "1F4D1",
@@ -10577,6 +10868,7 @@
     "description": "BOOKMARK TABS",
     "category": 6,
     "tags": [
+      "mark",
       "marker"
     ]
   },
@@ -10584,7 +10876,10 @@
     "id": "1F516",
     "shortcode": "bookmark",
     "description": "BOOKMARK",
-    "category": 6
+    "category": 6,
+    "tags": [
+      "mark"
+    ]
   },
   {
     "id": "1F3F7-FE0F",
@@ -10597,7 +10892,9 @@
     "description": "MONEY BAG",
     "category": 6,
     "tags": [
-      "dollar"
+      "bag",
+      "dollar",
+      "money"
     ]
   },
   {
@@ -10724,9 +11021,10 @@
     "description": "INCOMING ENVELOPE",
     "category": 6,
     "tags": [
-      "e-mail",
       "email",
+      "e-mail",
       "letter",
+      "mail",
       "receive"
     ]
   },
@@ -10736,8 +11034,9 @@
     "description": "ENVELOPE WITH DOWNWARDS ARROW ABOVE",
     "category": 6,
     "tags": [
-      "e-mail",
       "email",
+      "e-mail",
+      "mail",
       "outgoing"
     ]
   },
@@ -10747,6 +11046,7 @@
     "description": "OUTBOX TRAY",
     "category": 6,
     "tags": [
+      "box",
       "letter",
       "mail",
       "sent"
@@ -10758,6 +11058,7 @@
     "description": "INBOX TRAY",
     "category": 6,
     "tags": [
+      "box",
       "letter",
       "mail",
       "receive"
@@ -10780,6 +11081,7 @@
     "category": 6,
     "tags": [
       "closed",
+      "mail",
       "postbox"
     ]
   },
@@ -10790,6 +11092,7 @@
     "category": 6,
     "tags": [
       "lowered",
+      "mail",
       "postbox"
     ]
   },
@@ -10833,7 +11136,10 @@
     "id": "270F-FE0F",
     "shortcode": "pencil2",
     "description": "PENCIL",
-    "category": 6
+    "category": 6,
+    "tags": [
+      "pencil"
+    ]
   },
   {
     "id": "2712-FE0F",
@@ -10872,9 +11178,6 @@
     "shortcode": "memo",
     "description": "MEMO",
     "category": 6,
-    "tags": [
-      "pencil"
-    ],
     "aliases": [
       "pencil"
     ]
@@ -10940,7 +11243,8 @@
     "category": 6,
     "tags": [
       "graph",
-      "growth"
+      "growth",
+      "upward"
     ]
   },
   {
@@ -10949,6 +11253,7 @@
     "description": "CHART WITH DOWNWARDS TREND",
     "category": 6,
     "tags": [
+      "down",
       "graph"
     ]
   },
@@ -10971,13 +11276,19 @@
     "id": "1F4CC",
     "shortcode": "pushpin",
     "description": "PUSHPIN",
-    "category": 6
+    "category": 6,
+    "tags": [
+      "pin"
+    ]
   },
   {
     "id": "1F4CD",
     "shortcode": "round_pushpin",
     "description": "ROUND PUSHPIN",
-    "category": 6
+    "category": 6,
+    "tags": [
+      "pin"
+    ]
   },
   {
     "id": "1F4CE",
@@ -10988,7 +11299,11 @@
   {
     "id": "1F587-FE0F",
     "shortcode": "linked_paperclips",
-    "category": 6
+    "category": 6,
+    "tags": [
+      "link",
+      "paperclip"
+    ]
   },
   {
     "id": "1F4CF",
@@ -10996,7 +11311,7 @@
     "description": "STRAIGHT RULER",
     "category": 6,
     "tags": [
-      "straight_edge"
+      "edge"
     ]
   },
   {
@@ -11052,6 +11367,7 @@
     "description": "OPEN LOCK",
     "category": 6,
     "tags": [
+      "lock",
       "open"
     ]
   },
@@ -11221,6 +11537,7 @@
     "shortcode": "compression",
     "category": 6,
     "tags": [
+      "compress",
       "tool",
       "vice"
     ]
@@ -11233,6 +11550,7 @@
       "balance",
       "justice",
       "libra",
+      "scale",
       "zodiac"
     ]
   },
@@ -11255,7 +11573,10 @@
   {
     "id": "26D3-FE0F",
     "shortcode": "chains",
-    "category": 6
+    "category": 6,
+    "tags": [
+      "chain"
+    ]
   },
   {
     "id": "1F9F0",
@@ -11264,7 +11585,8 @@
     "category": 6,
     "tags": [
       "chest",
-      "mechanic"
+      "mechanic",
+      "tool"
     ]
   },
   {
@@ -11374,7 +11696,7 @@
     "category": 6,
     "tags": [
       "bleed",
-      "blood_donation",
+      "donation",
       "injury",
       "medicine",
       "menstruation"
@@ -11460,7 +11782,10 @@
     "id": "1F6C1",
     "shortcode": "bathtub",
     "description": "BATHTUB",
-    "category": 6
+    "category": 6,
+    "tags": [
+      "bath"
+    ]
   },
   {
     "id": "1FA92",
@@ -11490,7 +11815,8 @@
     "category": 6,
     "tags": [
       "diaper",
-      "punk_rock"
+      "punk",
+      "rock"
     ]
   },
   {
@@ -11521,8 +11847,8 @@
     "description": "ROLL OF PAPER",
     "category": 6,
     "tags": [
-      "paper_towels",
-      "toilet_paper"
+      "toilet",
+      "towels"
     ]
   },
   {
@@ -11555,6 +11881,7 @@
     "description": "FIRE EXTINGUISHER",
     "category": 6,
     "tags": [
+      "extinguish",
       "quench"
     ]
   },
@@ -11626,9 +11953,9 @@
     "description": "AUTOMATED TELLER MACHINE",
     "category": 7,
     "tags": [
-      "atm_sign",
       "automated",
       "bank",
+      "sign",
       "teller"
     ]
   },
@@ -11638,7 +11965,7 @@
     "description": "PUT LITTER IN ITS PLACE SYMBOL",
     "category": 7,
     "tags": [
-      "litter_bin"
+      "bin"
     ]
   },
   {
@@ -11754,6 +12081,7 @@
     "description": "CHILDREN CROSSING",
     "category": 7,
     "tags": [
+      "child",
       "pedestrian",
       "traffic"
     ]
@@ -11786,6 +12114,7 @@
     "description": "NO BICYCLES",
     "category": 7,
     "tags": [
+      "bicycle",
       "bike",
       "forbidden",
       "prohibited"
@@ -11809,6 +12138,7 @@
     "category": 7,
     "tags": [
       "forbidden",
+      "no",
       "prohibited"
     ]
   },
@@ -11818,7 +12148,7 @@
     "description": "NON-POTABLE WATER SYMBOL",
     "category": 7,
     "tags": [
-      "non-drinking"
+      "drinking"
     ]
   },
   {
@@ -11829,6 +12159,7 @@
     "tags": [
       "forbidden",
       "not",
+      "pedestrian",
       "prohibited"
     ]
   },
@@ -11839,7 +12170,8 @@
     "category": 7,
     "tags": [
       "cell",
-      "forbidden"
+      "forbidden",
+      "phone"
     ]
   },
   {
@@ -11849,9 +12181,10 @@
     "category": 7,
     "tags": [
       "18",
-      "age_restriction",
+      "age",
       "eighteen",
-      "prohibited"
+      "prohibited",
+      "restriction"
     ]
   },
   {
@@ -11994,6 +12327,7 @@
     "description": "CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS",
     "category": 7,
     "tags": [
+      "arrow",
       "reload"
     ]
   },
@@ -12004,6 +12338,7 @@
     "category": 7,
     "tags": [
       "anticlockwise",
+      "arrow",
       "withershins"
     ]
   },
@@ -12013,8 +12348,7 @@
     "description": "BACK WITH LEFTWARDS ARROW ABOVE",
     "category": 7,
     "tags": [
-      "arrow",
-      "back_arrow"
+      "arrow"
     ]
   },
   {
@@ -12023,8 +12357,7 @@
     "description": "END WITH LEFTWARDS ARROW ABOVE",
     "category": 7,
     "tags": [
-      "arrow",
-      "end_arrow"
+      "arrow"
     ]
   },
   {
@@ -12035,7 +12368,7 @@
     "tags": [
       "arrow",
       "mark",
-      "on!_arrow"
+      "on!"
     ]
   },
   {
@@ -12044,8 +12377,7 @@
     "description": "SOON WITH RIGHTWARDS ARROW ABOVE",
     "category": 7,
     "tags": [
-      "arrow",
-      "soon_arrow"
+      "arrow"
     ]
   },
   {
@@ -12055,7 +12387,6 @@
     "category": 7,
     "tags": [
       "arrow",
-      "top_arrow",
       "up"
     ]
   },
@@ -12092,8 +12423,7 @@
     "tags": [
       "jew",
       "jewish",
-      "religion",
-      "star_of_david"
+      "religion"
     ]
   },
   {
@@ -12310,6 +12640,7 @@
     "description": "TWISTED RIGHTWARDS ARROWS",
     "category": 7,
     "tags": [
+      "arrow",
       "crossed"
     ]
   },
@@ -12361,8 +12692,9 @@
     "category": 7,
     "tags": [
       "arrow",
-      "next_scene",
-      "next_track"
+      "next",
+      "scene",
+      "track"
     ]
   },
   {
@@ -12402,8 +12734,9 @@
     "category": 7,
     "tags": [
       "arrow",
-      "previous_scene",
-      "previous_track"
+      "previous",
+      "scene",
+      "track"
     ]
   },
   {
@@ -12485,7 +12818,10 @@
     "id": "1F506",
     "shortcode": "high_brightness",
     "description": "HIGH BRIGHTNESS SYMBOL",
-    "category": 7
+    "category": 7,
+    "tags": [
+      "bright"
+    ]
   },
   {
     "id": "1F4F6",
@@ -12544,9 +12880,9 @@
     "description": "HEAVY MULTIPLICATION X",
     "category": 7,
     "tags": [
+      "\u00D7",
       "cancel",
-      "sign",
-      "\u00D7"
+      "sign"
     ]
   },
   {
@@ -12565,9 +12901,8 @@
     "description": "HEAVY MINUS SIGN",
     "category": 7,
     "tags": [
-      "-",
-      "math",
-      "\u2212"
+      "\u2212",
+      "math"
     ]
   },
   {
@@ -12576,8 +12911,8 @@
     "description": "HEAVY DIVISION SIGN",
     "category": 7,
     "tags": [
-      "math",
-      "\u00F7"
+      "\u00F7",
+      "math"
     ]
   },
   {
@@ -12659,7 +12994,6 @@
     "category": 7,
     "tags": [
       "!",
-      "mark",
       "punctuation"
     ],
     "aliases": [
@@ -12680,9 +13014,7 @@
     "shortcode": "medical_symbol",
     "category": 7,
     "tags": [
-      "aesculapius",
-      "medicine",
-      "staff"
+      "medicine"
     ],
     "aliases": [
       "staff_of_aesculapius"
@@ -12697,10 +13029,7 @@
   {
     "id": "269C-FE0F",
     "shortcode": "fleur_de_lis",
-    "category": 7,
-    "tags": [
-      "fleur-de-lis"
-    ]
+    "category": 7
   },
   {
     "id": "1F531",
@@ -12727,9 +13056,10 @@
     "category": 7,
     "tags": [
       "chevron",
+      "for",
       "japanese",
-      "japanese_symbol_for_beginner",
-      "leaf"
+      "leaf",
+      "symbol"
     ]
   },
   {
@@ -12749,8 +13079,8 @@
     "description": "WHITE HEAVY CHECK MARK",
     "category": 7,
     "tags": [
-      "button",
-      "\u2713"
+      "\u2713",
+      "button"
     ]
   },
   {
@@ -12777,12 +13107,12 @@
     "description": "CROSS MARK",
     "category": 7,
     "tags": [
+      "\u00D7",
       "cancel",
       "cross",
       "mark",
       "multiplication",
-      "multiply",
-      "\u00D7"
+      "multiply"
     ]
   },
   {
@@ -12791,15 +13121,19 @@
     "description": "NEGATIVE SQUARED CROSS MARK",
     "category": 7,
     "tags": [
-      "x",
-      "\u00D7"
+      "\u00D7",
+      "square",
+      "x"
     ]
   },
   {
     "id": "27B0",
     "shortcode": "curly_loop",
     "description": "CURLY LOOP",
-    "category": 7
+    "category": 7,
+    "tags": [
+      "curl"
+    ]
   },
   {
     "id": "27BF",
@@ -12848,13 +13182,19 @@
     "id": "00A9-FE0F",
     "shortcode": "copyright",
     "description": "COPYRIGHT SIGN",
-    "category": 7
+    "category": 7,
+    "tags": [
+      "c"
+    ]
   },
   {
     "id": "00AE-FE0F",
     "shortcode": "registered",
     "description": "REGISTERED SIGN",
-    "category": 7
+    "category": 7,
+    "tags": [
+      "r"
+    ]
   },
   {
     "id": "2122-FE0F",
@@ -13016,8 +13356,8 @@
     "description": "INPUT SYMBOL FOR SYMBOLS",
     "category": 7,
     "tags": [
-      "input",
-      "\u3012\u266A\u0026%"
+      "\u3012\u266A\u0026%",
+      "input"
     ]
   },
   {
@@ -13038,8 +13378,11 @@
     "description": "NEGATIVE SQUARED LATIN CAPITAL LETTER A",
     "category": 7,
     "tags": [
-      "a_button_(blood_type)",
-      "blood_type"
+      "(blood",
+      "blood",
+      "button",
+      "type",
+      "type)"
     ]
   },
   {
@@ -13048,8 +13391,11 @@
     "description": "NEGATIVE SQUARED AB",
     "category": 7,
     "tags": [
-      "ab_button_(blood_type)",
-      "blood_type"
+      "(blood",
+      "blood",
+      "button",
+      "type",
+      "type)"
     ]
   },
   {
@@ -13058,8 +13404,11 @@
     "description": "NEGATIVE SQUARED LATIN CAPITAL LETTER B",
     "category": 7,
     "tags": [
-      "b_button_(blood_type)",
-      "blood_type"
+      "(blood",
+      "blood",
+      "button",
+      "type",
+      "type)"
     ]
   },
   {
@@ -13068,7 +13417,7 @@
     "description": "SQUARED CL",
     "category": 7,
     "tags": [
-      "cl_button"
+      "button"
     ]
   },
   {
@@ -13077,7 +13426,7 @@
     "description": "SQUARED COOL",
     "category": 7,
     "tags": [
-      "cool_button"
+      "button"
     ]
   },
   {
@@ -13086,14 +13435,17 @@
     "description": "SQUARED FREE",
     "category": 7,
     "tags": [
-      "free_button"
+      "button"
     ]
   },
   {
     "id": "2139-FE0F",
     "shortcode": "information_source",
     "description": "INFORMATION SOURCE",
-    "category": 7
+    "category": 7,
+    "tags": [
+      "i"
+    ]
   },
   {
     "id": "1F194",
@@ -13101,7 +13453,7 @@
     "description": "SQUARED ID",
     "category": 7,
     "tags": [
-      "id_button",
+      "button",
       "identity"
     ]
   },
@@ -13112,7 +13464,7 @@
     "category": 7,
     "tags": [
       "circle",
-      "circled_m"
+      "circled"
     ]
   },
   {
@@ -13121,7 +13473,7 @@
     "description": "SQUARED NEW",
     "category": 7,
     "tags": [
-      "new_button"
+      "button"
     ]
   },
   {
@@ -13130,7 +13482,7 @@
     "description": "SQUARED NG",
     "category": 7,
     "tags": [
-      "ng_button"
+      "button"
     ]
   },
   {
@@ -13139,8 +13491,12 @@
     "description": "NEGATIVE SQUARED LATIN CAPITAL LETTER O",
     "category": 7,
     "tags": [
-      "blood_type",
-      "o_button_(blood_type)"
+      "(blood",
+      "blood",
+      "button",
+      "o",
+      "type",
+      "type)"
     ]
   },
   {
@@ -13149,7 +13505,7 @@
     "description": "SQUARED OK",
     "category": 7,
     "tags": [
-      "ok_button"
+      "button"
     ]
   },
   {
@@ -13158,7 +13514,8 @@
     "description": "NEGATIVE SQUARED LATIN CAPITAL LETTER P",
     "category": 7,
     "tags": [
-      "p_button"
+      "button",
+      "p"
     ]
   },
   {
@@ -13167,8 +13524,8 @@
     "description": "SQUARED SOS",
     "category": 7,
     "tags": [
-      "help",
-      "sos_button"
+      "button",
+      "help"
     ]
   },
   {
@@ -13177,8 +13534,9 @@
     "description": "SQUARED UP WITH EXCLAMATION MARK",
     "category": 7,
     "tags": [
+      "button",
       "mark",
-      "up!_button"
+      "up!"
     ]
   },
   {
@@ -13187,8 +13545,8 @@
     "description": "SQUARED VS",
     "category": 7,
     "tags": [
-      "versus",
-      "vs_button"
+      "button",
+      "versus"
     ]
   },
   {
@@ -13197,10 +13555,10 @@
     "description": "SQUARED KATAKANA KOKO",
     "category": 7,
     "tags": [
-      "japanese",
-      "japanese_\u201Chere\u201D_button",
-      "katakana",
       "\u201Chere\u201D",
+      "button",
+      "japanese",
+      "katakana",
       "\u30B3\u30B3"
     ]
   },
@@ -13210,10 +13568,11 @@
     "description": "SQUARED KATAKANA SA",
     "category": 7,
     "tags": [
+      "\u201Cservice",
+      "button",
+      "charge\u201D",
       "japanese",
-      "japanese_\u201Cservice_charge\u201D_button",
       "katakana",
-      "\u201Cservice_charge\u201D",
       "\u30B5"
     ]
   },
@@ -13223,10 +13582,11 @@
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-6708",
     "category": 7,
     "tags": [
+      "\u201Cmonthly",
+      "amount\u201D",
+      "button",
       "ideograph",
       "japanese",
-      "japanese_\u201Cmonthly_amount\u201D_button",
-      "\u201Cmonthly_amount\u201D",
       "\u6708"
     ]
   },
@@ -13236,10 +13596,13 @@
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-6709",
     "category": 7,
     "tags": [
+      "\u201Cnot",
+      "button",
+      "charge\u201D",
+      "free",
       "ideograph",
       "japanese",
-      "japanese_\u201Cnot_free_of_charge\u201D_button",
-      "\u201Cnot_free_of_charge\u201D",
+      "of",
       "\u6709"
     ]
   },
@@ -13249,10 +13612,10 @@
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-6307",
     "category": 7,
     "tags": [
+      "\u201Creserved\u201D",
+      "button",
       "ideograph",
       "japanese",
-      "japanese_\u201Creserved\u201D_button",
-      "\u201Creserved\u201D",
       "\u6307"
     ]
   },
@@ -13262,9 +13625,9 @@
     "description": "CIRCLED IDEOGRAPH ADVANTAGE",
     "category": 7,
     "tags": [
-      "japanese",
-      "japanese_\u201Cbargain\u201D_button",
       "\u201Cbargain\u201D",
+      "button",
+      "japanese",
       "\u5F97"
     ]
   },
@@ -13274,10 +13637,10 @@
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-5272",
     "category": 7,
     "tags": [
+      "\u201Cdiscount\u201D",
+      "button",
       "ideograph",
       "japanese",
-      "japanese_\u201Cdiscount\u201D_button",
-      "\u201Cdiscount\u201D",
       "\u5272"
     ]
   },
@@ -13287,10 +13650,12 @@
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-7121",
     "category": 7,
     "tags": [
+      "\u201Cfree",
+      "button",
+      "charge\u201D",
       "ideograph",
       "japanese",
-      "japanese_\u201Cfree_of_charge\u201D_button",
-      "\u201Cfree_of_charge\u201D",
+      "of",
       "\u7121"
     ]
   },
@@ -13300,10 +13665,10 @@
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-7981",
     "category": 7,
     "tags": [
+      "\u201Cprohibited\u201D",
+      "button",
       "ideograph",
       "japanese",
-      "japanese_\u201Cprohibited\u201D_button",
-      "\u201Cprohibited\u201D",
       "\u7981"
     ]
   },
@@ -13313,10 +13678,10 @@
     "description": "CIRCLED IDEOGRAPH ACCEPT",
     "category": 7,
     "tags": [
+      "\u201Cacceptable\u201D",
+      "button",
       "ideograph",
       "japanese",
-      "japanese_\u201Cacceptable\u201D_button",
-      "\u201Cacceptable\u201D",
       "\u53EF"
     ]
   },
@@ -13326,10 +13691,10 @@
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-7533",
     "category": 7,
     "tags": [
+      "\u201Capplication\u201D",
+      "button",
       "ideograph",
       "japanese",
-      "japanese_\u201Capplication\u201D_button",
-      "\u201Capplication\u201D",
       "\u7533"
     ]
   },
@@ -13339,10 +13704,11 @@
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-5408",
     "category": 7,
     "tags": [
+      "\u201Cpassing",
+      "button",
+      "grade\u201D",
       "ideograph",
       "japanese",
-      "japanese_\u201Cpassing_grade\u201D_button",
-      "\u201Cpassing_grade\u201D",
       "\u5408"
     ]
   },
@@ -13352,10 +13718,10 @@
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-7A7A",
     "category": 7,
     "tags": [
+      "\u201Cvacancy\u201D",
+      "button",
       "ideograph",
       "japanese",
-      "japanese_\u201Cvacancy\u201D_button",
-      "\u201Cvacancy\u201D",
       "\u7A7A"
     ]
   },
@@ -13365,10 +13731,10 @@
     "description": "CIRCLED IDEOGRAPH CONGRATULATION",
     "category": 7,
     "tags": [
+      "\u201Ccongratulations\u201D",
+      "button",
       "ideograph",
       "japanese",
-      "japanese_\u201Ccongratulations\u201D_button",
-      "\u201Ccongratulations\u201D",
       "\u795D"
     ]
   },
@@ -13378,10 +13744,10 @@
     "description": "CIRCLED IDEOGRAPH SECRET",
     "category": 7,
     "tags": [
+      "\u201Csecret\u201D",
+      "button",
       "ideograph",
       "japanese",
-      "japanese_\u201Csecret\u201D_button",
-      "\u201Csecret\u201D",
       "\u79D8"
     ]
   },
@@ -13391,10 +13757,12 @@
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-55B6",
     "category": 7,
     "tags": [
+      "\u201Copen",
+      "business\u201D",
+      "button",
+      "for",
       "ideograph",
       "japanese",
-      "japanese_\u201Copen_for_business\u201D_button",
-      "\u201Copen_for_business\u201D",
       "\u55B6"
     ]
   },
@@ -13404,10 +13772,11 @@
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-6E80",
     "category": 7,
     "tags": [
+      "\u201Cno",
+      "button",
       "ideograph",
       "japanese",
-      "japanese_\u201Cno_vacancy\u201D_button",
-      "\u201Cno_vacancy\u201D",
+      "vacancy\u201D",
       "\u6E80"
     ]
   },
@@ -13706,6 +14075,7 @@
     "category": 8,
     "tags": [
       "celebration",
+      "cross",
       "japanese"
     ]
   },
@@ -13733,8 +14103,9 @@
     "shortcode": "pirate_flag",
     "category": 8,
     "tags": [
-      "jolly_roger",
+      "jolly",
       "plunder",
+      "roger",
       "treasure"
     ]
   },
@@ -14031,9 +14402,6 @@
     "shortcode": "cn",
     "description": "China Flag",
     "category": 8,
-    "tags": [
-      "flag"
-    ],
     "aliases": [
       "flag-cn"
     ]
@@ -14097,9 +14465,6 @@
     "shortcode": "de",
     "description": "Germany Flag",
     "category": 8,
-    "tags": [
-      "flag"
-    ],
     "aliases": [
       "flag-de"
     ]
@@ -14181,9 +14546,6 @@
     "shortcode": "es",
     "description": "Spain Flag",
     "category": 8,
-    "tags": [
-      "flag"
-    ],
     "aliases": [
       "flag-es"
     ]
@@ -14235,9 +14597,6 @@
     "shortcode": "fr",
     "description": "France Flag",
     "category": 8,
-    "tags": [
-      "flag"
-    ],
     "aliases": [
       "flag-fr"
     ]
@@ -14253,9 +14612,6 @@
     "shortcode": "gb",
     "description": "United Kingdom Flag",
     "category": 8,
-    "tags": [
-      "flag"
-    ],
     "aliases": [
       "uk",
       "flag-gb"
@@ -14464,9 +14820,6 @@
     "shortcode": "it",
     "description": "Italy Flag",
     "category": 8,
-    "tags": [
-      "flag"
-    ],
     "aliases": [
       "flag-it"
     ]
@@ -14494,9 +14847,6 @@
     "shortcode": "jp",
     "description": "Japan Flag",
     "category": 8,
-    "tags": [
-      "flag"
-    ],
     "aliases": [
       "flag-jp"
     ]
@@ -14548,9 +14898,6 @@
     "shortcode": "kr",
     "description": "South Korea Flag",
     "category": 8,
-    "tags": [
-      "flag"
-    ],
     "aliases": [
       "flag-kr"
     ]
@@ -14968,9 +15315,6 @@
     "shortcode": "ru",
     "description": "Russia Flag",
     "category": 8,
-    "tags": [
-      "flag"
-    ],
     "aliases": [
       "flag-ru"
     ]
@@ -15238,9 +15582,6 @@
     "shortcode": "us",
     "description": "United States Flag",
     "category": 8,
-    "tags": [
-      "flag"
-    ],
     "aliases": [
       "flag-us"
     ]
