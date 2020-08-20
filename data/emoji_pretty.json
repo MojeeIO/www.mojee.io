@@ -1704,7 +1704,7 @@
   },
   {
     "id": "1F44D",
-    "shortcode": "\u002B1",
+    "shortcode": "+1",
     "description": "THUMBS UP SIGN",
     "category": 1,
     "tags": [
@@ -4624,7 +4624,7 @@
     "description": "EMOJI MODIFIER FITZPATRICK TYPE-1-2",
     "category": 1,
     "tags": [
-      "1\u20132",
+      "1–2",
       "type"
     ]
   },
@@ -4985,7 +4985,7 @@
     "tags": [
       "alpaca",
       "guanaco",
-      "vicu\u00F1a",
+      "vicuña",
       "wool"
     ]
   },
@@ -5969,7 +5969,7 @@
     "tags": [
       "colada",
       "palm",
-      "pi\u00F1a"
+      "piña"
     ]
   },
   {
@@ -6169,7 +6169,7 @@
     "category": 3,
     "tags": [
       "breakfast",
-      "cr\u00EApe",
+      "crêpe",
       "food",
       "hotcake",
       "pancake"
@@ -6534,7 +6534,7 @@
     "tags": [
       "autumn",
       "festival",
-      "yu\u00E8b\u01D0ng"
+      "yuèbǐng"
     ]
   },
   {
@@ -6557,7 +6557,7 @@
     "category": 3,
     "tags": [
       "empanada",
-      "gy\u014Dza",
+      "gyōza",
       "jiaozi",
       "pierogi",
       "potsticker"
@@ -8242,7 +8242,7 @@
       "12",
       "12:00",
       "clock",
-      "o\u2019clock",
+      "o’clock",
       "twelve"
     ]
   },
@@ -8269,7 +8269,7 @@
       "1",
       "1:00",
       "clock",
-      "o\u2019clock",
+      "o’clock",
       "one"
     ]
   },
@@ -8296,7 +8296,7 @@
       "2",
       "2:00",
       "clock",
-      "o\u2019clock",
+      "o’clock",
       "two"
     ]
   },
@@ -8323,7 +8323,7 @@
       "3",
       "3:00",
       "clock",
-      "o\u2019clock",
+      "o’clock",
       "three"
     ]
   },
@@ -8351,7 +8351,7 @@
       "4:00",
       "clock",
       "four",
-      "o\u2019clock"
+      "o’clock"
     ]
   },
   {
@@ -8378,7 +8378,7 @@
       "5:00",
       "clock",
       "five",
-      "o\u2019clock"
+      "o’clock"
     ]
   },
   {
@@ -8404,7 +8404,7 @@
       "6",
       "6:00",
       "clock",
-      "o\u2019clock",
+      "o’clock",
       "six"
     ]
   },
@@ -8431,7 +8431,7 @@
       "7",
       "7:00",
       "clock",
-      "o\u2019clock",
+      "o’clock",
       "seven"
     ]
   },
@@ -8459,7 +8459,7 @@
       "8:00",
       "clock",
       "eight",
-      "o\u2019clock"
+      "o’clock"
     ]
   },
   {
@@ -8486,7 +8486,7 @@
       "9:00",
       "clock",
       "nine",
-      "o\u2019clock"
+      "o’clock"
     ]
   },
   {
@@ -8512,7 +8512,7 @@
       "10",
       "10:00",
       "clock",
-      "o\u2019clock",
+      "o’clock",
       "ten"
     ]
   },
@@ -8540,7 +8540,7 @@
       "11:00",
       "clock",
       "eleven",
-      "o\u2019clock"
+      "o’clock"
     ]
   },
   {
@@ -9119,7 +9119,7 @@
     "tags": [
       "gift",
       "good",
-      "h\u00F3ngb\u0101o",
+      "hóngbāo",
       "lai",
       "luck",
       "money",
@@ -12880,7 +12880,7 @@
     "description": "HEAVY MULTIPLICATION X",
     "category": 7,
     "tags": [
-      "\u00D7",
+      "×",
       "cancel",
       "sign"
     ]
@@ -12891,7 +12891,7 @@
     "description": "HEAVY PLUS SIGN",
     "category": 7,
     "tags": [
-      "\u002B",
+      "+",
       "math"
     ]
   },
@@ -12901,7 +12901,7 @@
     "description": "HEAVY MINUS SIGN",
     "category": 7,
     "tags": [
-      "\u2212",
+      "−",
       "math"
     ]
   },
@@ -12911,7 +12911,7 @@
     "description": "HEAVY DIVISION SIGN",
     "category": 7,
     "tags": [
-      "\u00F7",
+      "÷",
       "math"
     ]
   },
@@ -13079,7 +13079,7 @@
     "description": "WHITE HEAVY CHECK MARK",
     "category": 7,
     "tags": [
-      "\u2713",
+      "✓",
       "button"
     ]
   },
@@ -13089,7 +13089,7 @@
     "description": "BALLOT BOX WITH CHECK",
     "category": 7,
     "tags": [
-      "\u2713"
+      "✓"
     ]
   },
   {
@@ -13098,7 +13098,7 @@
     "description": "HEAVY CHECK MARK",
     "category": 7,
     "tags": [
-      "\u2713"
+      "✓"
     ]
   },
   {
@@ -13107,7 +13107,7 @@
     "description": "CROSS MARK",
     "category": 7,
     "tags": [
-      "\u00D7",
+      "×",
       "cancel",
       "cross",
       "mark",
@@ -13121,7 +13121,7 @@
     "description": "NEGATIVE SQUARED CROSS MARK",
     "category": 7,
     "tags": [
-      "\u00D7",
+      "×",
       "square",
       "x"
     ]
@@ -13356,7 +13356,7 @@
     "description": "INPUT SYMBOL FOR SYMBOLS",
     "category": 7,
     "tags": [
-      "\u3012\u266A\u0026%",
+      "〒♪&%",
       "input"
     ]
   },
@@ -13555,11 +13555,11 @@
     "description": "SQUARED KATAKANA KOKO",
     "category": 7,
     "tags": [
-      "\u201Chere\u201D",
+      "“here”",
       "button",
       "japanese",
       "katakana",
-      "\u30B3\u30B3"
+      "ココ"
     ]
   },
   {
@@ -13568,12 +13568,12 @@
     "description": "SQUARED KATAKANA SA",
     "category": 7,
     "tags": [
-      "\u201Cservice",
+      "“service",
       "button",
-      "charge\u201D",
+      "charge”",
       "japanese",
       "katakana",
-      "\u30B5"
+      "サ"
     ]
   },
   {
@@ -13582,12 +13582,12 @@
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-6708",
     "category": 7,
     "tags": [
-      "\u201Cmonthly",
-      "amount\u201D",
+      "“monthly",
+      "amount”",
       "button",
       "ideograph",
       "japanese",
-      "\u6708"
+      "月"
     ]
   },
   {
@@ -13596,14 +13596,14 @@
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-6709",
     "category": 7,
     "tags": [
-      "\u201Cnot",
+      "“not",
       "button",
-      "charge\u201D",
+      "charge”",
       "free",
       "ideograph",
       "japanese",
       "of",
-      "\u6709"
+      "有"
     ]
   },
   {
@@ -13612,11 +13612,11 @@
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-6307",
     "category": 7,
     "tags": [
-      "\u201Creserved\u201D",
+      "“reserved”",
       "button",
       "ideograph",
       "japanese",
-      "\u6307"
+      "指"
     ]
   },
   {
@@ -13625,10 +13625,10 @@
     "description": "CIRCLED IDEOGRAPH ADVANTAGE",
     "category": 7,
     "tags": [
-      "\u201Cbargain\u201D",
+      "“bargain”",
       "button",
       "japanese",
-      "\u5F97"
+      "得"
     ]
   },
   {
@@ -13637,11 +13637,11 @@
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-5272",
     "category": 7,
     "tags": [
-      "\u201Cdiscount\u201D",
+      "“discount”",
       "button",
       "ideograph",
       "japanese",
-      "\u5272"
+      "割"
     ]
   },
   {
@@ -13650,13 +13650,13 @@
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-7121",
     "category": 7,
     "tags": [
-      "\u201Cfree",
+      "“free",
       "button",
-      "charge\u201D",
+      "charge”",
       "ideograph",
       "japanese",
       "of",
-      "\u7121"
+      "無"
     ]
   },
   {
@@ -13665,11 +13665,11 @@
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-7981",
     "category": 7,
     "tags": [
-      "\u201Cprohibited\u201D",
+      "“prohibited”",
       "button",
       "ideograph",
       "japanese",
-      "\u7981"
+      "禁"
     ]
   },
   {
@@ -13678,11 +13678,11 @@
     "description": "CIRCLED IDEOGRAPH ACCEPT",
     "category": 7,
     "tags": [
-      "\u201Cacceptable\u201D",
+      "“acceptable”",
       "button",
       "ideograph",
       "japanese",
-      "\u53EF"
+      "可"
     ]
   },
   {
@@ -13691,11 +13691,11 @@
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-7533",
     "category": 7,
     "tags": [
-      "\u201Capplication\u201D",
+      "“application”",
       "button",
       "ideograph",
       "japanese",
-      "\u7533"
+      "申"
     ]
   },
   {
@@ -13704,12 +13704,12 @@
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-5408",
     "category": 7,
     "tags": [
-      "\u201Cpassing",
+      "“passing",
       "button",
-      "grade\u201D",
+      "grade”",
       "ideograph",
       "japanese",
-      "\u5408"
+      "合"
     ]
   },
   {
@@ -13718,11 +13718,11 @@
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-7A7A",
     "category": 7,
     "tags": [
-      "\u201Cvacancy\u201D",
+      "“vacancy”",
       "button",
       "ideograph",
       "japanese",
-      "\u7A7A"
+      "空"
     ]
   },
   {
@@ -13731,11 +13731,11 @@
     "description": "CIRCLED IDEOGRAPH CONGRATULATION",
     "category": 7,
     "tags": [
-      "\u201Ccongratulations\u201D",
+      "“congratulations”",
       "button",
       "ideograph",
       "japanese",
-      "\u795D"
+      "祝"
     ]
   },
   {
@@ -13744,11 +13744,11 @@
     "description": "CIRCLED IDEOGRAPH SECRET",
     "category": 7,
     "tags": [
-      "\u201Csecret\u201D",
+      "“secret”",
       "button",
       "ideograph",
       "japanese",
-      "\u79D8"
+      "秘"
     ]
   },
   {
@@ -13757,13 +13757,13 @@
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-55B6",
     "category": 7,
     "tags": [
-      "\u201Copen",
-      "business\u201D",
+      "“open",
+      "business”",
       "button",
       "for",
       "ideograph",
       "japanese",
-      "\u55B6"
+      "営"
     ]
   },
   {
@@ -13772,12 +13772,12 @@
     "description": "SQUARED CJK UNIFIED IDEOGRAPH-6E80",
     "category": 7,
     "tags": [
-      "\u201Cno",
+      "“no",
       "button",
       "ideograph",
       "japanese",
-      "vacancy\u201D",
-      "\u6E80"
+      "vacancy”",
+      "満"
     ]
   },
   {
@@ -14136,7 +14136,7 @@
   {
     "id": "1F1E6-1F1EC",
     "shortcode": "flag-ag",
-    "description": "Antigua \u0026 Barbuda Flag",
+    "description": "Antigua & Barbuda Flag",
     "category": 8
   },
   {
@@ -14202,7 +14202,7 @@
   {
     "id": "1F1E6-1F1FD",
     "shortcode": "flag-ax",
-    "description": "\u00C5land Islands Flag",
+    "description": "Åland Islands Flag",
     "category": 8
   },
   {
@@ -14214,7 +14214,7 @@
   {
     "id": "1F1E7-1F1E6",
     "shortcode": "flag-ba",
-    "description": "Bosnia \u0026 Herzegovina Flag",
+    "description": "Bosnia & Herzegovina Flag",
     "category": 8
   },
   {
@@ -14268,7 +14268,7 @@
   {
     "id": "1F1E7-1F1F1",
     "shortcode": "flag-bl",
-    "description": "St. Barth\u00E9lemy Flag",
+    "description": "St. Barthélemy Flag",
     "category": 8
   },
   {
@@ -14376,7 +14376,7 @@
   {
     "id": "1F1E8-1F1EE",
     "shortcode": "flag-ci",
-    "description": "C\u00F4te d\u2019Ivoire Flag",
+    "description": "Côte d’Ivoire Flag",
     "category": 8
   },
   {
@@ -14439,7 +14439,7 @@
   {
     "id": "1F1E8-1F1FC",
     "shortcode": "flag-cw",
-    "description": "Cura\u00E7ao Flag",
+    "description": "Curaçao Flag",
     "category": 8
   },
   {
@@ -14508,7 +14508,7 @@
   {
     "id": "1F1EA-1F1E6",
     "shortcode": "flag-ea",
-    "description": "Ceuta \u0026 Melilla Flag",
+    "description": "Ceuta & Melilla Flag",
     "category": 8
   },
   {
@@ -14692,7 +14692,7 @@
   {
     "id": "1F1EC-1F1F8",
     "shortcode": "flag-gs",
-    "description": "South Georgia \u0026 South Sandwich Islands Flag",
+    "description": "South Georgia & South Sandwich Islands Flag",
     "category": 8
   },
   {
@@ -14728,7 +14728,7 @@
   {
     "id": "1F1ED-1F1F2",
     "shortcode": "flag-hm",
-    "description": "Heard \u0026 McDonald Islands Flag",
+    "description": "Heard & McDonald Islands Flag",
     "category": 8
   },
   {
@@ -14884,7 +14884,7 @@
   {
     "id": "1F1F0-1F1F3",
     "shortcode": "flag-kn",
-    "description": "St. Kitts \u0026 Nevis Flag",
+    "description": "St. Kitts & Nevis Flag",
     "category": 8
   },
   {
@@ -15247,7 +15247,7 @@
   {
     "id": "1F1F5-1F1F2",
     "shortcode": "flag-pm",
-    "description": "St. Pierre \u0026 Miquelon Flag",
+    "description": "St. Pierre & Miquelon Flag",
     "category": 8
   },
   {
@@ -15295,7 +15295,7 @@
   {
     "id": "1F1F7-1F1EA",
     "shortcode": "flag-re",
-    "description": "R\u00E9union Flag",
+    "description": "Réunion Flag",
     "category": 8
   },
   {
@@ -15376,7 +15376,7 @@
   {
     "id": "1F1F8-1F1EF",
     "shortcode": "flag-sj",
-    "description": "Svalbard \u0026 Jan Mayen Flag",
+    "description": "Svalbard & Jan Mayen Flag",
     "category": 8
   },
   {
@@ -15424,7 +15424,7 @@
   {
     "id": "1F1F8-1F1F9",
     "shortcode": "flag-st",
-    "description": "S\u00E3o Tom\u00E9 \u0026 Pr\u00EDncipe Flag",
+    "description": "São Tomé & Príncipe Flag",
     "category": 8
   },
   {
@@ -15460,7 +15460,7 @@
   {
     "id": "1F1F9-1F1E8",
     "shortcode": "flag-tc",
-    "description": "Turks \u0026 Caicos Islands Flag",
+    "description": "Turks & Caicos Islands Flag",
     "category": 8
   },
   {
@@ -15532,7 +15532,7 @@
   {
     "id": "1F1F9-1F1F9",
     "shortcode": "flag-tt",
-    "description": "Trinidad \u0026 Tobago Flag",
+    "description": "Trinidad & Tobago Flag",
     "category": 8
   },
   {
@@ -15607,7 +15607,7 @@
   {
     "id": "1F1FB-1F1E8",
     "shortcode": "flag-vc",
-    "description": "St. Vincent \u0026 Grenadines Flag",
+    "description": "St. Vincent & Grenadines Flag",
     "category": 8
   },
   {
@@ -15643,7 +15643,7 @@
   {
     "id": "1F1FC-1F1EB",
     "shortcode": "flag-wf",
-    "description": "Wallis \u0026 Futuna Flag",
+    "description": "Wallis & Futuna Flag",
     "category": 8
   },
   {
