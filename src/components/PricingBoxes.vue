@@ -17,7 +17,7 @@
                         and Contractors
                     </pricing-feature>
                 </li>
-                <li
+                <!-- <li
                     class="flex mt-6 cursor-pointer"
                     @click="includeSource = !includeSource"
                 >
@@ -35,7 +35,7 @@
                     <p class="ml-3">
                         Include a copy of the Mojee library source code for
                         +$350
-                    </p>
+                    </p> -->
                 </li>
             </ul>
         </pricing-box>
