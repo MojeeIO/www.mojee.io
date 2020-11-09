@@ -5,7 +5,7 @@
                 <h1
                     class="text-2xl font-extrabold text-gray-900 md:text-3xl lg:text-4xl"
                 >
-                    Choose your plan
+                    Pricing for teams of all sizes
                 </h1>
                 <p class="mt-2">Simple licensing options for everyone</p>
             </div>
@@ -22,7 +22,8 @@ import PricingBoxes from "../components/PricingBoxes";
 import PricingFaq from "../components/PricingFaq";
 
 const title = "Pricing";
-const description = "Choose your plan. Simple licensing options for everyone";
+const description =
+    "Pricing for teams of all sizes. Simple licensing options for everyone";
 
 export default {
     metaInfo() {
