@@ -30,7 +30,7 @@
             </div>
         </div>
 
-        <div class="mt-6 mb-16 text-sm">
+        <div class="mt-6 mb-12 text-sm">
             <slot />
         </div>
 
