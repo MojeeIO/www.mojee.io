@@ -16,12 +16,12 @@
                 <m-icon width="32" height="32"><m-icon-twitter /></m-icon>
             </a>
 
-            <a
+            <!-- <a
                 v-if="link.id === 'instagram'"
                 :href="`https://instagram.com/${link.value}`"
             >
                 <m-icon width="32" height="32"><m-icon-instagram /></m-icon>
-            </a>
+            </a> -->
         </li>
     </ul>
 </template>
