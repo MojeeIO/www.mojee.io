@@ -53,13 +53,13 @@
             <ul>
                 <li>
                     <pricing-feature text-color="text-white">
-                        Per developer, unlimited projects
+                        Per developer, unlimited projects, and perpetual license
                     </pricing-feature>
                 </li>
                 <li>
                     <pricing-feature text-color="text-white">
-                        Full Mojee API including 1000's of emojis, search,
-                        categories, and skin tones
+                        Full Mojee API including 1000's of emojis, search, and
+                        categories
                     </pricing-feature>
                 </li>
             </ul>
@@ -77,7 +77,7 @@
             <ul>
                 <li>
                     <pricing-feature>
-                        Limited to 200 popular emojis
+                        Limited to 100 popular emojis
                     </pricing-feature>
                 </li>
             </ul>
