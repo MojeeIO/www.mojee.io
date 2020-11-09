@@ -35,8 +35,8 @@
                     <p class="ml-3">
                         Include a copy of the Mojee library source code for
                         +$350
-                    </p> -->
-                </li>
+                    </p>
+                </li> -->
             </ul>
         </pricing-box>
 
@@ -71,7 +71,7 @@
             title="Free"
             :price="price.community"
             btn-class="btn-yellow"
-            btn-link="https://github.com/MojeeIO/mojee/"
+            btn-link="https://github.com/MojeeIO/mojee/#getting-started"
             btn-text="Download"
         >
             <ul>
@@ -81,6 +81,15 @@
                     </pricing-feature>
                 </li>
             </ul>
+
+            <div
+                class="bg-gray-900 text-gray-200 text-xs font-mono p-5 rounded-sm mt-8"
+            >
+                <p class="text-green-500"># Install using dotnet CLI</p>
+                <p>dotnet add package Mojee</p>
+                <p class="text-green-500 mt-3"># or, install using NuGet CLI</p>
+                <p>Install-Package Mojee</p>
+            </div>
         </pricing-box>
     </div>
 </template>
@@ -102,9 +111,9 @@ export default {
             price: {
                 community: 0,
                 pro: 85,
-                proDiscounted: 35,
+                proDiscounted: null,
                 team: 350,
-                teamDiscounted: 135,
+                teamDiscounted: null,
                 sourceCode: 350,
             },
             includeSource: false,
