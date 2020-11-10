@@ -1,0 +1,53 @@
+name: Build website
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          git config remote.origin.fetch +refs/heads/gh-pages:refs/remotes/origin/gh-pages
+          git fetch --depth 1
+
+      - name: Build site into dist/ then compress the files for deploying
+        run: |
+          echo "- $(date) - restoring NPM packages with yarn."
+          yarn install
+          echo "- $(date) - building website."
+          yarn build
+          echo "- $(date) - resetting files' exec perms..."
+          chmod a-x $(find dist -type f)
+          echo "- $(date) - Packing built files..."
+          tar -cpvf ../"dist-${GITHUB_SHA}.tar" --directory=dist .
+          echo "- $(date) - Clearing / resetting repo..."
+          git clean -fdx
+          git checkout -- .
+
+      - name: Deploy built files
+        run: |
+          echo "- $(date) - switching to gh-pages..."
+          git checkout gh-pages
+          echo "- $(date) - Clearing website branch..."
+          git rm -r .
+          echo "- $(date) - Deploying fresh website build..."
+          tar -xvf ../"dist-${GITHUB_SHA}.tar"
+          echo "- $(date) - Resetting preserved files..."
+          preserved_files=("CNAME")
+          git reset HEAD -- "${preserved_files[@]}"
+          git checkout -- "${preserved_files[@]}"
+          echo "- $(date) - Adding back fresh website build..."
+          git add .
+          if [ -z "$(git status --porcelain)" ]; then
+           echo "- $(date) - No changes to website. Nothing to do."
+          else
+           echo "- $(date) - Committing updated website..."
+           git config user.name "Mojee Website Build Action"
+           git config user.email "hello@object.net"
+           git commit -m "Refreshes website with latest changes (${GITHUB_SHA})."
+           echo "- $(date) - Pushing changes to github..."
+           git push
+          fi
