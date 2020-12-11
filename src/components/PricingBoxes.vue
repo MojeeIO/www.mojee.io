@@ -7,7 +7,7 @@
             :price="teamPrice"
             :price-discounted="teamPriceDiscounted"
             btn-class="btn-blue"
-            btn-link=""
+            btn-link="https://secure.2checkout.com/order/checkout.php?PRODS=33243579"
             btn-text="Buy"
         >
             <ul>
@@ -47,7 +47,7 @@
             :price="price.pro"
             :price-discounted="price.proDiscounted"
             btn-class="btn-white"
-            btn-link=""
+            btn-link="https://secure.2checkout.com/order/checkout.php?PRODS=33242889"
             btn-text="Buy"
         >
             <ul>
@@ -83,11 +83,11 @@
             </ul>
 
             <div
-                class="bg-gray-900 text-gray-200 text-xs font-mono p-5 rounded-sm mt-8"
+                class="p-5 mt-8 font-mono text-xs text-gray-200 bg-gray-900 rounded-sm"
             >
                 <p class="text-green-500"># Install using dotnet CLI</p>
                 <p>dotnet add package Mojee</p>
-                <p class="text-green-500 mt-3"># or, install using NuGet CLI</p>
+                <p class="mt-3 text-green-500"># or, install using NuGet CLI</p>
                 <p>Install-Package Mojee</p>
             </div>
         </pricing-box>
