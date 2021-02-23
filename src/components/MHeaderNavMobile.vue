@@ -36,7 +36,7 @@
                 <div v-if="isMobileMenuOpen">
                     <a
                         class="w-full mt-6 ml-auto btn btn-yellow btn-md"
-                        href="https://github.com/MojeeIO/mojee"
+                        href="https://docs.mojee.io/#getting-started"
                     >
                         Download
                     </a>

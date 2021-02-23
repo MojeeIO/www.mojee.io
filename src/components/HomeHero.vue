@@ -32,7 +32,7 @@
                 </a>
                 <a
                     class="ml-5 btn btn-blue btn-md md:w-40"
-                    href="https://github.com/MojeeIO/mojee/"
+                    href="https://docs.mojee.io/"
                 >
                     Docs
                 </a>

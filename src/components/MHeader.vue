@@ -9,7 +9,7 @@
 
             <a
                 class="ml-auto btn btn-yellow btn-sm"
-                href="https://github.com/MojeeIO/mojee/"
+                href="https://docs.mojee.io/#getting-started"
             >
                 Download
             </a>
